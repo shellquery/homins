@@ -1,98 +1,18 @@
 import type { AIConfig } from "./store";
 import type { Question } from "@/data/questions";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-function getProviderConfig(config: AIConfig) {
-  switch (config.provider) {
-    case "gemini":
-      return {
-        url: `https://generativelanguage.googleapis.com/v1beta/models/${config.model}:generateContent?key=${config.apiKey}`,
-        buildBody: (prompt: string) => ({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { maxOutputTokens: 1024 },
-        }),
-        extractText: (data: Record<string, unknown>) => {
-          const candidates = data.candidates as Array<{
-            content: { parts: Array<{ text: string }> };
-          }>;
-          return candidates?.[0]?.content?.parts?.[0]?.text || "";
-        },
-      };
-    case "openai":
-      return {
-        url: config.endpoint || "https://api.openai.com/v1/chat/completions",
-        buildBody: (prompt: string) => ({
-          model: config.model || "gpt-4o-mini",
-          messages: [{ role: "user", content: prompt }],
-          max_tokens: 1024,
-        }),
-        extractText: (data: Record<string, unknown>) => {
-          const choices = data.choices as Array<{
-            message: { content: string };
-          }>;
-          return choices?.[0]?.message?.content || "";
-        },
-        headers: { Authorization: `Bearer ${config.apiKey}` },
-      };
-    case "anthropic":
-      return {
-        url: config.endpoint || "https://api.anthropic.com/v1/messages",
-        buildBody: (prompt: string) => ({
-          model: config.model || "claude-sonnet-4-20250514",
-          max_tokens: 1024,
-          messages: [{ role: "user", content: prompt }],
-        }),
-        extractText: (data: Record<string, unknown>) => {
-          const content = data.content as Array<{ text: string }>;
-          return content?.[0]?.text || "";
-        },
-        headers: {
-          "x-api-key": config.apiKey,
-          "anthropic-version": "2023-06-01",
-          "anthropic-dangerous-direct-browser-access": "true",
-        },
-      };
-    case "custom":
-      return {
-        url: config.endpoint,
-        buildBody: (prompt: string) => ({
-          model: config.model,
-          messages: [{ role: "user", content: prompt }],
-          max_tokens: 1024,
-        }),
-        extractText: (data: Record<string, unknown>) => {
-          const choices = data.choices as Array<{
-            message: { content: string };
-          }>;
-          return (
-            choices?.[0]?.message?.content ||
-            (data as { content?: Array<{ text: string }> })?.content?.[0]
-              ?.text ||
-            JSON.stringify(data)
-          );
-        },
-        headers: config.apiKey
-          ? { Authorization: `Bearer ${config.apiKey}` }
-          : {},
-      };
-  }
-}
-
-export async function getAIExplanation(
+function buildPrompt(
   question: Question,
   userAnswer: number,
-  locale: "zh" | "en",
-  config: AIConfig
-): Promise<string> {
-  if (!config.apiKey && config.provider !== "custom") {
-    throw new Error("API key not configured");
-  }
-
+  locale: "zh" | "en"
+): string {
   const langInstruction =
     locale === "zh"
       ? "请用中文回答，详细易懂。"
       : "Please answer in English, detailed and easy to understand.";
 
-  const prompt = `You are a California Home Inspector exam tutor. A student got this question ${userAnswer === question.correctAnswer ? "correct" : "wrong"}.
+  return `You are a California Home Inspector exam tutor. A student got this question ${userAnswer === question.correctAnswer ? "correct" : "wrong"}.
 
 Question: ${question.question}
 Options:
@@ -110,51 +30,130 @@ Please provide:
 2. Why the other options are wrong
 3. A helpful memory tip or real inspection scenario
 Keep it concise but thorough (under 300 words).`;
+}
 
-  const providerConfig = getProviderConfig(config);
+async function callGemini(prompt: string, config: AIConfig): Promise<string> {
+  const genAI = new GoogleGenerativeAI(config.apiKey);
+  const model = genAI.getGenerativeModel({ model: config.model || "gemini-2.0-flash" });
+  const result = await model.generateContent(prompt);
+  return result.response.text();
+}
 
-  const extraHeaders = "headers" in providerConfig ? providerConfig.headers : {};
-  const headers: Record<string, string> = {
-    "Content-Type": "application/json",
-  };
-  if (extraHeaders) {
-    for (const [k, v] of Object.entries(extraHeaders)) {
-      if (v) headers[k] = v;
-    }
-  }
-
-  const response = await fetch(providerConfig.url, {
+async function callOpenAICompatible(
+  prompt: string,
+  config: AIConfig,
+  url: string,
+  headers: Record<string, string>
+): Promise<string> {
+  const response = await fetch(url, {
     method: "POST",
-    headers,
-    body: JSON.stringify(providerConfig.buildBody(prompt)),
+    headers: { "Content-Type": "application/json", ...headers },
+    body: JSON.stringify({
+      model: config.model,
+      messages: [{ role: "user", content: prompt }],
+      max_tokens: 1024,
+    }),
   });
-
   if (!response.ok) {
     const errText = await response.text();
     throw new Error(`API error ${response.status}: ${errText}`);
   }
-
   const data = await response.json();
-  return providerConfig.extractText(data);
+  return data.choices?.[0]?.message?.content || "";
+}
+
+async function callAnthropic(prompt: string, config: AIConfig): Promise<string> {
+  const url = config.endpoint || "https://api.anthropic.com/v1/messages";
+  const response = await fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": config.apiKey,
+      "anthropic-version": "2023-06-01",
+      "anthropic-dangerous-direct-browser-access": "true",
+    },
+    body: JSON.stringify({
+      model: config.model || "claude-sonnet-4-20250514",
+      max_tokens: 1024,
+      messages: [{ role: "user", content: prompt }],
+    }),
+  });
+  if (!response.ok) {
+    const errText = await response.text();
+    throw new Error(`API error ${response.status}: ${errText}`);
+  }
+  const data = await response.json();
+  return data.content?.[0]?.text || "";
+}
+
+export async function getAIExplanation(
+  question: Question,
+  userAnswer: number,
+  locale: "zh" | "en",
+  config: AIConfig
+): Promise<string> {
+  if (!config.apiKey && config.provider !== "custom") {
+    throw new Error("API key not configured");
+  }
+
+  const prompt = buildPrompt(question, userAnswer, locale);
+
+  switch (config.provider) {
+    case "gemini":
+      return callGemini(prompt, config);
+    case "openai":
+      return callOpenAICompatible(prompt, config,
+        config.endpoint || "https://api.openai.com/v1/chat/completions",
+        { Authorization: `Bearer ${config.apiKey}` });
+    case "anthropic":
+      return callAnthropic(prompt, config);
+    case "custom":
+      return callOpenAICompatible(prompt, config,
+        config.endpoint,
+        config.apiKey ? { Authorization: `Bearer ${config.apiKey}` } : {});
+  }
 }
 
 export async function testAIConnection(config: AIConfig): Promise<boolean> {
-  const providerConfig = getProviderConfig(config);
-  const extraHeaders = "headers" in providerConfig ? providerConfig.headers : {};
-  const headers: Record<string, string> = {
-    "Content-Type": "application/json",
-  };
-  if (extraHeaders) {
-    for (const [k, v] of Object.entries(extraHeaders)) {
-      if (v) headers[k] = v;
+  try {
+    switch (config.provider) {
+      case "gemini": {
+        const genAI = new GoogleGenerativeAI(config.apiKey);
+        const model = genAI.getGenerativeModel({ model: config.model || "gemini-2.0-flash" });
+        await model.generateContent("Say hi in one word.");
+        return true;
+      }
+      case "openai": {
+        const res = await fetch(config.endpoint || "https://api.openai.com/v1/chat/completions", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${config.apiKey}` },
+          body: JSON.stringify({ model: config.model, messages: [{ role: "user", content: "Hi" }], max_tokens: 5 }),
+        });
+        return res.ok;
+      }
+      case "anthropic": {
+        const res = await fetch(config.endpoint || "https://api.anthropic.com/v1/messages", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-api-key": config.apiKey,
+            "anthropic-version": "2023-06-01",
+            "anthropic-dangerous-direct-browser-access": "true",
+          },
+          body: JSON.stringify({ model: config.model, max_tokens: 5, messages: [{ role: "user", content: "Hi" }] }),
+        });
+        return res.ok;
+      }
+      case "custom": {
+        const res = await fetch(config.endpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", ...(config.apiKey ? { Authorization: `Bearer ${config.apiKey}` } : {}) },
+          body: JSON.stringify({ model: config.model, messages: [{ role: "user", content: "Hi" }], max_tokens: 5 }),
+        });
+        return res.ok;
+      }
     }
+  } catch {
+    return false;
   }
-
-  const response = await fetch(providerConfig.url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(providerConfig.buildBody("Say hello in one word.")),
-  });
-
-  return response.ok;
 }
