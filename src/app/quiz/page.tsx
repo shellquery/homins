@@ -19,6 +19,7 @@ import { getRandomQuestions } from "@/lib/utils";
 import { useI18n, categoryNames } from "@/lib/i18n";
 import { useStore } from "@/lib/store";
 import { getAIExplanation } from "@/lib/ai";
+import Markdown from "@/components/Markdown";
 
 function QuizSetup({
   category,
@@ -364,7 +365,7 @@ function QuizContent() {
                           <Sparkles size={16} className="text-purple-400" />
                           <span className="text-purple-400 font-medium text-sm">{t("aiExplain")}</span>
                         </div>
-                        <p className="text-gray-300 text-sm leading-relaxed whitespace-pre-wrap">{aiText[currentQuestion.id]}</p>
+                        <Markdown>{aiText[currentQuestion.id]}</Markdown>
                       </div>
                     ) : (
                       <button

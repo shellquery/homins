@@ -49,9 +49,15 @@ Please analyze in English:
 Requirements: Answer entirely in English, keep it concise but thorough (under 300 words).`;
 }
 
-async function callGemini(prompt: string, config: AIConfig): Promise<string> {
+async function callGemini(prompt: string, config: AIConfig, locale: "zh" | "en"): Promise<string> {
   const genAI = new GoogleGenerativeAI(config.apiKey);
-  const model = genAI.getGenerativeModel({ model: config.model || "gemini-2.5-flash" });
+  const systemInstruction = locale === "zh"
+    ? "你是加州房屋检查员考试辅导老师。你必须始终用中文回答，不要使用英文。"
+    : "You are a California Home Inspector exam tutor. Always respond in English only.";
+  const model = genAI.getGenerativeModel({
+    model: config.model || "gemini-2.5-flash",
+    systemInstruction,
+  });
   const result = await model.generateContent(prompt);
   return result.response.text();
 }
@@ -117,7 +123,7 @@ export async function getAIExplanation(
 
   switch (config.provider) {
     case "gemini":
-      return callGemini(prompt, config);
+      return callGemini(prompt, config, locale);
     case "openai":
       return callOpenAICompatible(prompt, config,
         config.endpoint || "https://api.openai.com/v1/chat/completions",

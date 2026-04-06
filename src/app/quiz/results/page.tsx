@@ -12,6 +12,7 @@ import { calculateScore } from "@/lib/utils";
 import { useI18n, categoryNames } from "@/lib/i18n";
 import { useStore } from "@/lib/store";
 import { getAIExplanation } from "@/lib/ai";
+import Markdown from "@/components/Markdown";
 
 interface QuizResult {
   questions: number[];
@@ -187,7 +188,7 @@ export default function ResultsPage() {
                     {aiText[q.id] ? (
                       <div className="p-4 rounded-lg bg-purple-500/5 border border-purple-500/20">
                         <div className="flex items-center gap-2 mb-2"><Sparkles size={16} className="text-purple-400" /><span className="text-purple-400 font-medium text-sm">{t("aiExplain")}</span></div>
-                        <p className="text-gray-300 text-sm leading-relaxed whitespace-pre-wrap">{aiText[q.id]}</p>
+                        <Markdown>{aiText[q.id]}</Markdown>
                       </div>
                     ) : (
                       <button onClick={() => handleAI(q)} disabled={aiLoading[q.id]}
