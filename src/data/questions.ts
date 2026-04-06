@@ -88,9 +88,19 @@ export const categories: Record<
 import { questionsPart1 } from "./questions-part1";
 import { questionsPart2 } from "./questions-part2";
 import { questionsPart3 } from "./questions-part3";
+import { questionsPart4 } from "./questions-part4";
+import { questionsPart5 } from "./questions-part5";
+import { questionsPart6 } from "./questions-part6";
+import { questionsPart7 } from "./questions-part7";
+import { questionsPart8 } from "./questions-part8";
 
 export const questions: Question[] = [
   ...questionsPart1,
   ...questionsPart2,
   ...questionsPart3,
+  ...questionsPart4,
+  ...questionsPart5,
+  ...questionsPart6,
+  ...questionsPart7,
+  ...questionsPart8,
 ];

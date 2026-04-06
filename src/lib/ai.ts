@@ -113,10 +113,15 @@ Keep it concise but thorough (under 300 words).`;
 
   const providerConfig = getProviderConfig(config);
 
+  const extraHeaders = "headers" in providerConfig ? providerConfig.headers : {};
   const headers: Record<string, string> = {
     "Content-Type": "application/json",
-    ...("headers" in providerConfig ? providerConfig.headers : {}),
   };
+  if (extraHeaders) {
+    for (const [k, v] of Object.entries(extraHeaders)) {
+      if (v) headers[k] = v;
+    }
+  }
 
   const response = await fetch(providerConfig.url, {
     method: "POST",
@@ -135,10 +140,15 @@ Keep it concise but thorough (under 300 words).`;
 
 export async function testAIConnection(config: AIConfig): Promise<boolean> {
   const providerConfig = getProviderConfig(config);
+  const extraHeaders = "headers" in providerConfig ? providerConfig.headers : {};
   const headers: Record<string, string> = {
     "Content-Type": "application/json",
-    ...("headers" in providerConfig ? providerConfig.headers : {}),
   };
+  if (extraHeaders) {
+    for (const [k, v] of Object.entries(extraHeaders)) {
+      if (v) headers[k] = v;
+    }
+  }
 
   const response = await fetch(providerConfig.url, {
     method: "POST",
