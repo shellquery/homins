@@ -38,3 +38,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# static export
+/out
+
+# capacitor build artifacts
+/ios/App/App/public
+/ios/App/Pods
+ios/CapApp-SPM/.build
