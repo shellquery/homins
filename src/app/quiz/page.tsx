@@ -293,7 +293,7 @@ function QuizContent() {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -30 }}
           transition={{ duration: 0.25 }}
-          className="glass rounded-2xl p-8 mb-6 glow"
+          className="glass rounded-2xl p-4 sm:p-8 mb-6 glow"
         >
           <div className="flex items-start gap-4 mb-6">
             <span className="flex-shrink-0 w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold text-sm">
@@ -304,7 +304,7 @@ function QuizContent() {
             </h2>
           </div>
 
-          <div className="space-y-3 ml-14">
+          <div className="space-y-3 sm:ml-14">
             {currentQuestion.options.map((option, idx) => {
               const letter = String.fromCharCode(65 + idx);
               let optionStyle = "border-gray-700/50 hover:border-blue-500/50 hover:bg-blue-500/5 cursor-pointer";
@@ -344,7 +344,7 @@ function QuizContent() {
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: "auto" }}
                 exit={{ opacity: 0, height: 0 }}
-                className="ml-14 mt-6"
+                className="sm:ml-14 mt-6"
               >
                 <div className={`p-5 rounded-xl border ${
                   isCorrect ? "bg-emerald-500/5 border-emerald-500/20" : "bg-amber-500/5 border-amber-500/20"

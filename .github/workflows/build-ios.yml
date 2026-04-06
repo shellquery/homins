@@ -29,8 +29,17 @@ jobs:
       - name: Sync Capacitor iOS
         run: npx cap sync ios
 
+      - name: Verify web assets
+        run: |
+          echo "=== Checking web assets in iOS bundle ==="
+          ls ios/App/App/public/index.html
+          ls ios/App/App/public/_next/
+          echo "Web assets OK"
+
       - name: Select Xcode version
-        run: sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+        run: |
+          sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+          xcodebuild -version
 
       - name: Resolve Swift packages
         run: |
@@ -40,28 +49,44 @@ jobs:
 
       - name: Build unsigned iOS app
         run: |
-          xcodebuild \
+          xcodebuild archive \
             -project ios/App/App.xcodeproj \
             -scheme App \
             -configuration Release \
             -sdk iphoneos \
-            -derivedDataPath build \
+            -archivePath build/App.xcarchive \
             -destination "generic/platform=iOS" \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGN_IDENTITY="" \
-            CODE_SIGN_ENTITLEMENTS="" \
+            CODE_SIGN_IDENTITY="-" \
             DEVELOPMENT_TEAM="" \
-            PROVISIONING_PROFILE_SPECIFIER=""
+            PROVISIONING_PROFILE_SPECIFIER="" \
+            SKIP_INSTALL=NO \
+            BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 
       - name: Package IPA
         run: |
-          APP_PATH=$(find build -name "*.app" -type d | head -1)
+          # Find the .app inside the archive
+          APP_PATH="build/App.xcarchive/Products/Applications/App.app"
+          if [ ! -d "$APP_PATH" ]; then
+            echo "Archive app not found, searching..."
+            APP_PATH=$(find build -name "*.app" -type d | head -1)
+          fi
           echo "Found app at: $APP_PATH"
+          ls -la "$APP_PATH/"
 
+          # Verify web assets are in the bundle
+          if [ -f "$APP_PATH/public/index.html" ]; then
+            echo "✅ Web assets found in app bundle"
+          else
+            echo "❌ WARNING: Web assets missing from app bundle!"
+            ls -la "$APP_PATH/" || true
+          fi
+
+          # Create IPA
           mkdir -p Payload
           cp -r "$APP_PATH" Payload/
-          zip -r HI-Exam-Prep.ipa Payload
+          cd Payload && zip -r ../HI-Exam-Prep.ipa . && cd ..
           rm -rf Payload
 
           ls -lh HI-Exam-Prep.ipa
