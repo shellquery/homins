@@ -5,22 +5,13 @@ const config: CapacitorConfig = {
   appName: "HI Exam Prep",
   webDir: "out",
   server: {
+    iosScheme: "capacitor",
     androidScheme: "https",
   },
   ios: {
     contentInset: "automatic",
     preferredContentMode: "mobile",
-    scheme: "HI Exam Prep",
-  },
-  plugins: {
-    SplashScreen: {
-      launchAutoHide: true,
-      backgroundColor: "#030712",
-      showSpinner: false,
-      androidScaleType: "CENTER_CROP",
-      splashFullScreen: true,
-      splashImmersive: true,
-    },
+    allowsLinkPreview: false,
   },
 };
 
