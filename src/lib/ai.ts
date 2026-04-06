@@ -7,29 +7,46 @@ function buildPrompt(
   userAnswer: number,
   locale: "zh" | "en"
 ): string {
-  const langInstruction =
-    locale === "zh"
-      ? "请用中文回答，详细易懂。"
-      : "Please answer in English, detailed and easy to understand.";
+  const isCorrect = userAnswer === question.correctAnswer;
+  const letters = ["A", "B", "C", "D"];
 
-  return `You are a California Home Inspector exam tutor. A student got this question ${userAnswer === question.correctAnswer ? "correct" : "wrong"}.
+  if (locale === "zh") {
+    return `你是一位加州房屋检查员考试辅导老师。一位学生${isCorrect ? "答对" : "答错"}了以下题目。
 
-Question: ${question.question}
-Options:
+【题目】${question.question}
 A) ${question.options[0]}
 B) ${question.options[1]}
 C) ${question.options[2]}
 D) ${question.options[3]}
 
-Student's answer: ${String.fromCharCode(65 + userAnswer)}) ${question.options[userAnswer]}
-Correct answer: ${String.fromCharCode(65 + question.correctAnswer)}) ${question.options[question.correctAnswer]}
+【学生答案】${letters[userAnswer]}) ${question.options[userAnswer]}
+【正确答案】${letters[question.correctAnswer]}) ${question.options[question.correctAnswer]}
 
-${langInstruction}
-Please provide:
-1. Why the correct answer is right (with real-world context)
+请你用中文详细分析：
+1. 为什么正确答案是对的（结合实际检查场景说明）
+2. 其他选项为什么不对
+3. 给一个实用的记忆技巧或真实检查中的经验提示
+
+要求：全部用中文回答，通俗易懂，控制在300字以内。`;
+  }
+
+  return `You are a California Home Inspector exam tutor. A student got this question ${isCorrect ? "correct" : "wrong"}.
+
+Question: ${question.question}
+A) ${question.options[0]}
+B) ${question.options[1]}
+C) ${question.options[2]}
+D) ${question.options[3]}
+
+Student's answer: ${letters[userAnswer]}) ${question.options[userAnswer]}
+Correct answer: ${letters[question.correctAnswer]}) ${question.options[question.correctAnswer]}
+
+Please analyze in English:
+1. Why the correct answer is right (with real-world inspection context)
 2. Why the other options are wrong
 3. A helpful memory tip or real inspection scenario
-Keep it concise but thorough (under 300 words).`;
+
+Requirements: Answer entirely in English, keep it concise but thorough (under 300 words).`;
 }
 
 async function callGemini(prompt: string, config: AIConfig): Promise<string> {
