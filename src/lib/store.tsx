@@ -39,7 +39,7 @@ interface StoreContextType extends StoreState {
 const defaultAIConfig: AIConfig = {
   provider: "gemini",
   apiKey: "",
-  model: "gemini-2.0-flash",
+  model: "gemini-2.5-flash",
   endpoint: "",
 };
 

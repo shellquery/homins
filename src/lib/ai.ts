@@ -34,7 +34,7 @@ Keep it concise but thorough (under 300 words).`;
 
 async function callGemini(prompt: string, config: AIConfig): Promise<string> {
   const genAI = new GoogleGenerativeAI(config.apiKey);
-  const model = genAI.getGenerativeModel({ model: config.model || "gemini-2.0-flash" });
+  const model = genAI.getGenerativeModel({ model: config.model || "gemini-2.5-flash" });
   const result = await model.generateContent(prompt);
   return result.response.text();
 }
@@ -119,7 +119,7 @@ export async function testAIConnection(config: AIConfig): Promise<boolean> {
     switch (config.provider) {
       case "gemini": {
         const genAI = new GoogleGenerativeAI(config.apiKey);
-        const model = genAI.getGenerativeModel({ model: config.model || "gemini-2.0-flash" });
+        const model = genAI.getGenerativeModel({ model: config.model || "gemini-2.5-flash" });
         await model.generateContent("Say hi in one word.");
         return true;
       }
