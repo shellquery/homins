@@ -2,14 +2,16 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, BookOpen, LayoutGrid, BookX, Settings, Globe } from "lucide-react";
+import { Home, BookOpen, LayoutGrid, BookX, Settings, Globe, Sun, Moon } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
 import { useStore } from "@/lib/store";
+import { useTheme } from "@/lib/theme";
 
 export default function Navbar() {
   const pathname = usePathname();
   const { locale, setLocale, t } = useI18n();
   const { wrongQuestionIds } = useStore();
+  const { theme, toggleTheme } = useTheme();
 
   const navItems = [
     { href: "/", label: t("home"), icon: Home },
@@ -62,10 +64,19 @@ export default function Navbar() {
               );
             })}
 
+            {/* Theme Toggle */}
+            <button
+              onClick={toggleTheme}
+              className="flex items-center justify-center w-9 h-9 rounded-lg text-gray-400 hover:text-gray-200 hover:bg-gray-800/50 transition-all duration-200 ml-1"
+              title={theme === "dark" ? "切换白天模式 / Switch to Day Mode" : "切换夜晚模式 / Switch to Night Mode"}
+            >
+              {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
+
             {/* Language Toggle */}
             <button
               onClick={() => setLocale(locale === "zh" ? "en" : "zh")}
-              className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-gray-200 hover:bg-gray-800/50 transition-all duration-200 ml-1"
+              className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-gray-200 hover:bg-gray-800/50 transition-all duration-200"
               title={locale === "zh" ? "Switch to English" : "切换中文"}
             >
               <Globe size={18} />
