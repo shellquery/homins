@@ -24,12 +24,12 @@ export const questionsPart1: Question[] = [
     question:
       "Which type of foundation is most commonly used in areas with a high water table?",
     options: [
-      "Slab-on-grade",
       "Full basement",
+      "Slab-on-grade",
       "Pier and beam",
       "Crawl space",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "在地下水位较高的地区，平板基础（Slab-on-grade）是最常用的，因为它不需要在地下挖掘深度较大的空间，可以减少地下水渗入的问题。",
     category: "structural",
@@ -40,11 +40,11 @@ export const questionsPart1: Question[] = [
       "A horizontal crack in a concrete block foundation wall most likely indicates:",
     options: [
       "Normal concrete shrinkage",
-      "Lateral pressure from soil",
       "Settling of the footing",
+      "Lateral pressure from soil",
       "Freeze-thaw damage only",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "混凝土砌块基础墙上的水平裂缝通常是由土壤侧向压力造成的。这种裂缝是严重的结构问题，表示墙体正在向内弯曲，需要专业工程师评估。",
     category: "structural",
@@ -64,12 +64,12 @@ export const questionsPart1: Question[] = [
     question:
       "Stair-step cracks in a brick or block foundation wall typically indicate:",
     options: [
-      "Cosmetic damage only",
       "Differential settlement",
+      "Cosmetic damage only",
       "Excessive moisture",
       "Poor paint adhesion",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "阶梯状裂缝沿砂浆接缝呈阶梯形发展，通常表明基础存在不均匀沉降（差异沉降）。这种裂缝需要进一步评估，因为它可能是结构问题的征兆。",
     category: "structural",
@@ -94,11 +94,11 @@ export const questionsPart1: Question[] = [
       "In balloon framing, what is the primary fire safety concern?",
     options: [
       "The roof is not properly supported",
-      "Wall studs run continuously from foundation to roof, creating a chimney effect",
       "Floor joists are not properly attached",
+      "Wall studs run continuously from foundation to roof, creating a chimney effect",
       "The foundation is too shallow",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "气球框架中，墙骨从基础一直延伸到屋顶，形成连续的空腔。这些空腔会产生烟囱效应，使火焰在墙体内部迅速蔓延。因此需要安装防火挡板（fire stops）。",
     category: "structural",
@@ -109,11 +109,11 @@ export const questionsPart1: Question[] = [
       "What is the standard spacing for wall studs in residential construction?",
     options: [
       "12 inches on center",
-      "16 inches on center",
       "24 inches on center",
       "32 inches on center",
+      "16 inches on center",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "住宅建筑中墙骨的标准间距为16英寸中心距（16 inches on center）。在某些非承重墙中可以使用24英寸间距，但16英寸是最常见的标准间距。",
     category: "structural",
@@ -123,12 +123,12 @@ export const questionsPart1: Question[] = [
     question:
       "A load-bearing wall can be identified by all of the following EXCEPT:",
     options: [
+      "It has a decorative wallpaper finish",
       "It runs perpendicular to floor joists",
       "It is located directly above a beam or another wall below",
-      "It has a decorative wallpaper finish",
       "It supports the ends of ceiling or floor joists",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "装饰性墙纸与墙体是否承重完全无关。承重墙通常垂直于楼板搁栅、位于下方梁或墙体的正上方，并承托天花板或楼板搁栅的端部。",
     category: "structural",
@@ -169,10 +169,10 @@ export const questionsPart1: Question[] = [
     options: [
       "Floor joists",
       "Wall studs",
-      "Foundation wall",
       "Subfloor",
+      "Foundation wall",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "底梁板（Sill plate）安装在基础墙顶部，是木框架结构与基础之间的连接构件。它通常使用锚栓固定在基础上，并且通常使用经过防腐处理的木材。",
     category: "structural",
@@ -182,12 +182,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the purpose of anchor bolts in a foundation?",
     options: [
-      "To reinforce the concrete against cracking",
       "To secure the sill plate to the foundation",
+      "To reinforce the concrete against cracking",
       "To connect the rebar to the footing",
       "To provide drainage through the foundation",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "锚栓的主要作用是将底梁板固定在基础上，防止房屋在风力或地震作用下发生移位。锚栓通常间距为6英尺，且在角部和接头处需要额外安装。",
     category: "structural",
@@ -213,11 +213,11 @@ export const questionsPart1: Question[] = [
       "What is the purpose of bridging or blocking between floor joists?",
     options: [
       "To provide a nailing surface for the ceiling below",
-      "To prevent joists from twisting and to distribute loads",
       "To increase the span capacity of the joists",
+      "To prevent joists from twisting and to distribute loads",
       "To serve as fire blocking",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "搁栅之间的桥接或实心挡块的主要目的是防止搁栅扭转并将集中荷载分散到相邻搁栅上，提高楼板系统的整体刚度和稳定性。",
     category: "structural",
@@ -229,10 +229,10 @@ export const questionsPart1: Question[] = [
     options: [
       "Doors and windows sticking or not closing properly",
       "Cracks in drywall above door frames",
-      "Uniform fading of exterior paint",
       "Sloping floors",
+      "Uniform fading of exterior paint",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "外墙油漆均匀褪色是正常的老化现象，与结构沉降无关。门窗卡滞、石膏板裂缝和楼板倾斜都是常见的结构沉降迹象。",
     category: "structural",
@@ -252,12 +252,12 @@ export const questionsPart1: Question[] = [
     question:
       "A king stud in wall framing is:",
     options: [
-      "A stud that runs from the sole plate to the top plate alongside an opening",
       "The first stud placed at a corner",
+      "A stud that runs from the sole plate to the top plate alongside an opening",
       "A shortened stud below a window sill",
       "A diagonal brace in the wall",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "王柱（King stud）是从底板延伸到顶板的全长立柱，位于门窗开口的两侧，用于支撑过梁。它与短柱（Jack stud/trimmer）配合使用来传递荷载。",
     category: "structural",
@@ -267,11 +267,11 @@ export const questionsPart1: Question[] = [
     question: "A cripple stud is:",
     options: [
       "A stud that has been damaged during construction",
-      "A shortened stud above or below an opening",
       "A stud at an exterior corner",
+      "A shortened stud above or below an opening",
       "A stud that is doubled for extra strength",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "矮柱（Cripple stud）是指门窗开口上方或窗户开口下方的短立柱。它们将荷载从顶板传递到过梁，或从窗台板传递到底板。",
     category: "structural",
@@ -291,12 +291,12 @@ export const questionsPart1: Question[] = [
     question:
       "Engineered wood I-joists are preferred over solid lumber joists because they:",
     options: [
-      "Are always less expensive",
       "Have more consistent dimensions and can span longer distances",
+      "Are always less expensive",
       "Do not require bridging",
       "Are naturally resistant to termites",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "工程木I型搁栅尺寸更加均匀一致，可以跨越更长的距离，并且不易翘曲、扭曲或收缩。虽然不一定更便宜，但性能优于传统实木搁栅。",
     category: "structural",
@@ -322,11 +322,11 @@ export const questionsPart1: Question[] = [
       "Spalling of concrete is best described as:",
     options: [
       "Cracks running through the full depth of the concrete",
-      "Flaking, chipping, or peeling of the concrete surface",
       "Discoloration from chemical exposure",
+      "Flaking, chipping, or peeling of the concrete surface",
       "Settlement of the concrete slab",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "混凝土剥落（Spalling）是指混凝土表面出现剥落、碎裂或起皮的现象，通常由冻融循环、钢筋锈蚀膨胀或混凝土质量差引起。严重的剥落可能暴露内部钢筋。",
     category: "structural",
@@ -337,11 +337,11 @@ export const questionsPart1: Question[] = [
       "In a roof truss system, which member is under tension?",
     options: [
       "The top chord",
-      "The bottom chord",
       "The king post",
       "The ridge board",
+      "The bottom chord",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "在屋架系统中，下弦杆（bottom chord）承受拉力，因为它连接屋架两端并防止屋架在荷载作用下向外扩张。上弦杆承受压力。",
     category: "structural",
@@ -351,12 +351,12 @@ export const questionsPart1: Question[] = [
     question:
       "Why should roof trusses NOT be cut or modified in the field?",
     options: [
+      "Trusses are engineered as a system; modifying one member can cause failure",
       "It voids the paint warranty",
       "It is illegal in all states",
-      "Trusses are engineered as a system; modifying one member can cause failure",
       "It makes the attic too warm",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "屋架是作为整体系统工程设计的，每个构件都承担特定的力学功能。随意切割或修改任何构件会改变力的传递路径，可能导致整个屋架系统失效。",
     category: "structural",
@@ -382,11 +382,11 @@ export const questionsPart1: Question[] = [
       "What material is typically used for the sill plate in contact with concrete?",
     options: [
       "Untreated pine",
-      "Pressure-treated lumber",
       "Cedar only",
+      "Pressure-treated lumber",
       "Engineered laminated beam",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "与混凝土接触的底梁板必须使用经过防腐加压处理的木材，因为混凝土会吸收和传导水分，可能导致未处理木材腐烂。这是建筑规范的要求。",
     category: "structural",
@@ -398,10 +398,10 @@ export const questionsPart1: Question[] = [
     options: [
       "A continuous concrete wall supporting the entire perimeter",
       "A concrete slab poured directly on the ground",
-      "Individual columns supporting beams that carry the floor structure",
       "A deep basement with reinforced walls",
+      "Individual columns supporting beams that carry the floor structure",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "墩梁基础（Pier and beam）由独立的墩柱支撑横梁，横梁再承托楼板结构。这种基础形式提供了爬行空间，便于检修管线，常用于坡地或土壤条件不稳定的地区。",
     category: "structural",
@@ -411,12 +411,12 @@ export const questionsPart1: Question[] = [
     question:
       "A post in a basement that supports a main beam should rest on a:",
     options: [
-      "Concrete floor slab directly",
       "Concrete pier or footing pad",
+      "Concrete floor slab directly",
       "Wooden block",
       "Metal plate on bare soil",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "地下室中支撑主梁的柱子应放置在独立的混凝土墩或基脚垫上，而不是直接放在楼板上。楼板通常只有3-4英寸厚，不足以承受集中荷载。",
     category: "structural",
@@ -442,11 +442,11 @@ export const questionsPart1: Question[] = [
       "What is a common consequence of inadequate ventilation in an attic?",
     options: [
       "Reduced electrical efficiency",
-      "Moisture buildup leading to wood rot and mold",
       "Foundation settlement",
+      "Moisture buildup leading to wood rot and mold",
       "Increased water pressure",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "阁楼通风不良会导致水分积聚，进而引起木材腐烂、霉菌生长和屋顶衬板损坏。冬季还可能形成冰坝。充足的通风对保护屋顶结构至关重要。",
     category: "structural",
@@ -457,11 +457,11 @@ export const questionsPart1: Question[] = [
       "A cantilever in floor framing refers to:",
     options: [
       "A joist that is spliced over a beam",
-      "A section of floor that extends beyond its support",
       "A joist that is supported at both ends by bearing walls",
       "A joist hanger connection",
+      "A section of floor that extends beyond its support",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "悬挑（Cantilever）是指楼板搁栅超出其支撑点向外延伸的部分。悬挑长度通常不应超过搁栅回跨距离的四分之一。常见于飘窗和二楼突出部分。",
     category: "structural",
@@ -471,12 +471,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the primary purpose of rebar in a concrete foundation?",
     options: [
-      "To increase the compressive strength of concrete",
       "To add tensile strength since concrete is weak in tension",
+      "To increase the compressive strength of concrete",
       "To speed up the curing process",
       "To reduce the weight of the foundation",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "钢筋的主要作用是为混凝土提供抗拉强度。混凝土的抗压强度很高，但抗拉强度很低。钢筋弥补了混凝土的这一弱点，使结构能够承受弯曲和拉伸应力。",
     category: "structural",
@@ -487,11 +487,11 @@ export const questionsPart1: Question[] = [
       "OSB (Oriented Strand Board) used as subflooring is typically how thick?",
     options: [
       "1/4 inch",
-      "3/8 inch",
       "23/32 inch (approximately 3/4 inch)",
+      "3/8 inch",
       "1-1/2 inches",
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation:
       "用于底层地板的OSB板通常厚度为23/32英寸（约3/4英寸）。这个厚度能够为16英寸间距的搁栅提供足够的支撑和刚度。更大的搁栅间距可能需要更厚的板材。",
     category: "structural",
@@ -502,11 +502,11 @@ export const questionsPart1: Question[] = [
       "A home inspector notices that a support column in the basement has been replaced with a telescoping steel jack post. This likely indicates:",
     options: [
       "Normal construction practice",
-      "A previous structural repair or attempt to level the floor",
       "The home was built before 1950",
+      "A previous structural repair or attempt to level the floor",
       "The basement was recently waterproofed",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "可调节钢柱（Jack post）通常表明之前进行过结构修补或试图调平楼板。虽然它们可以作为临时支撑，但不应作为永久结构构件使用，除非经过工程师批准。",
     category: "structural",
@@ -517,11 +517,11 @@ export const questionsPart1: Question[] = [
       "The double top plate in wall framing serves to:",
     options: [
       "Provide additional insulation",
-      "Tie intersecting walls together and distribute loads across studs",
       "Provide a nailing surface for baseboards",
       "Act as a fire stop",
+      "Tie intersecting walls together and distribute loads across studs",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "双层顶板的作用是将相交的墙体连接在一起，并将上方的荷载分散到多根立柱上。搁栅不必精确对准下方的每根立柱，因为双层顶板能够跨越和分配荷载。",
     category: "structural",
@@ -531,12 +531,12 @@ export const questionsPart1: Question[] = [
     question:
       "What does 'checking' refer to in a wooden beam?",
     options: [
-      "Inspecting the beam for damage",
       "Surface cracks caused by drying and shrinkage",
+      "Inspecting the beam for damage",
       "The beam bouncing under load",
       "Measuring the beam's dimensions",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "木材开裂（Checking）是指木梁表面因干燥收缩而产生的裂纹。这是木材的自然现象，通常不影响结构强度，除非裂缝很深或贯穿整个截面。",
     category: "structural",
@@ -577,11 +577,11 @@ export const questionsPart1: Question[] = [
       "What is a bearing wall?",
     options: [
       "Any wall made of concrete",
-      "A wall that supports weight from above in addition to its own weight",
       "An exterior wall only",
       "A wall with extra insulation",
+      "A wall that supports weight from above in addition to its own weight",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "承重墙是除了承担自身重量外，还承受上方屋顶、楼板或其他构件传下来的荷载的墙体。承重墙不能随意拆除，必须先安装替代的承重结构。",
     category: "structural",
@@ -591,12 +591,12 @@ export const questionsPart1: Question[] = [
     question:
       "Sistering of floor joists refers to:",
     options: [
-      "Replacing damaged joists with new ones",
       "Attaching a new joist alongside an existing damaged or undersized joist",
+      "Replacing damaged joists with new ones",
       "Adding bridging between joists",
       "Cutting joists to install ductwork",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "搁栅加固（Sistering）是将新的搁栅紧贴安装在现有受损或尺寸不足的搁栅旁边，以增加其承载能力。这是一种常见的楼板结构加固方法。",
     category: "structural",
@@ -622,11 +622,11 @@ export const questionsPart1: Question[] = [
       "A home inspector observes notches cut in the bottom of floor joists. This is a concern because:",
     options: [
       "It allows moisture to enter the joist",
-      "It reduces the structural capacity of the joist, especially at the bottom where tension is greatest",
       "It creates a fire hazard",
+      "It reduces the structural capacity of the joist, especially at the bottom where tension is greatest",
       "It violates the paint manufacturer's warranty",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "搁栅底部的切口会严重削弱其承载能力，因为搁栅底部承受的是最大拉力。建筑规范严格限制搁栅切口的位置和深度，底部切口是最有害的。",
     category: "structural",
@@ -637,11 +637,11 @@ export const questionsPart1: Question[] = [
       "What is the function of a collar tie in roof framing?",
     options: [
       "To connect the ridge board to the wall plate",
-      "To resist the tendency of rafters to separate at the ridge under load",
       "To provide a nailing surface for the ceiling",
       "To support the weight of the chimney",
+      "To resist the tendency of rafters to separate at the ridge under load",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "系杆（Collar tie）连接对面的椽子对，防止它们在荷载作用下在脊部分离。系杆通常安装在椽子上部三分之一的位置。",
     category: "structural",
@@ -651,12 +651,12 @@ export const questionsPart1: Question[] = [
     question:
       "A rafter tie (ceiling joist) at the bottom of the rafters primarily resists:",
     options: [
-      "Vertical loads",
       "Outward thrust at the wall plates",
+      "Vertical loads",
       "Wind uplift",
       "Snow drift",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "椽脚系杆（天花板搁栅）主要抵抗椽子在墙顶板处产生的向外推力。没有这些系杆，屋顶荷载会将墙体向外推开，导致严重的结构问题。",
     category: "structural",
@@ -682,11 +682,11 @@ export const questionsPart1: Question[] = [
       "Which foundation type is MOST susceptible to frost heave damage?",
     options: [
       "A foundation with footings below the frost line",
-      "A shallow monolithic slab in a cold climate",
       "A full basement foundation",
+      "A shallow monolithic slab in a cold climate",
       "A deep pier foundation",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "在寒冷气候区，浅层整体浇筑基础最容易受到冻胀破坏，因为基脚在冻线以上。当土壤中的水分冻结膨胀时，会抬起并损坏基础。深基础将基脚设置在冻线以下可避免此问题。",
     category: "structural",
@@ -697,11 +697,11 @@ export const questionsPart1: Question[] = [
       "Diagonal bracing in wall framing is used to:",
     options: [
       "Support additional floors",
-      "Resist lateral forces (racking) from wind or seismic loads",
       "Provide extra insulation",
       "Create openings for windows",
+      "Resist lateral forces (racking) from wind or seismic loads",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "对角支撑（或结构面板如胶合板/OSB）用于抵抗风力或地震产生的水平力（抗剪），防止墙体框架变形为平行四边形。现代建筑通常使用结构面板代替对角支撑。",
     category: "structural",
@@ -711,12 +711,12 @@ export const questionsPart1: Question[] = [
     question:
       "What type of wood damage creates small piles of fine, powdery sawdust (frass)?",
     options: [
-      "Carpenter ants",
       "Powder post beetles",
+      "Carpenter ants",
       "Subterranean termites",
       "Dry rot fungus",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "粉蠹虫（Powder post beetles）会在木材中蛀出细小的隧道，并在出口处留下细腻的粉末状木屑（虫粪）。白蚁产生的粪便颗粒较大，木蚁产生的木屑较粗糙。",
     category: "structural",
@@ -746,11 +746,11 @@ export const questionsPart1: Question[] = [
       "What is the minimum electrical service size recommended for a modern single-family home?",
     options: [
       "60 amps",
-      "100 amps",
       "200 amps",
+      "100 amps",
       "400 amps",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "现代单户住宅的最低推荐电力服务容量为100安培。然而，200安培现在更为常见，因为现代家庭的用电需求增加了。60安培的服务已经过时且不足。",
     category: "electrical",
@@ -762,10 +762,10 @@ export const questionsPart1: Question[] = [
     options: [
       "Bathrooms",
       "Kitchen countertop receptacles",
-      "Bedroom outlets",
       "Garage receptacles",
+      "Bedroom outlets",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "卧室插座不需要GFCI保护（但需要AFCI保护）。GFCI保护主要用于有水的区域，包括浴室、厨房操作台面、车库、室外、爬行空间和未完工的地下室。",
     category: "electrical",
@@ -775,12 +775,12 @@ export const questionsPart1: Question[] = [
     question:
       "What does GFCI stand for?",
     options: [
-      "Ground Fault Current Interrupter",
       "Ground Fault Circuit Interrupter",
+      "Ground Fault Current Interrupter",
       "General Fuse Circuit Indicator",
       "Grounded Fuse Current Interrupter",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "GFCI代表Ground Fault Circuit Interrupter（接地故障断路器）。它通过检测电流泄漏到地面来保护人免受电击，能够在检测到4-6毫安的漏电时在几毫秒内断开电路。",
     category: "electrical",
@@ -806,11 +806,11 @@ export const questionsPart1: Question[] = [
       "What gauge wire is typically used for a 20-amp circuit?",
     options: [
       "14 AWG",
-      "12 AWG",
       "10 AWG",
+      "12 AWG",
       "8 AWG",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "20安培电路通常使用12 AWG（美国线规）导线。14 AWG用于15安培电路，10 AWG用于30安培电路。使用过细的导线会导致过热和火灾危险。",
     category: "electrical",
@@ -820,12 +820,12 @@ export const questionsPart1: Question[] = [
     question:
       "What gauge wire is required for a 15-amp circuit?",
     options: [
-      "14 AWG",
       "12 AWG",
       "10 AWG",
       "16 AWG",
+      "14 AWG",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "15安培电路需要至少14 AWG的导线。AWG数字越小，导线越粗。使用12 AWG也是可以的（更安全），但14 AWG是规范允许的最小尺寸。",
     category: "electrical",
@@ -835,12 +835,12 @@ export const questionsPart1: Question[] = [
     question:
       "The main purpose of a grounding system in residential wiring is to:",
     options: [
-      "Reduce the electricity bill",
       "Provide a safe path for fault current to return to the source and trip the breaker",
+      "Reduce the electricity bill",
       "Improve the speed of electrical devices",
       "Prevent lightning from striking the house",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "接地系统的主要目的是在发生故障时为电流提供安全的回路路径，使断路器能够及时跳闸断电，从而保护人员免受电击和防止火灾。",
     category: "electrical",
@@ -851,11 +851,11 @@ export const questionsPart1: Question[] = [
       "NM cable (Romex) should NOT be used in which of the following locations?",
     options: [
       "Inside interior walls",
-      "In an attic",
       "Exposed on the exterior of a building",
+      "In an attic",
       "Through holes drilled in floor joists",
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation:
       "NM电缆（Romex）不能暴露在建筑物外部使用，因为其外护套不能防紫外线和防水。室外需要使用UF（地下馈线）电缆或金属导管保护的导线。",
     category: "electrical",
@@ -866,11 +866,11 @@ export const questionsPart1: Question[] = [
       "What is the purpose of an AFCI (Arc Fault Circuit Interrupter) breaker?",
     options: [
       "To protect against electrical shock",
-      "To detect and prevent electrical arcing that could cause fires",
       "To regulate voltage fluctuations",
+      "To detect and prevent electrical arcing that could cause fires",
       "To provide backup power during outages",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "AFCI（电弧故障断路器）的作用是检测和防止可能引起火灾的电弧故障。电弧可能由受损导线、松动的连接或老化的绝缘引起。AFCI现在要求安装在卧室和其他生活区域。",
     category: "electrical",
@@ -881,11 +881,11 @@ export const questionsPart1: Question[] = [
       "According to the NEC, AFCI protection is currently required for circuits in:",
     options: [
       "Bathrooms only",
-      "Kitchens, bedrooms, living rooms, and most habitable rooms",
       "Garages only",
       "Only exterior circuits",
+      "Kitchens, bedrooms, living rooms, and most habitable rooms",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "根据最新的NEC规范，AFCI保护要求已扩展到几乎所有居住空间，包括卧室、客厅、餐厅、厨房、走廊和壁橱等。浴室和车库通常使用GFCI保护。",
     category: "electrical",
@@ -895,12 +895,12 @@ export const questionsPart1: Question[] = [
     question:
       "A double-tapped breaker means:",
     options: [
-      "The breaker has been tested twice",
       "Two wires are connected to a breaker terminal designed for only one",
+      "The breaker has been tested twice",
       "The breaker trips too frequently",
       "The breaker is installed upside down",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "双接线（Double-tapped）是指两根导线连接到仅设计容纳一根导线的断路器端子上。这是常见的缺陷，可能导致接触不良、过热和火灾。除非断路器明确标注可接两根线。",
     category: "electrical",
@@ -940,12 +940,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the maximum number of conductors allowed in a standard single-gang electrical box?",
     options: [
-      "It depends on the box size and conductor gauge",
       "Always 4 conductors",
       "Always 6 conductors",
       "There is no limit",
+      "It depends on the box size and conductor gauge",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "电气盒中允许的最大导线数量取决于盒子的体积和导线的规格。NEC有详细的盒子填充计算规则，每种规格的导线占用一定的体积。过度填充会导致过热和损坏绝缘。",
     category: "electrical",
@@ -955,12 +955,12 @@ export const questionsPart1: Question[] = [
     question:
       "A subpanel in a detached garage requires:",
     options: [
-      "Its neutral and ground buses bonded together",
       "Separate neutral and ground buses with the ground bus bonded to the panel enclosure",
+      "Its neutral and ground buses bonded together",
       "No grounding at all",
       "Only a single hot conductor",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "独立车库中的分电箱要求中性线和地线母排必须分开。只有主配电板才能将中性线和地线绑定在一起。分电箱中需要四根线：两根火线、一根中性线和一根地线。",
     category: "electrical",
@@ -986,11 +986,11 @@ export const questionsPart1: Question[] = [
       "When testing a receptacle, a hot-neutral reverse indication means:",
     options: [
       "The outlet is functioning normally",
-      "The hot and neutral wires are connected to the wrong terminals",
       "The ground wire is missing",
+      "The hot and neutral wires are connected to the wrong terminals",
       "The GFCI has tripped",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "火线-零线接反表示导线连接到了错误的端子上。这是一个安全隐患，因为即使开关关闭，设备内部仍可能带电。这是一个常见但容易修复的布线错误。",
     category: "electrical",
@@ -1002,10 +1002,10 @@ export const questionsPart1: Question[] = [
     options: [
       "5 feet",
       "8 feet",
-      "10 feet",
       "12 feet",
+      "10 feet",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "电力进线电缆在地面以上的最低高度通常为10英尺（在可行走区域）。在车道上方需要更高（12英尺），在公共道路上方需要18英尺。这是为了防止人员和车辆接触。",
     category: "electrical",
@@ -1015,12 +1015,12 @@ export const questionsPart1: Question[] = [
     question:
       "Federal Pacific Electric (FPE) Stab-Lok panels are a concern because:",
     options: [
-      "They are too large for modern homes",
       "Breakers may fail to trip during an overload or short circuit",
+      "They are too large for modern homes",
       "They only work with aluminum wiring",
       "They make too much noise when operating",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "FPE Stab-Lok配电板存在严重安全隐患，因为其断路器在过载或短路时可能无法正常跳闸。多项测试显示故障率很高。大多数检查员会建议由合格电工进行评估并考虑更换。",
     category: "electrical",
@@ -1046,11 +1046,11 @@ export const questionsPart1: Question[] = [
       "What is the purpose of a bonding jumper on the water meter?",
     options: [
       "To measure water flow",
-      "To ensure electrical grounding continuity when the water meter is removed",
       "To prevent water hammer",
+      "To ensure electrical grounding continuity when the water meter is removed",
       "To reduce water pressure",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "水表上的跨接线确保在水表被拆除维修时，接地通路不会中断。如果没有跨接线，拆除水表会切断接地连续性，造成触电危险。",
     category: "electrical",
@@ -1062,10 +1062,10 @@ export const questionsPart1: Question[] = [
     options: [
       "18 inches deep",
       "24 inches deep",
-      "30 inches wide and 36 inches deep",
       "48 inches in all directions",
+      "30 inches wide and 36 inches deep",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "NEC要求电气面板前方至少有30英寸宽和36英寸深的工作空间。面板前方不能存放任何物品。这是为了确保电工能够安全地操作和维护电气设备。",
     category: "electrical",
@@ -1075,12 +1075,12 @@ export const questionsPart1: Question[] = [
     question:
       "A tandem breaker (also called a cheater or slim breaker) is:",
     options: [
-      "Two separate breakers side by side",
       "Two breakers in the space of one, each controlling a separate circuit",
+      "Two separate breakers side by side",
       "A breaker that is always illegal",
       "A breaker rated for 240 volts only",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "串联断路器是在一个标准断路器的空间中安装两个独立断路器，各自控制一个单独的电路。它们只能在设计允许的面板和位置中使用，不是在所有面板中都合法。",
     category: "electrical",
@@ -1122,10 +1122,10 @@ export const questionsPart1: Question[] = [
     options: [
       "White",
       "Black",
-      "Bare copper or green",
       "Red",
+      "Bare copper or green",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "在NM电缆中，接地导线通常是裸铜线或绿色绝缘线。黑色是火线，白色是中性线。正确的颜色编码对于安全接线至关重要。",
     category: "electrical",
@@ -1135,12 +1135,12 @@ export const questionsPart1: Question[] = [
     question:
       "A circuit breaker that repeatedly trips is most likely indicating:",
     options: [
-      "The breaker is too new",
       "An overloaded circuit, short circuit, or ground fault",
+      "The breaker is too new",
       "The panel is too small",
       "Normal operation during winter",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "断路器反复跳闸通常表示电路过载、短路或接地故障。不应简单地用更大的断路器替换，而应找出并解决根本原因。使用过大的断路器可能导致导线过热和火灾。",
     category: "electrical",
@@ -1166,11 +1166,11 @@ export const questionsPart1: Question[] = [
       "What is the purpose of a dedicated circuit for a refrigerator?",
     options: [
       "To make the refrigerator run faster",
-      "To ensure the refrigerator has reliable power and is not affected by other loads on the circuit",
       "To increase the refrigerator's energy efficiency",
+      "To ensure the refrigerator has reliable power and is not affected by other loads on the circuit",
       "This is not required by any code",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "冰箱使用专用电路可以确保其不受同一电路上其他负载的影响。当冰箱压缩机启动时，瞬间电流较大，如果与其他设备共享电路，可能导致跳闸。",
     category: "electrical",
@@ -1182,10 +1182,10 @@ export const questionsPart1: Question[] = [
     options: [
       "Once every 5 years",
       "Once a year",
-      "Monthly",
       "Only when installed",
+      "Monthly",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "GFCI插座应每月测试一次，以确保其正常工作。按下测试按钮应使插座断电，按下复位按钮应恢复供电。如果测试失败，应立即更换。",
     category: "electrical",
@@ -1195,12 +1195,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the standard voltage for a residential electric dryer circuit?",
     options: [
+      "240 volts",
       "120 volts",
       "208 volts",
-      "240 volts",
       "277 volts",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "住宅电烘干机使用240伏电路，通常需要30安培的断路器和10 AWG导线。240伏通过两根120伏火线的组合实现，提供烘干机加热元件所需的高功率。",
     category: "electrical",
@@ -1241,11 +1241,11 @@ export const questionsPart1: Question[] = [
       "What is the correct way to handle a circuit with both GFCI and AFCI protection needs?",
     options: [
       "Install two separate breakers",
-      "Use a dual-function AFCI/GFCI breaker or device",
       "GFCI and AFCI cannot be on the same circuit",
       "Only GFCI is needed; AFCI is optional",
+      "Use a dual-function AFCI/GFCI breaker or device",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "当一个电路同时需要GFCI和AFCI保护时，可以使用双功能AFCI/GFCI断路器或设备。这在厨房等区域尤为常见，既需要防电弧保护也需要防漏电保护。",
     category: "electrical",
@@ -1255,12 +1255,12 @@ export const questionsPart1: Question[] = [
     question:
       "The service entrance conductor connects the:",
     options: [
-      "Main panel to the subpanel",
       "Utility meter to the main electrical panel",
+      "Main panel to the subpanel",
       "Main panel to the first outlet",
       "Transformer to the electric meter",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "进户线（Service entrance conductor）连接电表到主配电板。它是房屋电气系统中载流量最大的导线，其尺寸决定了整个电力服务的容量。",
     category: "electrical",
@@ -1286,11 +1286,11 @@ export const questionsPart1: Question[] = [
       "The main disconnect for a residential electrical panel must be able to shut off power:",
     options: [
       "To individual circuits only",
-      "To all circuits with no more than six hand movements",
       "Only to 240V circuits",
+      "To all circuits with no more than six hand movements",
       "Only during an emergency",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "NEC要求住宅主断路器能够在不超过六次手动操作内切断所有电路的电源（六断路器规则）。现在大多数安装使用单个主断路器一次切断所有电源。",
     category: "electrical",
@@ -1301,11 +1301,11 @@ export const questionsPart1: Question[] = [
       "What is the typical amperage for a kitchen small appliance circuit?",
     options: [
       "15 amps",
-      "20 amps",
       "30 amps",
       "40 amps",
+      "20 amps",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "厨房小型电器电路通常为20安培。NEC要求厨房至少有两个20安培的小型电器电路，专门为台面插座供电，以满足多个小型电器同时使用的需求。",
     category: "electrical",
@@ -1315,12 +1315,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the primary risk of using a penny behind a fuse?",
     options: [
-      "It costs too much",
       "It eliminates overcurrent protection, creating a fire hazard",
+      "It costs too much",
       "It causes the lights to flicker",
       "It reduces the voltage to the circuit",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "在保险丝后面放硬币会使过载保护完全失效，因为硬币不会像保险丝那样在过流时熔断。这意味着电路在严重过载时也不会断开，极大增加了火灾风险。",
     category: "electrical",
@@ -1346,11 +1346,11 @@ export const questionsPart1: Question[] = [
       "What is the danger of using an extension cord as permanent wiring?",
     options: [
       "Extension cords are too short",
-      "Extension cords can overheat, become damaged, and create fire or tripping hazards",
       "Extension cords use too much electricity",
+      "Extension cords can overheat, become damaged, and create fire or tripping hazards",
       "Extension cords void the home warranty",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "延长线作为永久接线使用会带来过热、物理损伤和绊倒风险。延长线不是设计用于永久安装的，其导线规格可能不足以长期承载负载，且不受建筑规范保护。",
     category: "electrical",
@@ -1361,11 +1361,11 @@ export const questionsPart1: Question[] = [
       "A bathroom requires a minimum of how many electrical circuits?",
     options: [
       "No specific requirement",
-      "One dedicated 20-amp circuit",
       "Two 15-amp circuits",
       "One 30-amp circuit",
+      "One dedicated 20-amp circuit",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "浴室需要至少一个专用的20安培电路。该电路只能为浴室的插座供电。浴室照明可以在其他电路上。所有浴室插座必须有GFCI保护。",
     category: "electrical",
@@ -1375,12 +1375,12 @@ export const questionsPart1: Question[] = [
     question:
       "An electrical panel with signs of rust, burn marks, or a burning smell indicates:",
     options: [
-      "Normal aging",
       "Potential overheating and a serious fire hazard requiring immediate evaluation",
+      "Normal aging",
       "The panel was recently painted",
       "The panel needs a new cover",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "配电板上的锈迹、烧痕或烧焦气味表明存在过热和严重的火灾隐患，需要立即由合格电工评估。这些迹象可能意味着连接松动、断路器故障或导线过载。",
     category: "electrical",
@@ -1406,11 +1406,11 @@ export const questionsPart1: Question[] = [
       "A receptacle tester shows 'open neutral'. What does this mean?",
     options: [
       "The ground wire is disconnected",
-      "The neutral (white) wire is not connected or has a break",
       "The hot wire is reversed",
+      "The neutral (white) wire is not connected or has a break",
       "The outlet is working correctly",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "开路中性线表示白色中性线未连接或断开。这会导致插座无法正常工作，并可能产生危险的电压条件。需要检查接线盒内的连接。",
     category: "electrical",
@@ -1422,10 +1422,10 @@ export const questionsPart1: Question[] = [
     options: [
       "No minimum distance required",
       "1/2 inch",
-      "1-1/4 inches",
       "2 inches",
+      "1-1/4 inches",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "电缆穿过立柱上的钻孔时，孔的边缘距立柱边缘至少需要1-1/4英寸。如果达不到这个距离，必须安装钢制护板保护电缆免受钉子或螺丝的穿透。",
     category: "electrical",
@@ -1435,12 +1435,12 @@ export const questionsPart1: Question[] = [
     question:
       "What type of conductor is used for a typical residential service entrance?",
     options: [
-      "Single-conductor 120V only",
       "Two hot conductors, one neutral conductor, and one ground",
+      "Single-conductor 120V only",
       "Three hot conductors only",
       "One hot conductor and one neutral",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "典型的住宅进户线包含两根火线（各120V）、一根中性线和一根地线。两根火线组合可提供240V，单根火线与中性线组合提供120V。",
     category: "electrical",
@@ -1466,11 +1466,11 @@ export const questionsPart1: Question[] = [
       "What is the minimum number of receptacles required in a standard residential garage?",
     options: [
       "None required",
-      "One GFCI-protected receptacle",
       "Two standard receptacles",
+      "One GFCI-protected receptacle",
       "Four receptacles on a dedicated circuit",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "NEC要求车库至少安装一个GFCI保护的插座。车库中的所有插座都必须有GFCI保护。实际安装中通常会安装多个插座以满足使用需求。",
     category: "electrical",
@@ -1482,10 +1482,10 @@ export const questionsPart1: Question[] = [
     options: [
       "15 amps",
       "20 amps",
-      "30 amps",
       "50 amps",
+      "30 amps",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "住宅电热水器通常使用30安培的断路器，配合10 AWG导线和240伏电路。具体要求取决于热水器的功率，但30安培/240伏是最常见的配置。",
     category: "electrical",
@@ -1499,12 +1499,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the most common pipe material used for residential water supply lines today?",
     options: [
-      "Galvanized steel",
       "Copper or PEX",
+      "Galvanized steel",
       "Cast iron",
       "Lead",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "目前住宅供水管最常用的材料是铜管和PEX管。PEX因其成本低、安装方便和耐冻性好而越来越普及。镀锌管和铅管已不再用于新安装。",
     category: "plumbing",
@@ -1530,11 +1530,11 @@ export const questionsPart1: Question[] = [
       "What is the purpose of a TPR (Temperature and Pressure Relief) valve on a water heater?",
     options: [
       "To regulate the water temperature for comfort",
-      "To release water if temperature or pressure exceeds safe limits, preventing explosion",
       "To drain the tank for maintenance",
+      "To release water if temperature or pressure exceeds safe limits, preventing explosion",
       "To filter sediment from the water",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "TPR阀（温度压力安全阀）在热水器温度超过210°F或压力超过150 PSI时自动释放水，防止水箱爆炸。这是热水器最重要的安全装置，绝不能堵塞或移除。",
     category: "plumbing",
@@ -1545,11 +1545,11 @@ export const questionsPart1: Question[] = [
       "The TPR valve discharge pipe on a water heater should terminate:",
     options: [
       "Connected directly to the drain system",
-      "Within 6 inches of the floor or outside the building",
       "Back into the top of the water heater",
       "Into a sealed container",
+      "Within 6 inches of the floor or outside the building",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "TPR阀的排放管应终止于距地面6英寸以内或建筑物外部。排放管不能连接到排水系统，不能有阀门或弯头向上，管径不能小于阀门出口。",
     category: "plumbing",
@@ -1559,12 +1559,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the typical lifespan of a standard residential tank water heater?",
     options: [
-      "3-5 years",
       "8-12 years",
+      "3-5 years",
       "20-25 years",
       "30+ years",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "标准储水式住宅热水器的典型使用寿命为8-12年。寿命取决于水质、维护情况和使用频率。定期排放沉淀物和更换阳极棒可以延长使用寿命。",
     category: "plumbing",
@@ -1590,11 +1590,11 @@ export const questionsPart1: Question[] = [
       "Cast iron drain pipes in older homes are a concern because:",
     options: [
       "They are too small for modern fixtures",
-      "They can rust through, develop cracks, and create blockages from internal corrosion",
       "They are not approved for residential use",
+      "They can rust through, develop cracks, and create blockages from internal corrosion",
       "They make too much noise",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "铸铁排水管会随时间锈蚀穿孔、产生裂缝，内壁的锈蚀还会形成粗糙表面，容易积聚废物导致堵塞。铸铁管的典型寿命为50-75年。",
     category: "plumbing",
@@ -1605,11 +1605,11 @@ export const questionsPart1: Question[] = [
       "What is the purpose of a plumbing trap (P-trap)?",
     options: [
       "To filter debris from wastewater",
-      "To maintain a water seal that prevents sewer gases from entering the living space",
       "To increase water pressure",
       "To connect the supply line to the drain",
+      "To maintain a water seal that prevents sewer gases from entering the living space",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "P型存水弯的作用是保持水封，防止下水道有害气体通过排水管进入室内。弯管中始终存留一定量的水，形成气密密封。每个排水口都需要一个存水弯。",
     category: "plumbing",
@@ -1619,12 +1619,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the purpose of a plumbing vent system?",
     options: [
-      "To provide hot water to upper floors",
       "To allow air into the drain system for proper flow and to release sewer gases above the roof",
+      "To provide hot water to upper floors",
       "To supply fresh air to the water heater",
       "To drain condensation from the HVAC system",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "排水通气系统有两个主要作用：允许空气进入排水管保证排水顺畅（防止虹吸破坏水封），以及将下水道气体排放到屋顶上方安全区域。",
     category: "plumbing",
@@ -1650,11 +1650,11 @@ export const questionsPart1: Question[] = [
       "Water hammer is caused by:",
     options: [
       "Low water pressure",
-      "Sudden stoppage of water flow creating a pressure shock wave in the pipes",
       "Air in the hot water heater",
+      "Sudden stoppage of water flow creating a pressure shock wave in the pipes",
       "A clogged drain",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "水锤（Water hammer）是由水流突然停止时产生的压力冲击波造成的管道撞击声。常见于快速关闭的阀门（如洗衣机进水阀）。可通过安装水锤吸收器来解决。",
     category: "plumbing",
@@ -1666,10 +1666,10 @@ export const questionsPart1: Question[] = [
     options: [
       "40 PSI",
       "60 PSI",
-      "80 PSI",
       "100 PSI",
+      "80 PSI",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "当进水压力超过80 PSI时，通常需要安装减压阀。过高的水压会损坏管道接头、阀门和电器，还会导致水锤和水龙头漏水。",
     category: "plumbing",
@@ -1679,12 +1679,12 @@ export const questionsPart1: Question[] = [
     question:
       "Polybutylene (PB) pipes, commonly gray in color, are a concern because:",
     options: [
-      "They are too rigid and crack easily",
       "They are known to deteriorate from chlorine in water and can fail unexpectedly",
+      "They are too rigid and crack easily",
       "They are not approved for indoor use",
       "They are too small in diameter",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "聚丁烯管（PB管，通常灰色）因与水中氯接触后会老化降解，可能突然破裂导致严重水损而臭名昭著。这种管材在1978-1995年间广泛使用，现已被PEX取代。",
     category: "plumbing",
@@ -1710,11 +1710,11 @@ export const questionsPart1: Question[] = [
       "What should a home inspector do if they notice the water heater has no seismic strapping in California?",
     options: [
       "Ignore it; seismic strapping is optional",
-      "Note it as a deficiency; California requires seismic strapping on water heaters",
       "Recommend replacing the water heater",
+      "Note it as a deficiency; California requires seismic strapping on water heaters",
       "Test the water heater for gas leaks",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "在加利福尼亚州，法律要求热水器必须安装地震固定带（至少上下各一条）。这是为了防止地震时热水器倾倒，造成水损害、燃气泄漏或火灾。",
     category: "plumbing",
@@ -1725,11 +1725,11 @@ export const questionsPart1: Question[] = [
       "The main water shut-off valve for a house is typically located:",
     options: [
       "On the roof",
-      "Near where the water main enters the house, often in the basement, crawl space, or near the front exterior",
       "In the attic",
       "Next to the water heater only",
+      "Near where the water main enters the house, often in the basement, crawl space, or near the front exterior",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "主供水关闭阀通常位于水管进入房屋的位置附近，常见于地下室、爬行空间入口处或房屋前部外墙附近。每位住户都应知道其位置，以便紧急情况下快速关闭。",
     category: "plumbing",
@@ -1739,12 +1739,12 @@ export const questionsPart1: Question[] = [
     question:
       "Cross-connection in plumbing refers to:",
     options: [
-      "Two pipes crossing each other in a wall",
       "A connection between the potable water supply and a non-potable source",
+      "Two pipes crossing each other in a wall",
       "Connecting copper to PVC pipe",
       "Running hot and cold water lines parallel",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "交叉连接是指饮用水供水系统与非饮用水源之间的连接，可能导致污染水倒流进入饮用水系统。防回流装置（backflow preventers）用于防止此类污染。",
     category: "plumbing",
@@ -1770,11 +1770,11 @@ export const questionsPart1: Question[] = [
       "What type of pipe fitting should be used to connect copper to galvanized steel pipe?",
     options: [
       "A standard coupling",
-      "A dielectric union or brass fitting to prevent galvanic corrosion",
       "Solder only",
+      "A dielectric union or brass fitting to prevent galvanic corrosion",
       "No special fitting is needed",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "铜管与镀锌钢管连接时必须使用电介质接头（dielectric union）或黄铜接头。不同金属直接接触会产生电化学腐蚀（电偶腐蚀），加速管道损坏。",
     category: "plumbing",
@@ -1785,11 +1785,11 @@ export const questionsPart1: Question[] = [
       "The recommended temperature setting for a residential water heater is:",
     options: [
       "100°F",
-      "120°F",
       "140°F",
       "160°F",
+      "120°F",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "住宅热水器的推荐温度设置为120°F（约49°C）。这个温度足以满足日常使用需求，同时降低烫伤风险并减少能源消耗。高于120°F会增加烫伤危险。",
     category: "plumbing",
@@ -1799,12 +1799,12 @@ export const questionsPart1: Question[] = [
     question:
       "A plumbing cleanout provides:",
     options: [
-      "A connection point for a garden hose",
       "Access to the drain system for clearing blockages",
+      "A connection point for a garden hose",
       "A place to add water treatment chemicals",
       "An overflow protection device",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "排水清扫口提供进入排水系统的通道，用于清除堵塞物。清扫口应安装在排水管方向改变处和靠近建筑出口处，便于使用清管工具。",
     category: "plumbing",
@@ -1830,11 +1830,11 @@ export const questionsPart1: Question[] = [
       "ABS (Acrylonitrile Butadiene Styrene) drain pipe can be identified by its:",
     options: [
       "White color",
-      "Black color",
       "Green color",
+      "Black color",
       "Copper color",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "ABS排水管为黑色，是一种常见的住宅排水管材料。PVC排水管为白色。两者都是塑料管，但使用不同的粘合剂。某些地区可能不允许混合使用ABS和PVC。",
     category: "plumbing",
@@ -1845,11 +1845,11 @@ export const questionsPart1: Question[] = [
       "A running toilet is most commonly caused by:",
     options: [
       "High water pressure",
-      "A faulty flapper valve or fill valve",
       "A cracked toilet bowl",
       "A blocked vent pipe",
+      "A faulty flapper valve or fill valve",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "马桶不停冲水最常见的原因是挡板阀（flapper）老化变形导致密封不严，或进水阀（fill valve）故障。挡板阀是橡胶件，通常几年后就需要更换。",
     category: "plumbing",
@@ -1859,12 +1859,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the purpose of a backflow preventer?",
     options: [
-      "To increase water pressure",
       "To prevent contaminated water from flowing back into the potable water supply",
+      "To increase water pressure",
       "To filter sediment",
       "To reduce water hammer",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "防回流装置的作用是防止被污染的水倒流回饮用水供水系统。这在灌溉系统、游泳池填充管线和其他可能存在交叉连接的地方尤其重要。",
     category: "plumbing",
@@ -1890,11 +1890,11 @@ export const questionsPart1: Question[] = [
       "Gurgling sounds from a drain typically indicate:",
     options: [
       "Normal drainage",
-      "A venting problem or partial blockage in the drain system",
       "High water pressure",
+      "A venting problem or partial blockage in the drain system",
       "A new garbage disposal",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "排水管发出咕噜声通常表明通气系统有问题或排水管部分堵塞。不充分的通气会导致排水时空气被吸入存水弯，产生咕噜声，并可能破坏水封。",
     category: "plumbing",
@@ -1905,11 +1905,11 @@ export const questionsPart1: Question[] = [
       "What type of water supply pipe has a bluish-green patina and is typically found in homes built from the 1950s onward?",
     options: [
       "Galvanized steel",
-      "Copper",
       "PVC",
       "Lead",
+      "Copper",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "铜管会随时间在表面形成蓝绿色的铜锈（patina）。铜管从1950年代开始广泛用于住宅供水系统，因其耐用、抗菌且不易腐蚀。",
     category: "plumbing",
@@ -1919,12 +1919,12 @@ export const questionsPart1: Question[] = [
     question:
       "A toilet that rocks on its base may indicate:",
     options: [
-      "Normal wear and tear",
       "A deteriorated wax ring seal or an uneven floor, which can lead to leaks",
+      "Normal wear and tear",
       "The water pressure is too high",
       "The tank is too full",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "马桶在底座上晃动通常表明蜡环密封已损坏或地板不平。晃动会破坏蜡环密封，导致污水渗漏到地板下方，可能造成地板腐烂和卫生问题。",
     category: "plumbing",
@@ -1935,11 +1935,11 @@ export const questionsPart1: Question[] = [
       "The minimum pipe size for a residential main sewer line is typically:",
     options: [
       "1-1/2 inches",
+      "4 inches",
       "2 inches",
       "3 inches",
-      "4 inches",
     ],
-    correctAnswer: 3,
+    correctAnswer: 1,
     explanation:
       "住宅主下水管的最小管径通常为4英寸。这个尺寸能够处理整栋房屋的废水流量，并减少堵塞的风险。从房屋到市政下水道的管段也通常使用4英寸管。",
     category: "plumbing",
@@ -1950,11 +1950,11 @@ export const questionsPart1: Question[] = [
       "Supply line shut-off valves (fixture stops) should be located:",
     options: [
       "In the attic",
-      "At each plumbing fixture for easy isolation",
       "Only at the water meter",
+      "At each plumbing fixture for easy isolation",
       "In the garage",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "每个用水设备（水龙头、马桶、热水器等）处都应安装单独的关闭阀。这样在维修某个设备时可以只关闭该设备的供水，而不影响整栋房屋的用水。",
     category: "plumbing",
@@ -1965,11 +1965,11 @@ export const questionsPart1: Question[] = [
       "Blue-green staining on fixtures served by copper pipes indicates:",
     options: [
       "Hard water deposits",
-      "Copper pipe corrosion, often from acidic water",
       "Iron in the water",
       "Chlorine treatment",
+      "Copper pipe corrosion, often from acidic water",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "用水设备上的蓝绿色污渍表明铜管正在被腐蚀，通常是由酸性水（低pH值）造成的。长期腐蚀会导致管壁变薄，最终产生针孔泄漏。",
     category: "plumbing",
@@ -1979,12 +1979,12 @@ export const questionsPart1: Question[] = [
     question:
       "A tankless (on-demand) water heater advantages include all of the following EXCEPT:",
     options: [
+      "Lower initial purchase and installation cost than tank heaters",
       "Unlimited hot water supply",
       "Lower energy consumption for typical use",
-      "Lower initial purchase and installation cost than tank heaters",
       "Longer lifespan than tank heaters",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "无水箱热水器的初始购买和安装成本通常高于传统储水式热水器。但它们的优点包括无限热水供应、较低的能耗和更长的使用寿命（通常20年以上）。",
     category: "plumbing",
@@ -2010,11 +2010,11 @@ export const questionsPart1: Question[] = [
       "What is the most common cause of low water pressure throughout a house?",
     options: [
       "A broken toilet flapper",
-      "Corroded or clogged galvanized supply pipes, a partially closed main valve, or a faulty PRV",
       "A running faucet",
+      "Corroded or clogged galvanized supply pipes, a partially closed main valve, or a faulty PRV",
       "Cold weather only",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "全屋水压低的最常见原因包括：镀锌供水管内部腐蚀堵塞、主供水阀未完全打开、减压阀（PRV）故障或设定过低。需要系统地检查以确定具体原因。",
     category: "plumbing",
@@ -2025,11 +2025,11 @@ export const questionsPart1: Question[] = [
       "A vent pipe that terminates too close to a window can cause:",
     options: [
       "Water damage to the window",
-      "Sewer gases to enter the home through the window",
       "Increased water pressure",
       "Roof leaks",
+      "Sewer gases to enter the home through the window",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "通气管终端如果太靠近窗户，下水道气体可能通过打开的窗户进入室内。规范通常要求通气管终端距可打开窗户至少10英尺，或高于窗户顶部至少3英尺。",
     category: "plumbing",
@@ -2039,12 +2039,12 @@ export const questionsPart1: Question[] = [
     question:
       "CPVC (Chlorinated Polyvinyl Chloride) pipe is used for:",
     options: [
-      "Drain lines only",
       "Both hot and cold water supply lines",
+      "Drain lines only",
       "Gas lines",
       "Vent pipes only",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "CPVC管可用于冷水和热水供水管。与普通PVC不同，CPVC经过氯化处理，能承受更高的温度（最高200°F），因此可以用于热水管线。",
     category: "plumbing",
@@ -2085,11 +2085,11 @@ export const questionsPart1: Question[] = [
       "A water heater's expansion tank is designed to:",
     options: [
       "Store extra hot water for peak demand",
-      "Absorb the increased water volume caused by thermal expansion in a closed system",
       "Filter the water before heating",
       "Boost water pressure",
+      "Absorb the increased water volume caused by thermal expansion in a closed system",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "膨胀水箱用于在封闭系统中吸收水加热时体积增加产生的压力。当安装了防回流装置后，系统变为封闭系统，热膨胀的水无法回流到市政管道，需要膨胀水箱来缓解压力。",
     category: "plumbing",
@@ -2099,12 +2099,12 @@ export const questionsPart1: Question[] = [
     question:
       "Orangeburg pipe was made from:",
     options: [
-      "Concrete",
       "Compressed wood fiber and tar (bituminized fiber)",
+      "Concrete",
       "Terracotta clay",
       "Stainless steel",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "Orangeburg管由压缩木纤维和沥青制成，1940-1970年代用于下水管。这种管材极易变形、塌陷和被根系侵入，使用寿命通常只有30-50年，发现后通常建议更换。",
     category: "plumbing",
@@ -2130,11 +2130,11 @@ export const questionsPart1: Question[] = [
       "What is the function of a garbage disposal's reset button?",
     options: [
       "To change the speed of the motor",
-      "To reset the internal overload protector after the motor has overheated or jammed",
       "To reverse the grinding direction",
+      "To reset the internal overload protector after the motor has overheated or jammed",
       "To drain the disposal",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "垃圾处理器的复位按钮是过载保护器。当电机过热或卡住时，过载保护器会自动跳开以防止电机烧毁。清除堵塞后按下复位按钮可恢复正常运行。",
     category: "plumbing",
@@ -2145,11 +2145,11 @@ export const questionsPart1: Question[] = [
       "When is a sewage ejector pump needed?",
     options: [
       "In every home with a basement",
-      "When plumbing fixtures are below the level of the main sewer line",
       "Only for homes on well water",
       "When water pressure is too high",
+      "When plumbing fixtures are below the level of the main sewer line",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "当管道设备（如地下室卫生间）低于主下水管水平时，需要安装污水泵将废水提升到主下水管的高度。污水泵安装在密封的水坑中，自动检测水位并启动。",
     category: "plumbing",
@@ -2159,12 +2159,12 @@ export const questionsPart1: Question[] = [
     question:
       "A dripping faucet wastes approximately how much water per year?",
     options: [
+      "About 3,000 gallons or more",
       "About 50 gallons",
       "About 500 gallons",
-      "About 3,000 gallons or more",
       "Less than 10 gallons",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "一个滴水的水龙头每年可浪费约3,000加仑或更多的水。即使每秒一滴看似很少，但积累起来是惊人的。及时修理滴水龙头既节约用水又节省水费。",
     category: "plumbing",
@@ -2190,11 +2190,11 @@ export const questionsPart1: Question[] = [
       "What is the minimum distance a plumbing vent must extend above the roof surface?",
     options: [
       "2 inches",
-      "6 inches (or more in snow regions)",
       "12 inches",
+      "6 inches (or more in snow regions)",
       "24 inches",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "排水通气管至少需要高出屋面6英寸。在积雪地区，需要延伸到预期积雪线以上，通常至少12英寸，以防止积雪堵塞通气口。",
     category: "plumbing",
@@ -2205,11 +2205,11 @@ export const questionsPart1: Question[] = [
       "A whole-house water filtration system is typically installed:",
     options: [
       "At each individual faucet",
-      "On the main water supply line after the shut-off valve",
       "On the hot water line only",
       "In the attic",
+      "On the main water supply line after the shut-off valve",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "全屋净水系统通常安装在主供水管上，位于主关闭阀之后。这样可以过滤进入整栋房屋的所有水。单独的龙头过滤器只能过滤该龙头的水。",
     category: "plumbing",
@@ -2219,12 +2219,12 @@ export const questionsPart1: Question[] = [
     question:
       "Flexible braided stainless steel supply lines are preferred over rigid chromed supply tubes because:",
     options: [
-      "They are cheaper",
       "They are easier to install, resist kinking, and accommodate slight misalignment",
+      "They are cheaper",
       "They last longer than any other material",
       "They increase water pressure",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "不锈钢编织软管比刚性镀铬供水管更容易安装，不会弯折，并且可以适应轻微的错位。它们也更耐用，减少了漏水的风险。但仍建议定期检查是否有老化迹象。",
     category: "plumbing",
@@ -2254,11 +2254,11 @@ export const questionsPart1: Question[] = [
       "What does HVAC stand for?",
     options: [
       "High Voltage Alternating Current",
-      "Heating, Ventilation, and Air Conditioning",
       "Home Ventilation and Cooling",
+      "Heating, Ventilation, and Air Conditioning",
       "Heat Valve and Condenser",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "HVAC代表Heating, Ventilation, and Air Conditioning（暖通空调），包括住宅和商业建筑中的供暖、通风和空气调节系统。",
     category: "hvac",
@@ -2269,11 +2269,11 @@ export const questionsPart1: Question[] = [
       "A cracked heat exchanger in a gas furnace is a serious concern because:",
     options: [
       "It reduces heating efficiency",
-      "It can allow carbon monoxide and combustion gases to enter the living space",
       "It causes the furnace to be noisy",
       "It increases the gas bill slightly",
+      "It can allow carbon monoxide and combustion gases to enter the living space",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "燃气炉热交换器开裂是严重的安全隐患，因为裂缝会让一氧化碳等有毒燃烧废气进入供暖气流并散布到整个居住空间。发现裂缝应立即停止使用并更换。",
     category: "hvac",
@@ -2283,12 +2283,12 @@ export const questionsPart1: Question[] = [
     question:
       "What does the SEER rating measure for an air conditioning system?",
     options: [
-      "The noise level of the unit",
       "The seasonal energy efficiency ratio - cooling output divided by energy input",
+      "The noise level of the unit",
       "The maximum cooling capacity in square feet",
       "The lifespan of the compressor",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "SEER（季节能效比）是衡量空调系统效率的指标，等于一个制冷季节的总制冷输出（BTU）除以总能耗（瓦时）。SEER值越高，系统越节能。现行最低标准为14-15 SEER。",
     category: "hvac",
@@ -2299,11 +2299,11 @@ export const questionsPart1: Question[] = [
       "What is the typical lifespan of a residential central air conditioning unit?",
     options: [
       "5-8 years",
-      "10-15 years",
       "15-20 years",
+      "10-15 years",
       "25-30 years",
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation:
       "住宅中央空调的典型使用寿命为15-20年。寿命取决于维护质量、使用频率和安装条件。定期维护（清洗、更换滤网等）可以延长使用寿命。",
     category: "hvac",
@@ -2314,11 +2314,11 @@ export const questionsPart1: Question[] = [
       "The condensate drain line from an air conditioning unit removes:",
     options: [
       "Refrigerant",
-      "Moisture (water) that condenses on the evaporator coil",
       "Dust and debris",
+      "Moisture (water) that condenses on the evaporator coil",
       "Combustion gases",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "冷凝水排放管排出在蒸发器盘管上凝结的水分。当温暖潮湿的空气经过冷的蒸发器盘管时，水蒸气凝结成水。如果排放管堵塞，水可能溢出造成水损。",
     category: "hvac",
@@ -2329,11 +2329,11 @@ export const questionsPart1: Question[] = [
       "How often should a standard HVAC air filter be replaced?",
     options: [
       "Once a year",
-      "Every 1-3 months depending on the filter type and conditions",
       "Every 5 years",
       "Only when the system stops working",
+      "Every 1-3 months depending on the filter type and conditions",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "标准HVAC空气滤网应每1-3个月更换一次，具体取决于滤网类型、家中是否有宠物、过敏者以及使用频率。脏滤网会降低气流、增加能耗并损害系统。",
     category: "hvac",
@@ -2343,12 +2343,12 @@ export const questionsPart1: Question[] = [
     question:
       "BTU stands for and is used to measure:",
     options: [
-      "Basic Thermal Unit; electrical capacity",
       "British Thermal Unit; heating and cooling capacity",
+      "Basic Thermal Unit; electrical capacity",
       "Building Temperature Unit; insulation rating",
       "Balanced Thermostat Unit; thermostat accuracy",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "BTU（英国热量单位）用于衡量供暖和制冷能力。一个BTU是将一磅水的温度升高一华氏度所需的热量。住宅炉子通常为40,000-120,000 BTU。",
     category: "hvac",
@@ -2374,11 +2374,11 @@ export const questionsPart1: Question[] = [
       "The outdoor unit of a split-system air conditioner contains:",
     options: [
       "The evaporator coil and blower",
-      "The compressor and condenser coil",
       "The thermostat and filter",
+      "The compressor and condenser coil",
       "The ductwork connections",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "分体式空调的室外机包含压缩机和冷凝器盘管（以及冷凝器风扇）。室内机包含蒸发器盘管和鼓风机。制冷剂管线连接室内外两个部分。",
     category: "hvac",
@@ -2389,11 +2389,11 @@ export const questionsPart1: Question[] = [
       "What is the recommended clearance around an outdoor AC condenser unit?",
     options: [
       "No clearance is needed",
-      "At least 12-24 inches on all sides for proper airflow",
       "At least 6 feet on all sides",
       "Only the top needs clearance",
+      "At least 12-24 inches on all sides for proper airflow",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "室外空调冷凝器周围应至少保持12-24英寸的净空间（顶部更多）以确保良好的空气流通。植被、围栏或其他障碍物太近会限制气流，降低效率并导致过热。",
     category: "hvac",
@@ -2403,12 +2403,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the purpose of a secondary (auxiliary) condensate drain pan under an attic-mounted air handler?",
     options: [
-      "To collect dust",
       "To catch condensate if the primary drain line clogs, preventing water damage to the ceiling below",
+      "To collect dust",
       "To reduce noise",
       "To improve cooling efficiency",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "安装在阁楼中的空调机组下方的辅助接水盘是安全装置，当主排水管堵塞时收集溢出的冷凝水，防止水损坏下方的天花板。辅助盘应有独立的排水管线。",
     category: "hvac",
@@ -2434,11 +2434,11 @@ export const questionsPart1: Question[] = [
       "A high-efficiency furnace (90%+ AFUE) typically uses what type of venting?",
     options: [
       "Standard metal chimney flue",
-      "PVC pipe for intake and exhaust (direct vent)",
       "No venting is needed",
+      "PVC pipe for intake and exhaust (direct vent)",
       "Copper pipe",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "高效率（90%+AFUE）冷凝式燃气炉使用PVC管排气。由于排气温度较低（废气中水蒸气已冷凝），不需要金属烟囱。通常使用两根PVC管，一根进气一根排气。",
     category: "hvac",
@@ -2448,12 +2448,12 @@ export const questionsPart1: Question[] = [
     question:
       "What does AFUE stand for and what does it measure?",
     options: [
-      "Annual Fuel Utilization Efficiency; measures furnace efficiency",
       "Air Flow Unit Evaluation; measures ductwork performance",
       "Average Furnace Usage Estimate; measures furnace lifespan",
       "Automatic Fuel Use Estimator; measures gas usage",
+      "Annual Fuel Utilization Efficiency; measures furnace efficiency",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "AFUE（年燃料利用效率）衡量燃气炉将燃料转化为热量的效率。例如，95% AFUE意味着95%的燃料能量转化为有用的热量，只有5%损失在排气中。",
     category: "hvac",
@@ -2463,12 +2463,12 @@ export const questionsPart1: Question[] = [
     question:
       "The thermostat should be located:",
     options: [
-      "Near a window for accurate outdoor temperature reading",
       "On an interior wall away from direct sunlight, drafts, and heat sources",
+      "Near a window for accurate outdoor temperature reading",
       "In the garage",
       "Near the furnace",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "温控器应安装在内墙上，远离阳光直射、穿堂风、热源（如灯具、电器）和外墙。不当的位置会导致温控器读数不准确，系统频繁启停或温度不均匀。",
     category: "hvac",
@@ -2494,11 +2494,11 @@ export const questionsPart1: Question[] = [
       "A heat pump differs from a standard air conditioner because it can:",
     options: [
       "Only cool the home more efficiently",
-      "Both heat and cool by reversing the refrigerant cycle",
       "Run without electricity",
+      "Both heat and cool by reversing the refrigerant cycle",
       "Only heat using gas",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
       "热泵与标准空调的区别在于它可以通过反转制冷剂循环来提供制冷和供暖两种功能。在制热模式下，它从室外空气中提取热量并传递到室内。",
     category: "hvac",
@@ -2509,11 +2509,11 @@ export const questionsPart1: Question[] = [
       "What is the primary danger of a blocked or disconnected furnace flue pipe?",
     options: [
       "Reduced heating efficiency",
-      "Carbon monoxide poisoning from combustion gases entering the living space",
       "Increased noise",
       "Higher gas bills",
+      "Carbon monoxide poisoning from combustion gases entering the living space",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "燃气炉烟道管堵塞或脱落的最大危险是一氧化碳中毒。燃烧废气无法正常排出时会倒灌进入居住空间。一氧化碳是无色无味的致命气体，必须立即修复。",
     category: "hvac",
@@ -2523,12 +2523,12 @@ export const questionsPart1: Question[] = [
     question:
       "Flexible ductwork should be installed:",
     options: [
-      "With as many bends as possible to slow airflow",
       "Fully stretched and supported to minimize sagging and airflow restriction",
+      "With as many bends as possible to slow airflow",
       "Compressed and bunched up to save space",
       "Without any insulation",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "柔性风管应完全拉伸并支撑好，避免下垂和弯曲过度。过度下垂、弯折或压缩会严重限制空气流通，降低系统效率，导致某些房间供暖或制冷不足。",
     category: "hvac",

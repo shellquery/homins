@@ -22,12 +22,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum chimney height above the roofline according to the 3-2-10 rule?",
     options: [
-      "3 feet above the point of roof penetration and 2 feet above any structure within 10 feet",
       "2 feet above the point of roof penetration and 3 feet above any structure within 10 feet",
+      "3 feet above the point of roof penetration and 2 feet above any structure within 10 feet",
       "10 feet above the roofline",
       "3 feet above any structure within 2 feet",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "3-2-10规则要求烟囱顶部至少高出屋顶穿透点3英尺，且至少高出10英尺范围内任何结构2英尺。这是确保正常排烟和防止火灾的关键要求。",
     category: "fireplace",
@@ -37,12 +37,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum clearance required between a masonry chimney and combustible materials?",
     options: [
-      "2 inches",
       "1 inch",
       "4 inches",
+      "2 inches",
       "6 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "砖石烟囱与可燃材料之间的最小间距要求为2英寸。这个空气间隙可以防止热量传导到可燃物引发火灾。",
     category: "fireplace",
@@ -52,12 +52,12 @@ export const questionsPart8: Question[] = [
     question:
       "Which stage of creosote is described as hard, shiny, and glazed, and is the most dangerous?",
     options: [
-      "3rd degree (glazed)",
       "1st degree (flaky)",
       "2nd degree (tar-like)",
-      "4th degree (iteiteiteiteite)",
+      "4th degree (liquid, runny)",
+      "3rd degree (glazed)",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "第三阶段杂酚油（3rd degree creosote）呈现坚硬、光亮的釉面状，极难清除且最危险，因为它可以达到极高的温度并在烟囱内自燃，导致烟囱火灾。",
     category: "fireplace",
@@ -82,12 +82,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a damper in a fireplace?",
     options: [
-      "To control the draft and prevent heat loss when the fireplace is not in use",
       "To filter smoke before it exits the chimney",
+      "To control the draft and prevent heat loss when the fireplace is not in use",
       "To increase the size of the firebox",
       "To support the chimney liner",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "挡板（damper）用于控制气流并在壁炉未使用时防止热量散失。使用壁炉时打开挡板让烟气排出，不用时关闭以防止室内暖气或冷气通过烟囱流失。",
     category: "fireplace",
@@ -97,12 +97,12 @@ export const questionsPart8: Question[] = [
     question:
       "A zero-clearance fireplace is also known as:",
     options: [
-      "A factory-built or prefabricated fireplace",
       "A masonry fireplace with no mantel",
       "A gas fireplace without a flue",
+      "A factory-built or prefabricated fireplace",
       "An outdoor fireplace with no chimney",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "零间隙壁炉（zero-clearance fireplace）也称为工厂预制壁炉（factory-built/prefabricated fireplace），因其设计可以安全地安装在紧贴可燃材料的位置，无需额外间距。",
     category: "fireplace",
@@ -112,12 +112,12 @@ export const questionsPart8: Question[] = [
     question:
       "What type of gas fireplace draws combustion air from outside and vents exhaust directly through an exterior wall?",
     options: [
-      "Direct vent",
       "B-vent",
       "Vent-free",
       "Natural draft",
+      "Direct vent",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "直排式壁炉（direct vent）通过密封的双层管道从室外引入燃烧空气，同时将废气直接排到室外。这种设计效率高，不消耗室内空气，安装灵活。",
     category: "fireplace",
@@ -142,12 +142,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the difference between vented and unvented gas log sets?",
     options: [
-      "Vented logs require an open damper and functioning chimney; unvented logs are designed to burn cleanly without a chimney",
       "Vented logs use propane; unvented logs use natural gas",
+      "Vented logs require an open damper and functioning chimney; unvented logs are designed to burn cleanly without a chimney",
       "Vented logs produce no heat; unvented logs produce heat",
       "There is no difference; both require a chimney",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "通风式燃气原木（vented gas logs）需要打开的挡板和正常运作的烟囱来排出废气；无排气式燃气原木（unvented gas logs）设计为清洁燃烧，理论上不需要烟囱，但会将副产物释放到室内。",
     category: "fireplace",
@@ -157,12 +157,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a spark arrestor on a chimney?",
     options: [
-      "To prevent sparks and embers from escaping the chimney and landing on the roof or nearby combustibles",
       "To increase chimney draft",
       "To prevent animals from entering the chimney",
+      "To prevent sparks and embers from escaping the chimney and landing on the roof or nearby combustibles",
       "To reduce creosote buildup",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "火花防护罩（spark arrestor）安装在烟囱顶部，防止火花和余烬飞出烟囱落在屋顶或附近可燃物上。在加州，野火风险高的地区尤其重要，是法规要求的设备。",
     category: "fireplace",
@@ -172,12 +172,12 @@ export const questionsPart8: Question[] = [
     question:
       "What material is most commonly used for a traditional chimney flue liner?",
     options: [
-      "Clay tile",
       "Concrete block",
       "Copper",
       "Fiberglass",
+      "Clay tile",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "粘土瓦（clay tile）是传统烟道内衬最常用的材料。它耐高温、耐腐蚀、经济实惠，但可能随时间开裂需要更换。",
     category: "fireplace",
@@ -202,12 +202,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a chimney crown?",
     options: [
-      "To shed water away from the flue and prevent moisture from entering the chimney structure",
       "To increase draft in the chimney",
+      "To shed water away from the flue and prevent moisture from entering the chimney structure",
       "To support the chimney cap",
       "To prevent animals from entering",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "烟囱冠（chimney crown）是烟囱顶部的水泥斜面，作用是将雨水从烟道引导排开，防止水分进入烟囱结构导致损坏。裂缝的烟囱冠是常见的检查缺陷。",
     category: "fireplace",
@@ -217,12 +217,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is 1st degree creosote characterized by?",
     options: [
-      "Light, flaky, soot-like deposits that are easy to remove",
       "Hard, glazed, shiny deposits",
       "Thick, tar-like deposits",
+      "Light, flaky, soot-like deposits that are easy to remove",
       "White powdery deposits",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "第一阶段杂酚油（1st degree creosote）呈现轻薄、片状、类似烟灰的沉积物，容易用烟囱刷清除。这是最不危险的形式，是正常烟囱使用的结果。",
     category: "fireplace",
@@ -232,12 +232,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum mantel clearance from the top of a fireplace opening for a mantel with a 1.5-inch projection?",
     options: [
-      "12 inches",
       "6 inches",
       "18 inches",
       "24 inches",
+      "12 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "对于突出1.5英寸的壁炉架，从壁炉开口顶部到壁炉架的最小间距要求为12英寸。突出越大，所需间距越大，以防止热量对可燃材料造成危险。",
     category: "fireplace",
@@ -262,12 +262,12 @@ export const questionsPart8: Question[] = [
     question:
       "Why is outside combustion air important for a fireplace?",
     options: [
-      "It provides air for combustion without depressurizing the living space",
       "It increases the temperature of the fire",
+      "It provides air for combustion without depressurizing the living space",
       "It eliminates the need for a chimney",
       "It reduces the amount of smoke produced",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "外部燃烧空气管道为壁炉提供燃烧所需的空气，而不会使室内空间产生负压。现代紧密密封的房屋中，没有外部空气供应可能导致回烟和一氧化碳进入室内。",
     category: "fireplace",
@@ -277,12 +277,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a chimney cricket (saddle)?",
     options: [
-      "To divert water away from the uphill side of the chimney where it penetrates the roof",
       "To support the chimney cap",
       "To prevent animals from entering the chimney",
+      "To divert water away from the uphill side of the chimney where it penetrates the roof",
       "To increase chimney draft",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烟囱分水脊（cricket/saddle）是安装在烟囱高处与屋顶交接处的三角形结构，作用是将雨水和碎屑从烟囱后方引导排开，防止积水和渗漏。宽度超过30英寸的烟囱通常需要安装。",
     category: "fireplace",
@@ -292,12 +292,12 @@ export const questionsPart8: Question[] = [
     question:
       "What does efflorescence on a chimney indicate?",
     options: [
-      "Moisture is migrating through the masonry and leaving mineral salt deposits on the surface",
       "The chimney is structurally unsound",
       "Creosote is leaking through the bricks",
       "The chimney needs a new cap",
+      "Moisture is migrating through the masonry and leaving mineral salt deposits on the surface",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "白华（efflorescence）是水分通过砖石结构迁移时将矿物盐带到表面形成的白色结晶沉积物。它表明存在水分渗透问题，虽然本身无害，但指示需要调查和解决水分来源。",
     category: "fireplace",
@@ -322,12 +322,12 @@ export const questionsPart8: Question[] = [
     question:
       "What type of chimney liner is most commonly used to reline an existing masonry chimney?",
     options: [
-      "Stainless steel liner",
       "Clay tile liner",
+      "Stainless steel liner",
       "Cast iron liner",
       "PVC liner",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "不锈钢内衬（stainless steel liner）是重新衬砌现有砖石烟囱最常用的材料。它灵活、耐用、易于安装，可以适应烟囱的弯曲和偏移，提供安全可靠的排气通道。",
     category: "fireplace",
@@ -337,12 +337,12 @@ export const questionsPart8: Question[] = [
     question:
       "A B-vent gas fireplace differs from a direct vent in that it:",
     options: [
-      "Uses indoor air for combustion and vents through a single-wall pipe through the roof",
       "Does not require any venting",
       "Uses outdoor air for combustion",
+      "Uses indoor air for combustion and vents through a single-wall pipe through the roof",
       "Can only burn wood",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "B排气式燃气壁炉（B-vent）使用室内空气进行燃烧，并通过单壁管道从屋顶排气。与直排式不同，它需要从室内环境中获取燃烧空气，因此效率较低。",
     category: "fireplace",
@@ -352,12 +352,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the recommended frequency for chimney cleaning for a wood-burning fireplace used regularly?",
     options: [
-      "At least once a year or after every cord of wood burned",
       "Every 5 years",
       "Only when visible problems occur",
       "Every month during winter",
+      "At least once a year or after every cord of wood burned",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "经常使用的燃木壁炉建议每年至少清扫一次烟囱，或每燃烧一绳木材后清扫。定期清扫可以清除杂酚油积聚，降低烟囱火灾风险，并确保烟道通畅。",
     category: "fireplace",
@@ -382,12 +382,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a fireplace insert?",
     options: [
-      "A closed combustion unit installed into an existing masonry fireplace to improve efficiency",
       "A decorative screen placed in front of the fireplace",
+      "A closed combustion unit installed into an existing masonry fireplace to improve efficiency",
       "A type of chimney liner",
       "An external air intake for the firebox",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "壁炉嵌入式装置（fireplace insert）是安装在现有砖石壁炉中的封闭式燃烧装置，大幅提高加热效率。它们通常配有风扇，可以将更多热量输送到房间，同时减少热量损失。",
     category: "fireplace",
@@ -397,12 +397,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum required mesh size for a spark arrestor screen?",
     options: [
-      "No larger than 1/2 inch and no smaller than 3/8 inch",
       "No larger than 1 inch",
       "No larger than 1/4 inch",
+      "No larger than 1/2 inch and no smaller than 3/8 inch",
       "Any mesh size is acceptable",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "火花防护罩的网格尺寸要求不大于1/2英寸且不小于3/8英寸。太大的网格无法有效阻挡火花，太小的网格则容易被杂酚油堵塞影响排烟。",
     category: "fireplace",
@@ -412,12 +412,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper floor protection requirement for a wood stove installation?",
     options: [
-      "A non-combustible pad extending at least 18 inches beyond the stove on all sides",
       "Standard carpeting is sufficient",
       "A wood platform at least 2 inches thick",
       "No floor protection is needed if the stove has legs",
+      "A non-combustible pad extending at least 18 inches beyond the stove on all sides",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "木柴炉安装需要在炉子四周至少延伸18英寸的不可燃衬垫（在装载门一侧通常需要更大），以保护地板免受掉落的余烬和辐射热的损害。具体要求参照制造商说明和当地法规。",
     category: "fireplace",
@@ -442,12 +442,12 @@ export const questionsPart8: Question[] = [
     question:
       "A leaning chimney most commonly indicates:",
     options: [
-      "Foundation settlement or deterioration of the chimney footing",
       "Normal thermal expansion",
+      "Foundation settlement or deterioration of the chimney footing",
       "Wind damage to the chimney cap",
       "Excessive creosote buildup",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "烟囱倾斜最常见的原因是基础沉降或烟囱基脚恶化。这是一个严重的结构问题，可能导致烟囱与房屋分离，需要专业评估和修复。",
     category: "fireplace",
@@ -457,12 +457,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of chimney step flashing?",
     options: [
-      "To create a waterproof seal where the chimney meets the sloped roof surface",
       "To support the chimney structure",
       "To improve chimney draft",
+      "To create a waterproof seal where the chimney meets the sloped roof surface",
       "To prevent creosote buildup",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "阶梯泛水板（step flashing）是安装在烟囱与斜屋顶面交接处的L形金属片，与每层瓦片交叠安装，创建防水密封。它与反泛水板（counter flashing）配合使用以防止漏水。",
     category: "fireplace",
@@ -472,12 +472,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a pellet stove?",
     options: [
-      "A heating appliance that burns compressed wood or biomass pellets using an automated feed system",
       "A wood stove designed for small spaces",
       "A gas stove shaped like a pellet",
       "A stove that burns coal pellets exclusively",
+      "A heating appliance that burns compressed wood or biomass pellets using an automated feed system",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "颗粒炉（pellet stove）是一种使用自动进料系统燃烧压缩木材或生物质颗粒的取暖设备。它比传统木柴炉更高效、更清洁，排放更少，操作更方便。",
     category: "fireplace",
@@ -502,12 +502,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of counter flashing on a chimney?",
     options: [
-      "It is embedded in the chimney mortar joints and overlaps the step flashing to prevent water entry",
       "It supports the chimney cap",
+      "It is embedded in the chimney mortar joints and overlaps the step flashing to prevent water entry",
       "It protects the chimney liner",
       "It prevents downdrafts",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "反泛水板（counter flashing）嵌入烟囱砂浆缝中，覆盖在阶梯泛水板上方，形成双层防水保护。两层泛水板配合工作，防止雨水沿烟囱与屋顶交接处渗入。",
     category: "fireplace",
@@ -517,12 +517,12 @@ export const questionsPart8: Question[] = [
     question:
       "Why should a gas shut-off valve be located near a gas fireplace?",
     options: [
-      "To allow quick shutoff of gas supply in an emergency without having to access the main gas valve",
       "To regulate the flame height",
       "To reduce gas consumption",
+      "To allow quick shutoff of gas supply in an emergency without having to access the main gas valve",
       "To prevent back-drafting",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "燃气壁炉附近应设有燃气关闭阀，以便在紧急情况下快速关闭燃气供应，无需前往主燃气阀。这是安全要求，检查员应确认阀门存在且可正常操作。",
     category: "fireplace",
@@ -532,12 +532,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the main advantage of fireplace glass doors?",
     options: [
-      "They reduce heat loss up the chimney when the fireplace is not in use and control combustion air",
       "They make the fire burn hotter",
       "They eliminate the need for a chimney cap",
       "They prevent all carbon monoxide from entering the room",
+      "They reduce heat loss up the chimney when the fireplace is not in use and control combustion air",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "壁炉玻璃门可以在壁炉未使用时减少暖气通过烟囱散失，并在使用时控制燃烧空气量。它们提高了整体能源效率，但不能完全阻止一氧化碳进入房间。",
     category: "fireplace",
@@ -562,12 +562,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the standard wall clearance requirement for a wood stove from an unprotected combustible wall?",
     options: [
-      "36 inches",
       "12 inches",
+      "36 inches",
       "24 inches",
       "48 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "木柴炉与未保护的可燃墙壁之间的标准间距要求为36英寸。如果墙壁安装了经过认证的隔热板，间距可以减少，但具体减少量取决于隔热板的类型和安装方式。",
     category: "fireplace",
@@ -577,12 +577,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is 2nd degree creosote characterized by?",
     options: [
-      "Black, tar-like, flaky deposits that are more difficult to remove than 1st degree",
       "Light, powdery, easily brushed away deposits",
       "Hard, shiny, glazed deposits",
+      "Black, tar-like, flaky deposits that are more difficult to remove than 1st degree",
       "White chalky deposits",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "第二阶段杂酚油（2nd degree creosote）呈黑色焦油状片状沉积物，比第一阶段更难清除。它通常是由于燃烧不充分或烟道温度过低造成的，需要专业清扫工具处理。",
     category: "fireplace",
@@ -592,12 +592,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a chimney chase cover?",
     options: [
-      "A metal covering that sits on top of a wood-framed chimney chase to prevent water entry",
       "A decorative stone cap on a masonry chimney",
       "A screen to prevent animal entry",
       "A damper installed at the top of the chimney",
+      "A metal covering that sits on top of a wood-framed chimney chase to prevent water entry",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟囱罩盖（chase cover）是安装在木框架烟囱围护结构顶部的金属盖板，防止雨水进入。不锈钢或铜质罩盖优于镀锌钢，因为镀锌钢容易生锈，导致表面出现锈迹。",
     category: "fireplace",
@@ -622,12 +622,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a Level III chimney inspection?",
     options: [
-      "An inspection that requires removal of certain building components to gain access to concealed areas of the chimney",
       "A basic visual inspection of accessible chimney components",
+      "An inspection that requires removal of certain building components to gain access to concealed areas of the chimney",
       "A video scan of the chimney flue",
       "An inspection performed only on new construction",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "三级烟囱检查（Level III）需要拆除部分建筑构件以检查烟囱的隐蔽区域。这是最彻底的检查级别，通常在怀疑存在严重隐患（如烟囱火灾后）时进行。",
     category: "fireplace",
@@ -637,12 +637,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the smoke chamber in a masonry fireplace?",
     options: [
-      "The area above the damper that funnels smoke from the wide firebox into the narrow flue",
       "The area where wood is burned",
       "The base of the chimney at ground level",
+      "The area above the damper that funnels smoke from the wide firebox into the narrow flue",
       "The opening where the fireplace meets the room",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烟室（smoke chamber）位于挡板上方，是将烟气从宽大的燃烧室汇集到狭窄烟道的过渡区域。其墙壁应光滑（涂抹平整），以促进烟气顺利上升并减少杂酚油积聚。",
     category: "fireplace",
@@ -652,12 +652,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the primary function of a chimney cap?",
     options: [
-      "To keep rain, debris, and animals out of the chimney flue",
       "To increase the visual appeal of the chimney",
       "To strengthen the chimney structure",
       "To increase the chimney draft",
+      "To keep rain, debris, and animals out of the chimney flue",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟囱帽（chimney cap）的主要功能是防止雨水、碎屑和动物进入烟道。它通常包含金属网筛，同时也起到火花防护的作用。没有烟囱帽的烟囱容易受到水损坏和动物筑巢。",
     category: "fireplace",
@@ -682,12 +682,12 @@ export const questionsPart8: Question[] = [
     question:
       "How should firewood be properly stored?",
     options: [
-      "Off the ground, covered on top, and at least 20 feet from the home in fire-prone areas",
       "Stacked directly against the house for convenience",
+      "Off the ground, covered on top, and at least 20 feet from the home in fire-prone areas",
       "Inside the garage at all times",
       "In the attic to keep it dry",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "木柴应离地存放（使用支架），顶部遮盖防雨但侧面通风以利于干燥。在易发火灾地区，木柴应至少距离房屋20英尺，以减少野火风险。木柴应干燥至少6个月再使用。",
     category: "fireplace",
@@ -697,12 +697,12 @@ export const questionsPart8: Question[] = [
     question:
       "What does 'seasoned' firewood mean?",
     options: [
-      "Wood that has been dried for at least 6-12 months to reduce moisture content below 20%",
       "Wood that has been treated with chemicals",
       "Freshly cut green wood",
+      "Wood that has been dried for at least 6-12 months to reduce moisture content below 20%",
       "Wood from a specific species of tree",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "干燥木柴（seasoned firewood）是指经过至少6-12个月自然干燥、含水量降至20%以下的木材。干燥木柴燃烧更充分、更高效，产生的杂酚油和烟雾更少。",
     category: "fireplace",
@@ -712,12 +712,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a decorative shroud on a chimney?",
     options: [
-      "A non-functional covering installed around the chimney termination for aesthetic purposes",
       "A required safety device to prevent fires",
       "A structural support for the chimney cap",
       "A type of chimney liner",
+      "A non-functional covering installed around the chimney termination for aesthetic purposes",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "装饰性罩壳（decorative shroud）是安装在烟囱终端周围的非功能性外罩，纯粹为了美观。检查员应注意它不应干扰正常排气或通风，且应安装牢固。",
     category: "fireplace",
@@ -742,12 +742,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the firebox of a masonry fireplace?",
     options: [
-      "The interior chamber where the fire is built, lined with firebrick",
       "The chimney flue above the damper",
+      "The interior chamber where the fire is built, lined with firebrick",
       "The exterior brick veneer of the chimney",
       "The hearth extension in front of the fireplace",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "燃烧室（firebox）是壁炉中实际燃烧火焰的内部腔室，通常用耐火砖（firebrick）衬砌，可以承受极高的温度。检查员应检查耐火砖是否有裂缝、松动或缺失。",
     category: "fireplace",
@@ -757,12 +757,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of the flue in a chimney?",
     options: [
-      "To provide a contained passageway for combustion gases to exit the building safely",
       "To support the chimney structure",
       "To collect rainwater for disposal",
+      "To provide a contained passageway for combustion gases to exit the building safely",
       "To provide fresh air to the firebox",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烟道（flue）是烟囱内部为燃烧气体提供安全排出建筑物的密闭通道。内衬保护烟囱结构免受高温和腐蚀性气体的侵害。",
     category: "fireplace",
@@ -772,12 +772,12 @@ export const questionsPart8: Question[] = [
     question:
       "When inspecting a factory-built fireplace, what key marking should a home inspector look for?",
     options: [
-      "A listing label from a recognized testing laboratory such as UL",
       "The mason's signature",
       "The year the bricks were manufactured",
       "The homeowner's insurance policy number",
+      "A listing label from a recognized testing laboratory such as UL",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "检查预制壁炉时，应查找认证测试实验室（如UL）的标签。这表明壁炉经过了安全测试和认证，按照特定标准制造。缺少标签可能意味着产品未经认证。",
     category: "fireplace",
@@ -802,12 +802,12 @@ export const questionsPart8: Question[] = [
     question:
       "Electric fireplaces differ from gas and wood-burning fireplaces in that they:",
     options: [
-      "Do not require a chimney, flue, or any venting",
       "Produce real flames",
+      "Do not require a chimney, flue, or any venting",
       "Require a gas line connection",
       "Must be installed in masonry enclosures",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "电壁炉不需要烟囱、烟道或任何排气系统，因为它们不产生燃烧副产物。它们使用电力产生热量和模拟火焰效果，安装灵活，几乎可以放置在任何位置。",
     category: "fireplace",
@@ -817,12 +817,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the hearth extension requirement for a fireplace opening of 6 square feet or larger?",
     options: [
-      "20 inches in front and 12 inches on each side",
       "16 inches in front and 8 inches on each side",
       "12 inches in front and 6 inches on each side",
+      "20 inches in front and 12 inches on each side",
       "24 inches in front and 16 inches on each side",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "对于开口面积6平方英尺或更大的壁炉，前方炉膛延伸要求至少20英寸，两侧各至少12英寸。更大的开口产生更多热量和火花风险，因此需要更大的保护区域。",
     category: "fireplace",
@@ -832,12 +832,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the primary concern with a cracked flue liner?",
     options: [
-      "Combustion gases and heat can escape through the cracks into the chimney structure and surrounding combustibles",
       "The chimney will not look aesthetically pleasing",
       "The fireplace will produce less heat",
       "Rain will enter the firebox",
+      "Combustion gases and heat can escape through the cracks into the chimney structure and surrounding combustibles",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟道内衬开裂会导致燃烧气体和高温通过裂缝逸出到烟囱结构和周围可燃物中，可能引起火灾或一氧化碳泄漏到居住空间。这是严重的安全隐患，需要及时修复。",
     category: "fireplace",
@@ -862,12 +862,12 @@ export const questionsPart8: Question[] = [
     question:
       "What type of mortar should be used to repair firebrick joints inside a firebox?",
     options: [
-      "Refractory cement or high-temperature mortar rated for firebox use",
       "Standard Portland cement mortar",
+      "Refractory cement or high-temperature mortar rated for firebox use",
       "Silicone caulk",
       "Wood glue",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "燃烧室内耐火砖接缝的修补应使用耐火水泥或额定用于燃烧室的高温砂浆。普通砂浆无法承受燃烧室内的极端温度，会迅速劣化开裂。",
     category: "fireplace",
@@ -877,12 +877,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should a home inspector check regarding the damper operation?",
     options: [
-      "That it opens and closes fully, seals properly, and is not rusted or warped",
       "Only that it exists",
       "Only the color of the damper",
+      "That it opens and closes fully, seals properly, and is not rusted or warped",
       "Only whether it is open or closed",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "检查员应检查挡板是否能完全打开和关闭，密封是否良好，以及是否有锈蚀或变形。无法正常关闭的挡板会导致持续的热量损失；无法打开的挡板会导致烟雾倒灌。",
     category: "fireplace",
@@ -892,12 +892,12 @@ export const questionsPart8: Question[] = [
     question:
       "How should smoke chamber walls be finished in a masonry fireplace?",
     options: [
-      "Parged smooth with a refractory mortar to reduce turbulence and creosote accumulation",
       "Left with rough corbeled bricks for better grip",
       "Lined with wood paneling",
       "Covered with metal sheeting",
+      "Parged smooth with a refractory mortar to reduce turbulence and creosote accumulation",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟室墙壁应使用耐火砂浆涂抹平滑（parging），以减少气流紊乱和杂酚油积聚。粗糙的阶梯式砌砖（corbeling）表面会增加杂酚油附着和烟囱火灾的风险。",
     category: "fireplace",
@@ -922,12 +922,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the primary advantage of a top-sealing damper compared to a throat damper?",
     options: [
-      "It provides a better seal at the top of the flue, preventing heat loss, rain entry, and animal intrusion",
       "It is less expensive",
+      "It provides a better seal at the top of the flue, preventing heat loss, rain entry, and animal intrusion",
       "It improves creosote cleaning",
       "It is required by building codes in all states",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "顶部密封式挡板（top-sealing damper）安装在烟囱顶部，比喉部挡板提供更好的密封，防止热量损失、雨水进入和动物入侵。它通过烟道内的链条或拉索操作。",
     category: "fireplace",
@@ -937,12 +937,12 @@ export const questionsPart8: Question[] = [
     question:
       "What causes white staining on the exterior of a chimney?",
     options: [
-      "Efflorescence from mineral salts being deposited by moisture migration through the masonry",
       "Paint peeling from the chimney",
       "Smoke staining from the flue",
+      "Efflorescence from mineral salts being deposited by moisture migration through the masonry",
       "Normal aging of the brick",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烟囱外部的白色污渍是白华现象（efflorescence），由水分通过砌体迁移时将矿物盐沉积在表面造成。这表明存在过多的水分渗透，需要查找和解决水分来源。",
     category: "fireplace",
@@ -952,12 +952,12 @@ export const questionsPart8: Question[] = [
     question:
       "Why is it important that a chimney extend at least 2 feet above any structure within 10 feet?",
     options: [
-      "To prevent downdrafts caused by nearby obstructions and to ensure proper exhaust dispersal",
       "To make the chimney more visible for aesthetic purposes",
       "To allow for easier chimney cleaning",
       "To meet minimum property height requirements",
+      "To prevent downdrafts caused by nearby obstructions and to ensure proper exhaust dispersal",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟囱需要高于10英尺范围内任何结构至少2英尺，以防止附近障碍物引起的下降气流导致烟雾倒灌，并确保废气在安全高度充分分散。这是3-2-10规则的一部分。",
     category: "fireplace",
@@ -982,12 +982,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the main hazard of using unseasoned (green) firewood?",
     options: [
-      "It produces excessive creosote due to incomplete combustion and high moisture content",
       "It burns too hot and damages the firebox",
+      "It produces excessive creosote due to incomplete combustion and high moisture content",
       "It produces no smoke",
       "It is lighter and easier to handle",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "使用未干燥（绿色）木柴的主要危险是由于含水量高导致燃烧不完全，产生过多的杂酚油。杂酚油在烟道内积聚是烟囱火灾的主要原因。",
     category: "fireplace",
@@ -997,12 +997,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the chimney flue size generally based on?",
     options: [
-      "The size of the fireplace opening — typically 1/10 to 1/12 of the fireplace opening area",
       "The height of the chimney only",
       "The number of rooms in the house",
+      "The size of the fireplace opening — typically 1/10 to 1/12 of the fireplace opening area",
       "The type of roofing material",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烟道尺寸通常基于壁炉开口面积，一般为开口面积的1/10到1/12。烟道过大或过小都会导致排烟不良——过大会降低烟气速度，过小会限制排烟量。",
     category: "fireplace",
@@ -1012,12 +1012,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a common sign of a past chimney fire?",
     options: [
-      "Distorted or buckled metal components, cracked flue tiles, and discolored rain cap",
       "A clean, shiny flue interior",
       "New mortar joints throughout the chimney",
       "Excessive efflorescence on the exterior only",
+      "Distorted or buckled metal components, cracked flue tiles, and discolored rain cap",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "过去发生烟囱火灾的常见迹象包括：变形或翘曲的金属部件、裂缝的烟道瓷砖、变色的雨帽、外部砂浆损坏、以及烟道内壁上的蜂窝状杂酚油残余物。",
     category: "fireplace",
@@ -1042,12 +1042,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the correct slope direction for a stovepipe connecting a wood stove to a chimney?",
     options: [
-      "Rising upward at least 1/4 inch per foot toward the chimney",
       "Sloping downward toward the chimney",
+      "Rising upward at least 1/4 inch per foot toward the chimney",
       "Perfectly level",
       "Sloping downward toward the stove",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "烟管应以每英尺至少1/4英寸的坡度向上倾斜至烟囱，以促进自然排烟。向下倾斜会阻碍烟气流动，可能导致烟雾倒灌和杂酚油积聚。",
     category: "fireplace",
@@ -1057,12 +1057,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the maximum number of 90-degree elbows generally recommended in a stovepipe run?",
     options: [
-      "Two",
       "Four",
       "Six",
+      "Two",
       "There is no limit",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烟管中一般建议最多使用两个90度弯头。每个弯头都会增加对气流的阻力，减少排烟效率。尽可能使用45度弯头代替90度弯头，并保持烟管路线尽可能直。",
     category: "fireplace",
@@ -1072,12 +1072,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector verify about a gas fireplace's thermocouple or thermopile?",
     options: [
-      "That it properly senses the pilot flame and will shut off gas if the pilot goes out",
       "That it generates electricity for the home",
       "That it is connected to the chimney liner",
       "That it controls the room thermostat",
+      "That it properly senses the pilot flame and will shut off gas if the pilot goes out",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "检查员应验证热电偶或热电堆是否正常感应导火焰，并在导火焰熄灭时自动关闭燃气。这是燃气壁炉的关键安全装置，防止未燃烧的天然气泄漏到室内。",
     category: "fireplace",
@@ -1102,12 +1102,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a direct vent fireplace's sealed combustion system designed to prevent?",
     options: [
-      "Combustion gases from entering the living space and indoor air from being used for combustion",
       "All heat from entering the room",
+      "Combustion gases from entering the living space and indoor air from being used for combustion",
       "The fireplace from producing flames",
       "Electricity from reaching the fireplace",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "直排式壁炉的密封燃烧系统设计用于防止燃烧气体进入居住空间，同时不使用室内空气进行燃烧。这种设计通过同轴管道系统实现——外管进气，内管排气。",
     category: "fireplace",
@@ -1117,12 +1117,12 @@ export const questionsPart8: Question[] = [
     question:
       "How often should a pellet stove be cleaned?",
     options: [
-      "The burn pot should be cleaned daily or after each use, and a thorough cleaning done at least annually",
       "Only once every 5 years",
       "Never — pellet stoves are self-cleaning",
+      "The burn pot should be cleaned daily or after each use, and a thorough cleaning done at least annually",
       "Only when smoke is visible in the room",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "颗粒炉的燃烧盘应在每次使用后清理，彻底清洁至少每年一次。灰烬和残渣的积累会降低效率和安全性。排气管道也需要定期检查和清洁。",
     category: "fireplace",
@@ -1132,12 +1132,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper material for a chimney crown?",
     options: [
-      "Portland cement-based mortar or concrete mix with a slight slope away from the flue",
       "Standard brick mortar only",
       "Plywood covered with roofing tar",
       "Metal sheeting",
+      "Portland cement-based mortar or concrete mix with a slight slope away from the flue",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟囱冠应由波特兰水泥基砂浆或混凝土混合料制成，从烟道向外略微倾斜以排水。普通砌砖砂浆不够耐久，容易开裂。优质烟囱冠应悬伸超过烟囱壁至少2英寸。",
     category: "fireplace",
@@ -1162,12 +1162,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum required thickness of a masonry fireplace firebox wall?",
     options: [
-      "10 inches for a firebrick-lined firebox",
       "4 inches",
+      "10 inches for a firebrick-lined firebox",
       "2 inches",
       "18 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "砖石壁炉的燃烧室壁厚最小要求为10英寸（包括耐火砖衬里）。足够的壁厚确保热量不会传导到周围的可燃结构中，是消防安全的基本要求。",
     category: "fireplace",
@@ -1177,12 +1177,12 @@ export const questionsPart8: Question[] = [
     question:
       "What does it mean if a home inspector notices a strong creosote odor from a fireplace during summer?",
     options: [
-      "There is likely significant creosote buildup in the chimney that needs cleaning",
       "The fireplace is functioning perfectly",
       "The chimney cap needs painting",
+      "There is likely significant creosote buildup in the chimney that needs cleaning",
       "The house has good ventilation",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "夏季壁炉散发强烈杂酚油气味表明烟囱中可能有大量杂酚油积聚。高温和潮湿会加重气味。这是烟囱需要清扫的信号，也提示存在烟囱火灾风险。",
     category: "fireplace",
@@ -1192,12 +1192,12 @@ export const questionsPart8: Question[] = [
     question:
       "Which type of chimney liner is NOT appropriate for wood-burning applications?",
     options: [
-      "Aluminum liner",
       "Stainless steel liner",
       "Clay tile liner",
       "Cast-in-place liner",
+      "Aluminum liner",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "铝制内衬（aluminum liner）不适用于燃木应用，因为它无法承受燃木产生的高温。铝制内衬仅适用于某些燃气设备。燃木应用应使用不锈钢、粘土瓦或浇注式内衬。",
     category: "fireplace",
@@ -1222,12 +1222,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of an air-cooled chimney chase system?",
     options: [
-      "To allow air to circulate between the chimney pipe and chase walls, keeping the chase cool",
       "To provide air conditioning to the room",
+      "To allow air to circulate between the chimney pipe and chase walls, keeping the chase cool",
       "To cool the smoke before it exits the chimney",
       "To prevent rain from entering",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "空气冷却式烟囱围护系统允许空气在烟囱管道和围护墙壁之间循环，保持围护结构凉爽。这对于预制壁炉的木框架围护至关重要，防止热量传导到可燃材料。",
     category: "fireplace",
@@ -1237,12 +1237,12 @@ export const questionsPart8: Question[] = [
     question:
       "When should a home inspector recommend a Level II chimney inspection?",
     options: [
-      "During any real estate transaction involving the property",
       "Only when the homeowner reports problems",
       "Every 10 years regardless of circumstances",
+      "During any real estate transaction involving the property",
       "Only for chimneys over 50 years old",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "在任何涉及房产的交易中，都应建议进行二级烟囱检查。这比标准家庭检查中的一级检查更详细，包括可能的视频扫描，可以发现隐藏的缺陷。",
     category: "fireplace",
@@ -1252,12 +1252,12 @@ export const questionsPart8: Question[] = [
     question:
       "What size flue tile is appropriate for most standard residential fireplaces?",
     options: [
-      "8 x 12 inches or 12 x 12 inches",
       "4 x 4 inches",
       "24 x 24 inches",
       "2 x 2 inches",
+      "8 x 12 inches or 12 x 12 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "大多数标准住宅壁炉使用8x12英寸或12x12英寸的烟道瓷砖。正确的尺寸取决于壁炉开口面积和烟囱高度，应按照建筑规范中的比例要求选择。",
     category: "fireplace",
@@ -1282,12 +1282,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum chimney height above the roof penetration point?",
     options: [
-      "3 feet",
       "1 foot",
+      "3 feet",
       "5 feet",
       "10 feet",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "根据3-2-10规则，烟囱至少需要高出屋顶穿透点3英尺。这个最低高度要求确保基本的排烟效果和安全性，无论附近是否有其他结构。",
     category: "fireplace",
@@ -1297,12 +1297,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the function of a fireplace lintel?",
     options: [
-      "A structural support (usually steel angle iron) that spans the top of the fireplace opening to support the masonry above",
       "A decorative shelf below the fireplace",
       "A device to control chimney draft",
+      "A structural support (usually steel angle iron) that spans the top of the fireplace opening to support the masonry above",
       "A type of flue liner",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "壁炉过梁（lintel）是跨越壁炉开口顶部的结构支撑件（通常是钢角铁），支撑其上方的砌体。如果过梁弯曲或腐蚀，可能导致上方砖石开裂或坍塌。",
     category: "fireplace",
@@ -1312,12 +1312,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern with using treated lumber in a fireplace or wood stove?",
     options: [
-      "It releases toxic chemicals when burned, including arsenic and copper compounds",
       "It burns too slowly",
       "It does not produce enough heat",
       "It is too expensive to use as firewood",
+      "It releases toxic chemicals when burned, including arsenic and copper compounds",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "燃烧经过处理的木材会释放有毒化学物质，包括砷和铜化合物。这些有毒烟气对人体健康有害，也会损坏壁炉和烟囱内衬。只应燃烧未经处理的天然干燥木材。",
     category: "fireplace",
@@ -1342,12 +1342,12 @@ export const questionsPart8: Question[] = [
     question:
       "What does a gap between the chimney and the house siding typically indicate?",
     options: [
-      "Differential settlement between the chimney foundation and the house foundation",
       "Proper installation with required expansion gaps",
+      "Differential settlement between the chimney foundation and the house foundation",
       "Recent chimney repair work",
       "Normal thermal movement that is not a concern",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "烟囱与房屋壁板之间的间隙通常表明烟囱基础与房屋基础之间存在不均匀沉降。这是一个结构问题，可能导致水渗入和进一步的损坏，应建议专业评估。",
     category: "fireplace",
@@ -1357,12 +1357,12 @@ export const questionsPart8: Question[] = [
     question:
       "What type of fuel does a pellet stove typically use?",
     options: [
-      "Compressed wood pellets made from sawdust and wood shavings",
       "Natural gas",
       "Propane",
+      "Compressed wood pellets made from sawdust and wood shavings",
       "Kerosene",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "颗粒炉通常使用由锯末和木刨花压缩而成的木质颗粒。这些颗粒具有标准化的尺寸和低含水量（通常低于10%），使其燃烧效率高、排放少。",
     category: "fireplace",
@@ -1372,12 +1372,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern when a factory-built chimney is used with a masonry fireplace or vice versa?",
     options: [
-      "The components are not designed to be interchanged and mixing them creates a fire hazard",
       "There is no concern as they are interchangeable",
       "It only affects the chimney's appearance",
       "It increases the property value",
+      "The components are not designed to be interchanged and mixing them creates a fire hazard",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "工厂制造的烟囱和砖石烟囱的组件不可互换使用。混合使用会产生火灾隐患，因为每种系统都是作为完整单元设计和测试的，组件不兼容可能导致密封不良或间距不足。",
     category: "fireplace",
@@ -1402,12 +1402,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is creosote and why is it a concern?",
     options: [
-      "A flammable byproduct of incomplete wood combustion that accumulates in flues and can cause chimney fires",
       "A harmless natural coating that protects the flue liner",
+      "A flammable byproduct of incomplete wood combustion that accumulates in flues and can cause chimney fires",
       "A type of chimney cleaning solution",
       "A material used to build chimney crowns",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "杂酚油（creosote）是木材不完全燃烧的易燃副产物，会在烟道内积聚。它是烟囱火灾的主要原因。积聚量取决于燃烧温度、木材含水量和空气供应等因素。定期清扫是预防措施。",
     category: "fireplace",
@@ -1417,12 +1417,12 @@ export const questionsPart8: Question[] = [
     question:
       "Why should combustible materials be kept at least 2 inches from a masonry chimney?",
     options: [
-      "To provide an air gap that prevents heat transfer from the chimney to combustibles",
       "To allow for chimney expansion during earthquakes",
       "To make chimney inspection easier",
+      "To provide an air gap that prevents heat transfer from the chimney to combustibles",
       "To prevent moisture damage to the framing",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "可燃材料与砖石烟囱之间保持至少2英寸的空气间隙，可以防止烟囱的热量传导到可燃物。即使砖石外表面温度不高，长时间暴露在高温下可能导致木材碳化并最终起火。",
     category: "fireplace",
@@ -1432,12 +1432,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the primary safety concern with a vent-free gas fireplace in a bedroom?",
     options: [
-      "Oxygen depletion and carbon monoxide accumulation in a small enclosed space during sleep",
       "The flame is too bright for sleeping",
       "It produces too much noise",
       "It makes the room too cold",
+      "Oxygen depletion and carbon monoxide accumulation in a small enclosed space during sleep",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "在卧室使用无排气式燃气壁炉的主要安全隐患是在密闭小空间中睡眠时可能发生氧气耗尽和一氧化碳积聚。许多司法管辖区禁止在卧室安装无排气式燃气壁炉。",
     category: "fireplace",
@@ -1462,12 +1462,12 @@ export const questionsPart8: Question[] = [
     question:
       "How can a home inspector identify a factory-built fireplace versus a masonry fireplace?",
     options: [
-      "Factory-built fireplaces have metal fireboxes, listing labels, and typically lighter construction",
       "Factory-built fireplaces are always located on exterior walls",
+      "Factory-built fireplaces have metal fireboxes, listing labels, and typically lighter construction",
       "Masonry fireplaces are always smaller than factory-built ones",
       "There is no way to tell them apart visually",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "工厂预制壁炉通常有金属燃烧室、认证标签和较轻的结构。砖石壁炉有砖或石头燃烧室、更厚实的结构，且通常有独立的砖石基础。",
     category: "fireplace",
@@ -1477,12 +1477,12 @@ export const questionsPart8: Question[] = [
     question:
       "What clearance is required between a wood stove and an unprotected ceiling?",
     options: [
-      "36 inches minimum",
       "12 inches minimum",
       "18 inches minimum",
+      "36 inches minimum",
       "48 inches minimum",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "木柴炉与未保护天花板之间需要至少36英寸的间距。这与墙壁间距要求相同，确保辐射热不会使天花板材料温度升高到危险水平。",
     category: "fireplace",
@@ -1492,12 +1492,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of an ash pit in a masonry fireplace?",
     options: [
-      "To collect and store ashes that fall through the ash dump for later removal",
       "To provide combustion air to the firebox",
       "To support the fireplace foundation",
       "To drain water from the firebox",
+      "To collect and store ashes that fall through the ash dump for later removal",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "灰坑（ash pit）位于壁炉底部下方，收集和储存通过灰坑口掉落的灰烬，便于以后通过清洁口门清除。它使壁炉清洁更方便，不必从燃烧室内铲灰。",
     category: "fireplace",
@@ -1522,12 +1522,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the primary concern with connecting multiple appliances to a single chimney flue?",
     options: [
-      "Potential for backdrafting and carbon monoxide spillage from one appliance when the other is operating",
       "It reduces property value",
+      "Potential for backdrafting and carbon monoxide spillage from one appliance when the other is operating",
       "It is always prohibited by code",
       "It makes the chimney too heavy",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "多个设备共用一个烟道的主要问题是可能导致烟气倒灌和一氧化碳泄漏。当一个设备运行时，可能造成另一个设备的废气倒流到室内，构成严重的安全隐患。",
     category: "fireplace",
@@ -1537,12 +1537,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should be checked on a gas fireplace's pilot light assembly?",
     options: [
-      "That the pilot produces a steady blue flame and the thermocouple/thermopile is properly positioned",
       "That the pilot flame is bright yellow",
       "That the pilot flame is as large as possible",
+      "That the pilot produces a steady blue flame and the thermocouple/thermopile is properly positioned",
       "That the pilot is turned off when the fireplace is in use",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "燃气壁炉的导火灯应产生稳定的蓝色火焰，热电偶/热电堆应正确定位以感应火焰。黄色火焰可能表明燃烧不完全或空气混合不当，需要调整或维修。",
     category: "fireplace",
@@ -1552,12 +1552,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a chimney cap's drip edge?",
     options: [
-      "To direct rainwater away from the chimney flue opening and crown",
       "To increase the chimney draft",
       "To support the spark arrestor screen",
       "To prevent the cap from blowing off",
+      "To direct rainwater away from the chimney flue opening and crown",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟囱帽的滴水边缘将雨水从烟道开口和烟囱冠引导排开，防止水直接流入烟道或沿烟囱冠表面渗入。这有助于保护烟囱冠免受水损坏。",
     category: "fireplace",
@@ -1582,12 +1582,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum projection of a chimney crown beyond the chimney walls?",
     options: [
-      "At least 2 inches to create a drip edge",
       "No projection is needed — it should be flush with the walls",
+      "At least 2 inches to create a drip edge",
       "At least 6 inches",
       "At least 12 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "烟囱冠应至少超出烟囱壁2英寸，形成滴水边缘。这可以防止雨水直接沿烟囱壁流下并渗入砂浆缝，保护烟囱结构免受水损坏。",
     category: "fireplace",
@@ -1597,12 +1597,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a common deficiency found with chimney flashing?",
     options: [
-      "Gaps, rust, or sealant failure allowing water to penetrate between the chimney and roof",
       "Flashing that is too thick",
       "Flashing installed with too many nails",
+      "Gaps, rust, or sealant failure allowing water to penetrate between the chimney and roof",
       "Flashing that is too shiny",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烟囱泛水板最常见的问题是间隙、锈蚀或密封剂失效，导致雨水在烟囱和屋顶之间渗入。这会造成屋顶结构腐烂、天花板水渍和霉菌生长等问题。",
     category: "fireplace",
@@ -1612,12 +1612,12 @@ export const questionsPart8: Question[] = [
     question:
       "What type of wood produces the most creosote when burned?",
     options: [
-      "Softwoods such as pine and fir, especially when unseasoned",
       "Hardwoods such as oak and maple",
       "Seasoned hardwoods",
       "Kiln-dried lumber",
+      "Softwoods such as pine and fir, especially when unseasoned",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "软木如松木和冷杉，特别是未干燥时，会产生最多的杂酚油。这是因为软木树脂含量高，含水量高的木材燃烧温度较低，导致不完全燃烧和更多杂酚油产生。",
     category: "fireplace",
@@ -1642,12 +1642,12 @@ export const questionsPart8: Question[] = [
     question:
       "What does a wobbling or loose chimney cap indicate?",
     options: [
-      "The cap needs to be resecured or replaced to prevent it from blowing off and exposing the flue",
       "The chimney has excellent ventilation",
+      "The cap needs to be resecured or replaced to prevent it from blowing off and exposing the flue",
       "Normal movement due to wind",
       "The chimney was recently serviced",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "晃动或松动的烟囱帽需要重新固定或更换，以防止被风吹落而使烟道暴露。暴露的烟道会让雨水、碎屑和动物进入，导致损坏和安全隐患。",
     category: "fireplace",
@@ -1657,12 +1657,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper installation angle for a direct vent gas fireplace's vent pipe through an exterior wall?",
     options: [
-      "Slightly sloped upward toward the exterior to allow condensation to drain outside",
       "Perfectly level",
       "Sloped downward toward the exterior",
+      "Slightly sloped upward toward the exterior to allow condensation to drain outside",
       "Vertical only — never horizontal",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "直排式燃气壁炉的排气管穿过外墙时应略微向外倾斜，以便冷凝水排向室外。这防止冷凝水流回壁炉内部，可能损坏部件或影响燃烧。",
     category: "fireplace",
@@ -1672,12 +1672,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector note about the condition of firebricks in a fireplace?",
     options: [
-      "Cracked, loose, missing, or deteriorated firebricks that could expose the chimney structure to heat",
       "Only whether the firebricks are clean",
       "The color of the firebricks",
       "Whether the firebricks have a glossy finish",
+      "Cracked, loose, missing, or deteriorated firebricks that could expose the chimney structure to heat",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "检查员应注意耐火砖是否有裂缝、松动、缺失或劣化，这些情况可能使烟囱结构暴露在高温下。损坏的耐火砖应及时修复或更换，以维持壁炉的安全性。",
     category: "fireplace",
@@ -1702,12 +1702,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a catalytic combustor in a wood stove?",
     options: [
-      "A ceramic honeycomb element that lowers the ignition temperature of smoke, reducing emissions and increasing efficiency",
       "A fan that blows air into the firebox",
+      "A ceramic honeycomb element that lowers the ignition temperature of smoke, reducing emissions and increasing efficiency",
       "A thermostat that controls stove temperature",
       "A type of chimney liner material",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "催化燃烧器是木柴炉中的陶瓷蜂窝元件，可以降低烟气的点燃温度，使未完全燃烧的颗粒在较低温度下燃烧。这减少了排放并提高了燃烧效率，但需要定期更换。",
     category: "fireplace",
@@ -1717,12 +1717,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum required distance between a chimney and a window that can be opened?",
     options: [
-      "The chimney top should be high enough that exhaust gases disperse before reaching any openable window",
       "No distance requirement exists",
       "1 foot",
+      "The chimney top should be high enough that exhaust gases disperse before reaching any openable window",
       "The window must be permanently sealed",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烟囱顶部应足够高，使废气在到达任何可打开窗户之前充分分散。虽然具体距离要求因法规而异，但3-2-10规则和适当的烟囱高度通常可以满足这一安全要求。",
     category: "fireplace",
@@ -1732,12 +1732,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the main cause of chimney crown cracking?",
     options: [
-      "Thermal expansion and contraction cycles combined with water infiltration",
       "Excessive chimney height",
       "Too many chimney cleanings",
       "Using the fireplace too infrequently",
+      "Thermal expansion and contraction cycles combined with water infiltration",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟囱冠开裂的主要原因是热膨胀和收缩循环加上水分渗入。烟囱冠暴露在极端温度变化中，水分进入微小裂缝后冻融会使裂缝扩大。应定期检查并及时修补。",
     category: "fireplace",
@@ -1762,12 +1762,12 @@ export const questionsPart8: Question[] = [
     question:
       "Why is it important that a chimney cap screen be maintained free of creosote buildup?",
     options: [
-      "Creosote-clogged screens restrict draft and can become a fire ignition point",
       "Clogged screens improve chimney performance",
+      "Creosote-clogged screens restrict draft and can become a fire ignition point",
       "Creosote on screens is decorative",
       "Screen maintenance is unnecessary",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "烟囱帽筛网上的杂酚油积聚会限制排烟气流，降低壁炉性能。更危险的是，积聚的杂酚油可能成为火灾引燃点，火花可能点燃筛网上的杂酚油引发烟囱火灾。",
     category: "fireplace",
@@ -1777,12 +1777,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the typical lifespan of a factory-built fireplace before it may need replacement?",
     options: [
-      "20 to 30 years depending on use and maintenance",
       "100 years or more",
       "5 years",
+      "20 to 30 years depending on use and maintenance",
       "They never need replacement",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "工厂预制壁炉的典型使用寿命为20到30年，取决于使用频率和维护状况。与砖石壁炉相比，预制壁炉的寿命较短，因为金属部件会随时间劣化。",
     category: "fireplace",
@@ -1792,12 +1792,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a Class A chimney pipe?",
     options: [
-      "A double or triple-wall insulated pipe rated for all fuels including wood, gas, and oil",
       "A single-wall pipe for gas appliances only",
       "A flexible aluminum pipe for dryer vents",
       "A PVC pipe for bathroom exhaust fans",
+      "A double or triple-wall insulated pipe rated for all fuels including wood, gas, and oil",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "A级烟囱管道是双壁或三壁隔热管道，额定适用于所有燃料类型，包括木材、燃气和燃油。它们提供了最高级别的防火保护，是穿越天花板和屋顶时必需的类型。",
     category: "fireplace",
@@ -1822,12 +1822,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a Rumford fireplace known for?",
     options: [
-      "A tall, shallow firebox design with angled side walls that radiates more heat into the room",
       "A very deep firebox for maximum wood storage",
+      "A tall, shallow firebox design with angled side walls that radiates more heat into the room",
       "A gas-only fireplace design",
       "A fireplace without a chimney",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "Rumford壁炉以高而浅的燃烧室和倾斜的侧壁设计而闻名，可以将更多热量辐射到房间中。这种18世纪的设计比传统深壁炉更高效，近年来重新受到欢迎。",
     category: "fireplace",
@@ -1837,12 +1837,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern with visible rust on a factory-built fireplace's firebox?",
     options: [
-      "Rust indicates moisture exposure and weakening of the metal firebox, which could lead to failure",
       "Rust improves the firebox appearance",
       "Rust makes the firebox more heat resistant",
+      "Rust indicates moisture exposure and weakening of the metal firebox, which could lead to failure",
       "Rust is normal and expected in all fireboxes",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "工厂预制壁炉金属燃烧室上的锈迹表明水分暴露和金属弱化，可能导致燃烧室失效。严重锈蚀可能产生孔洞，让热量和燃烧气体逃逸到围护结构中，构成火灾隐患。",
     category: "fireplace",
@@ -1852,12 +1852,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the function of the smoke shelf in preventing downdrafts?",
     options: [
-      "It deflects downdrafts upward, mixing them with rising hot gases to maintain upward flow",
       "It blocks all air movement in the chimney",
       "It acts as a water collection point",
       "It supports the damper mechanism",
+      "It deflects downdrafts upward, mixing them with rising hot gases to maintain upward flow",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟架通过将下降气流向上偏转，使其与上升的热烟气混合，从而维持向上的气流。这种设计有效防止了冷空气直接将烟雾推入房间内。",
     category: "fireplace",
@@ -1882,12 +1882,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should a home inspector note about a gas fireplace that shows sooting on the glass?",
     options: [
-      "It may indicate improper combustion, incorrect gas pressure, or a venting problem",
       "It is completely normal for all gas fireplaces",
+      "It may indicate improper combustion, incorrect gas pressure, or a venting problem",
       "It means the fireplace is burning too cleanly",
       "It indicates the glass needs to be upgraded",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "燃气壁炉玻璃上的烟灰可能表明燃烧不完全、燃气压力不正确或通风问题。少量轻微烟灰可能正常，但过多烟灰是需要调查的警示信号，可能涉及安全问题。",
     category: "fireplace",
@@ -1897,12 +1897,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the recommended practice for burning manufactured fire logs (e.g., Duraflame)?",
     options: [
-      "Burn only one at a time and do not poke or break them apart during burning",
       "Stack as many as will fit in the firebox",
       "Break them into pieces before lighting",
+      "Burn only one at a time and do not poke or break them apart during burning",
       "Mix them with natural firewood for best results",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "人造火焰原木应一次只燃烧一个，且燃烧过程中不应拨动或折断。它们含有石蜡等易燃物质，折断可能导致突然猛烈燃烧，堆叠多个可能产生过大火焰。",
     category: "fireplace",
@@ -1912,12 +1912,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a chimney offset?",
     options: [
-      "A section where the chimney changes direction from vertical, typically limited to 30 degrees from vertical",
       "The gap between the chimney and the house",
       "A type of chimney cap",
       "The distance from the chimney to the nearest window",
+      "A section where the chimney changes direction from vertical, typically limited to 30 degrees from vertical",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟囱偏移是烟囱从垂直方向改变方向的部分，通常限制在距垂直方向30度以内。偏移过大会影响排烟效率并增加杂酚油积聚，应保持在允许范围内。",
     category: "fireplace",
@@ -1942,12 +1942,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of an oxygen depletion sensor (ODS) in a vent-free gas fireplace?",
     options: [
-      "To automatically shut off the gas supply if the oxygen level in the room drops below a safe threshold",
       "To measure the temperature of the fire",
+      "To automatically shut off the gas supply if the oxygen level in the room drops below a safe threshold",
       "To detect carbon monoxide",
       "To regulate the gas pressure",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "氧气耗尽传感器（ODS）在室内氧气水平降至安全阈值以下时自动关闭燃气供应。这是无排气式燃气壁炉的关键安全装置，防止因氧气不足导致不完全燃烧和一氧化碳产生。",
     category: "fireplace",
@@ -1957,12 +1957,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper way to inspect a chimney from the roof level?",
     options: [
-      "Examine the crown, cap, flashing, mortar joints, and visible flue liner from the top, noting any deficiencies",
       "Only check if the chimney cap is present",
       "Clean the chimney during inspection",
+      "Examine the crown, cap, flashing, mortar joints, and visible flue liner from the top, noting any deficiencies",
       "Remove bricks for internal examination",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "从屋顶层检查烟囱时，应检查烟囱冠、帽、泛水板、砂浆缝和从顶部可见的烟道内衬，记录所有缺陷。检查员不应拆除部件，这超出了标准家庭检查的范围。",
     category: "fireplace",
@@ -1972,12 +1972,12 @@ export const questionsPart8: Question[] = [
     question:
       "What type of damper is installed at the top of the chimney and operated by a chain?",
     options: [
-      "Top-mount (top-sealing) damper",
       "Throat damper",
       "Earthquake damper",
       "Barometric damper",
+      "Top-mount (top-sealing) damper",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "顶置式（顶部密封）挡板安装在烟囱顶部，通过烟道内的链条或拉索从壁炉内操作。它在关闭时提供了比喉部挡板更好的密封效果，减少能源损失。",
     category: "fireplace",
@@ -2002,12 +2002,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the recommended action when an inspector discovers evidence of a previous chimney fire?",
     options: [
-      "Recommend a Level II chimney inspection by a certified chimney sweep",
       "Ignore it if the homeowner says it was repaired",
+      "Recommend a Level II chimney inspection by a certified chimney sweep",
       "Recommend demolition of the entire chimney",
       "Clean the chimney and declare it safe",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "发现烟囱火灾迹象时，应建议由认证烟囱清扫工进行二级烟囱检查。烟囱火灾可能造成不易从外部观察到的结构损坏，需要专业评估烟道内衬和结构完整性。",
     category: "fireplace",
@@ -2017,12 +2017,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper termination height for a factory-built chimney above a flat roof?",
     options: [
-      "At least 3 feet above the roof penetration point, following the same 3-2-10 rule as masonry chimneys",
       "1 foot above the roof",
       "Flush with the roofline",
+      "At least 3 feet above the roof penetration point, following the same 3-2-10 rule as masonry chimneys",
       "At least 10 feet above the roof",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "工厂预制烟囱在平屋顶上的终端高度至少应高出屋顶穿透点3英尺，遵循与砖石烟囱相同的3-2-10规则。这确保了适当的排烟效果和安全性。",
     category: "fireplace",
@@ -2032,12 +2032,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should be present at the base of every masonry chimney?",
     options: [
-      "A concrete footing that is separate from the house foundation and adequate to support the chimney weight",
       "A wood platform for stability",
       "A metal bracket attached to the house framing",
       "No foundation is needed for masonry chimneys",
+      "A concrete footing that is separate from the house foundation and adequate to support the chimney weight",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "每个砖石烟囱底部应有一个独立于房屋基础的混凝土基脚，能够支撑烟囱的重量。烟囱非常重（可达数吨），需要适当的基础支撑以防止沉降和倾斜。",
     category: "fireplace",
@@ -2062,12 +2062,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the maximum horizontal run generally allowed for a stovepipe?",
     options: [
-      "The horizontal run should not exceed 75% of the vertical chimney height",
       "Any horizontal length is acceptable",
+      "The horizontal run should not exceed 75% of the vertical chimney height",
       "No horizontal runs are allowed",
       "The horizontal run must equal the vertical height",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "烟管的水平延伸长度一般不应超过垂直烟囱高度的75%。过长的水平段会降低排烟效果，增加杂酚油积聚。尽可能减少水平段的长度并保持向上坡度。",
     category: "fireplace",
@@ -2077,12 +2077,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is an EPA-certified wood stove?",
     options: [
-      "A wood stove that meets EPA emission standards for particulate matter, burning more efficiently and cleanly",
       "A stove that only burns EPA-approved wood species",
       "A stove manufactured by the EPA",
+      "A wood stove that meets EPA emission standards for particulate matter, burning more efficiently and cleanly",
       "Any wood stove sold in the United States",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "EPA认证的木柴炉符合美国环保署的颗粒物排放标准，燃烧更高效、更清洁。它们使用先进的燃烧技术（如催化或非催化二次燃烧）减少排放并提高热效率。",
     category: "fireplace",
@@ -2092,12 +2092,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the significance of a missing or damaged chimney cap from a home inspection perspective?",
     options: [
-      "It exposes the flue to water intrusion, animal entry, and debris accumulation that can cause damage and safety hazards",
       "It is purely cosmetic and not a concern",
       "It improves chimney draft",
       "It prevents creosote buildup",
+      "It exposes the flue to water intrusion, animal entry, and debris accumulation that can cause damage and safety hazards",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "缺失或损坏的烟囱帽使烟道暴露于雨水渗入、动物进入和碎屑积累中，可能导致烟道内衬损坏、堵塞和安全隐患。这是检查中应当记录并建议修复的常见缺陷。",
     category: "fireplace",
@@ -2122,12 +2122,12 @@ export const questionsPart8: Question[] = [
     question:
       "How should a home inspector test a fireplace damper?",
     options: [
-      "Operate the damper handle to verify it opens and closes, and visually confirm movement with a flashlight",
       "Start a fire and observe smoke direction",
+      "Operate the damper handle to verify it opens and closes, and visually confirm movement with a flashlight",
       "Remove the damper for bench testing",
       "Dampers cannot be tested during a home inspection",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "检查员应操作挡板手柄验证其能打开和关闭，并用手电筒目视确认运动。检查员不应拆除部件或点火测试。记录挡板是否能完全打开、完全关闭以及操作是否顺畅。",
     category: "fireplace",
@@ -2137,12 +2137,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of the refractory panels in a factory-built fireplace?",
     options: [
-      "To protect the metal firebox from direct flame exposure and radiate heat into the room",
       "To reduce the weight of the fireplace",
       "To improve the appearance only",
+      "To protect the metal firebox from direct flame exposure and radiate heat into the room",
       "To prevent the gas valve from overheating",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "预制壁炉中的耐火面板保护金属燃烧室免受火焰直接照射，并将热量辐射到房间中。损坏或缺失的面板会使金属暴露在过高温度下，缩短壁炉寿命并可能造成危险。",
     category: "fireplace",
@@ -2152,12 +2152,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper clearance for combustible trim around a factory-built fireplace opening?",
     options: [
-      "As specified by the manufacturer's installation instructions, typically noted on the listing label",
       "No clearance is needed",
       "At least 36 inches",
       "2 inches is always sufficient",
+      "As specified by the manufacturer's installation instructions, typically noted on the listing label",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "预制壁炉开口周围可燃装饰材料的间距应按照制造商的安装说明执行，通常在认证标签上标注。不同品牌和型号的要求不同，必须严格遵守制造商的具体规格。",
     category: "fireplace",
@@ -2182,12 +2182,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is tuckpointing in the context of chimney repair?",
     options: [
-      "Removing deteriorated mortar from joints and replacing it with fresh mortar to restore the chimney's integrity",
       "Adding a second layer of bricks to the chimney",
+      "Removing deteriorated mortar from joints and replacing it with fresh mortar to restore the chimney's integrity",
       "Installing a new chimney cap",
       "Applying waterproof paint to the chimney exterior",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "重新勾缝（tuckpointing）是移除烟囱劣化的砂浆缝并用新砂浆填充的修复过程。这是烟囱维护中最常见的修复项目，可以恢复烟囱的结构完整性和防水性能。",
     category: "fireplace",
@@ -2197,12 +2197,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum clearance between a wood stove chimney connector and a ceiling?",
     options: [
-      "18 inches for single-wall pipe",
       "6 inches for single-wall pipe",
       "3 inches for single-wall pipe",
+      "18 inches for single-wall pipe",
       "No minimum clearance is required",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "木柴炉单壁烟管连接器与天花板之间的最小间距为18英寸。这个间距防止天花板材料因辐射热而过热。双壁管道可能允许更小的间距，需参照制造商规格。",
     category: "fireplace",
@@ -2212,12 +2212,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern with combustible items stored near a fireplace or wood stove?",
     options: [
-      "They can ignite from radiant heat or sparks, creating a fire hazard",
       "They will reduce the efficiency of the fireplace",
       "They will produce unpleasant odors",
       "They block the view of the fire",
+      "They can ignite from radiant heat or sparks, creating a fire hazard",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "存放在壁炉或木柴炉附近的可燃物品可能因辐射热或火花而起火，造成火灾隐患。检查员应注意壁炉附近是否有报纸、木柴、家具或窗帘等可燃物存放过近。",
     category: "fireplace",
@@ -2242,12 +2242,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should a home inspector report if they observe a chimney with no visible flue liner from the top?",
     options: [
-      "The chimney may be unlined, which is a safety concern requiring further evaluation by a chimney specialist",
       "All old chimneys are unlined and this is acceptable",
+      "The chimney may be unlined, which is a safety concern requiring further evaluation by a chimney specialist",
       "A flue liner is only required for gas appliances",
       "The inspector should install a liner before completing the report",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "如果从烟囱顶部看不到烟道内衬，烟囱可能是无衬里的，这是安全隐患。无内衬的烟囱允许热量和燃烧气体直接接触砌体和周围材料，应建议烟囱专家进一步评估。",
     category: "fireplace",
@@ -2258,12 +2258,12 @@ export const questionsPart8: Question[] = [
     question:
       "According to California law, where must smoke alarms be installed in a residential dwelling?",
     options: [
-      "In every bedroom, outside each sleeping area, and on every level of the home including the basement",
       "Only in the kitchen",
       "Only on the main living floor",
+      "In every bedroom, outside each sleeping area, and on every level of the home including the basement",
       "Only in hallways",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "加州法律要求在每间卧室内、每个睡眠区域外的走廊以及房屋的每一层（包括地下室）安装烟雾报警器。这确保了在火灾发生时，居住者能够及时收到警报。",
     category: "safety",
@@ -2273,12 +2273,12 @@ export const questionsPart8: Question[] = [
     question:
       "What are the California requirements for smoke alarm power source in existing homes sold after July 1, 2015?",
     options: [
-      "Hardwired with battery backup, or 10-year sealed battery alarms",
       "Battery-operated only",
       "Plug-in models only",
       "Solar-powered alarms",
+      "Hardwired with battery backup, or 10-year sealed battery alarms",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "2015年7月1日后出售的加州现有住宅，烟雾报警器必须是硬连线带电池备份，或10年密封电池报警器。这确保了即使在停电期间，报警器也能正常工作。",
     category: "safety",
@@ -2303,12 +2303,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the maximum sill height for an egress window?",
     options: [
-      "44 inches above the finished floor",
       "60 inches above the finished floor",
+      "44 inches above the finished floor",
       "36 inches above the finished floor",
       "24 inches above the finished floor",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "逃生窗窗台距完成地面的最大高度为44英寸。较低的窗台使居住者（包括儿童和老年人）在紧急情况下更容易通过窗户逃生。",
     category: "safety",
@@ -2318,12 +2318,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum egress window opening height?",
     options: [
-      "24 inches",
       "12 inches",
       "36 inches",
+      "24 inches",
       "48 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "逃生窗的最小开口高度为24英寸。这确保了足够的高度让人穿过窗户。同时宽度和总面积也必须满足最低要求。",
     category: "safety",
@@ -2333,12 +2333,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum egress window opening width?",
     options: [
-      "20 inches",
       "12 inches",
       "36 inches",
       "48 inches",
+      "20 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "逃生窗的最小开口宽度为20英寸。这与最小高度24英寸和最小面积5.7平方英尺的要求配合，确保紧急逃生和救援通道的可用性。",
     category: "safety",
@@ -2363,12 +2363,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum pool fence height required by California law (AB 3305)?",
     options: [
-      "60 inches (5 feet)",
       "36 inches (3 feet)",
+      "60 inches (5 feet)",
       "48 inches (4 feet)",
       "72 inches (6 feet)",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "加州法律（AB 3305）要求泳池围栏最低高度为60英寸（5英尺）。这个高度旨在防止幼儿攀爬越过围栏进入泳池区域，降低溺水风险。",
     category: "safety",
@@ -2378,12 +2378,12 @@ export const questionsPart8: Question[] = [
     question:
       "What are the California requirements for pool gate operation?",
     options: [
-      "Gates must be self-closing and self-latching, opening outward away from the pool",
       "Gates may swing in any direction",
       "Manual latching is sufficient",
+      "Gates must be self-closing and self-latching, opening outward away from the pool",
       "Gates are not required if a pool alarm is installed",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "加州要求泳池围栏门必须自动关闭和自动锁闭，向外（远离泳池方向）打开。自动关闭和锁闭确保门在每次使用后自动恢复关闭状态，防止儿童进入。",
     category: "safety",
@@ -2393,12 +2393,12 @@ export const questionsPart8: Question[] = [
     question:
       "According to California law (SB 1394), where must carbon monoxide (CO) detectors be installed?",
     options: [
-      "Outside each sleeping area in a dwelling unit with a fossil fuel burning appliance or attached garage",
       "Only in the kitchen",
       "Only in the garage",
       "In every room of the house",
+      "Outside each sleeping area in a dwelling unit with a fossil fuel burning appliance or attached garage",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "根据加州SB 1394法案，在有化石燃料燃烧设备或附属车库的住宅中，必须在每个睡眠区域外安装一氧化碳探测器。这是因为一氧化碳中毒最常在睡眠中发生。",
     category: "safety",
@@ -2423,12 +2423,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of interconnected smoke alarms?",
     options: [
-      "When one alarm sounds, all alarms in the home sound simultaneously to alert all occupants",
       "They share a single battery",
+      "When one alarm sounds, all alarms in the home sound simultaneously to alert all occupants",
       "They are controlled by a central computer",
       "They can only be installed by professionals",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "互联式烟雾报警器的作用是当一个报警器触发时，家中所有报警器同时响起，确保所有居住者都能收到警报。这在多层住宅中特别重要，因为一楼的烟雾可能不会立即触发二楼的独立报警器。",
     category: "safety",
@@ -2438,12 +2438,12 @@ export const questionsPart8: Question[] = [
     question:
       "What type of smoke alarm is recommended by the NFPA for the best protection?",
     options: [
-      "Dual-sensor alarms that combine both ionization and photoelectric technology",
       "Ionization alarms only",
       "Photoelectric alarms only",
+      "Dual-sensor alarms that combine both ionization and photoelectric technology",
       "Heat detectors only",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "美国国家消防协会（NFPA）建议使用结合电离和光电两种技术的双传感器报警器，以获得最佳保护。这样可以同时快速响应明火和阴燃两种类型的火灾。",
     category: "safety",
@@ -2453,12 +2453,12 @@ export const questionsPart8: Question[] = [
     question:
       "What are the California seismic requirements for water heater installation?",
     options: [
-      "Water heaters must be strapped to the wall with two straps — one in the upper third and one in the lower third",
       "Water heaters do not need to be secured",
       "Only one strap at the middle is required",
       "Water heaters must be bolted to the floor only",
+      "Water heaters must be strapped to the wall with two straps — one in the upper third and one in the lower third",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "加州地震要求热水器必须用两条金属带固定到墙上——一条在上三分之一位置，一条在下三分之一位置。这防止地震中热水器倾倒导致燃气泄漏和水损坏。",
     category: "safety",
@@ -2483,12 +2483,12 @@ export const questionsPart8: Question[] = [
     question:
       "Where is tempered (safety) glass required in a residential building?",
     options: [
-      "Within 24 inches of doors, within 18 inches of the floor, in bathrooms, near stairways, and in pool areas",
       "Only in windows larger than 10 square feet",
+      "Within 24 inches of doors, within 18 inches of the floor, in bathrooms, near stairways, and in pool areas",
       "Only in the kitchen",
       "Only on the ground floor",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "安全玻璃（钢化玻璃）要求安装在门24英寸范围内、距地板18英寸以内、浴室、楼梯附近和泳池区域。这些是容易发生人体撞击玻璃的区域，安全玻璃碎裂时形成小块而非锋利碎片。",
     category: "safety",
@@ -2498,12 +2498,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum guardrail height for a residential balcony or deck?",
     options: [
-      "42 inches",
       "30 inches",
       "36 inches",
+      "42 inches",
       "48 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "住宅阳台或露台的最小护栏高度为42英寸（2015年IRC起）。护栏必须能够承受200磅的集中荷载，栏杆间距不得超过4英寸以防止儿童穿过。",
     category: "safety",
@@ -2513,12 +2513,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the maximum dryer vent length according to most building codes?",
     options: [
-      "25 feet for a 4-inch diameter smooth metal duct, reduced by 5 feet for each 90-degree elbow",
       "50 feet with any number of elbows",
       "10 feet maximum regardless of material",
       "There is no maximum length",
+      "25 feet for a 4-inch diameter smooth metal duct, reduced by 5 feet for each 90-degree elbow",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "大多数建筑规范规定4英寸直径光滑金属烘干机排气管的最大长度为25英尺，每增加一个90度弯头减少5英尺。过长的排气管会导致绒毛积聚，增加火灾风险。",
     category: "safety",
@@ -2543,12 +2543,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of an anti-tip bracket on a freestanding kitchen range?",
     options: [
-      "To prevent the range from tipping forward when weight is placed on an open oven door",
       "To level the range on an uneven floor",
+      "To prevent the range from tipping forward when weight is placed on an open oven door",
       "To connect the range to the gas supply",
       "To secure the range during an earthquake",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "防倾斜支架（anti-tip bracket）防止独立式厨房灶具在打开的烤箱门上放置重物时向前倾倒。这是一个重要的安全装置，特别保护儿童免受热液烫伤和灶具砸伤的风险。",
     category: "safety",
@@ -2558,12 +2558,12 @@ export const questionsPart8: Question[] = [
     question:
       "What are the California fire defensible space requirements under PRC 4291 for Zone 1?",
     options: [
-      "Lean, clean, and green landscaping within 30 feet of the structure with removal of dead vegetation",
       "No requirements for the first 30 feet",
       "Concrete paving within 30 feet",
+      "Lean, clean, and green landscaping within 30 feet of the structure with removal of dead vegetation",
       "Only cutting grass once a year",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "加州PRC 4291要求Zone 1（结构30英尺范围内）保持精简、清洁和绿色的景观，清除枯死植被。这是防火间距的关键区域，旨在创造阻止或减缓野火蔓延到建筑物的空间。",
     category: "safety",
@@ -2573,12 +2573,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum fire separation required between an attached garage and the living space?",
     options: [
-      "1/2-inch drywall on the garage side, or 5/8-inch Type X drywall if there is living space above",
       "No fire separation is required",
       "A concrete block wall",
       "A metal fire door only",
+      "1/2-inch drywall on the garage side, or 5/8-inch Type X drywall if there is living space above",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "附属车库与居住空间之间需要至少1/2英寸石膏板防火分隔（车库侧），如果车库上方有居住空间则需要5/8英寸X型石膏板。这延缓了火灾从车库蔓延到居住区的速度。",
     category: "safety",
@@ -2603,12 +2603,12 @@ export const questionsPart8: Question[] = [
     question:
       "What common building materials may contain asbestos in older homes?",
     options: [
-      "Popcorn ceilings, pipe wrap insulation, floor tiles, and vermiculite insulation",
       "Modern fiberglass insulation",
+      "Popcorn ceilings, pipe wrap insulation, floor tiles, and vermiculite insulation",
       "PVC pipes",
       "Engineered wood products",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "老旧房屋中可能含石棉的常见建材包括：爆米花天花板（1978年前）、管道包裹隔热材料、9x9英寸地板砖及其粘合剂，以及蛭石隔热材料（如Zonolite品牌）。石棉纤维可致癌。",
     category: "safety",
@@ -2618,12 +2618,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for automatic gas shut-off valves in seismic zones?",
     options: [
-      "An automatic seismic gas shut-off valve or excess flow valve is recommended at the gas meter in earthquake-prone areas",
       "They are prohibited in California",
       "They are only required in commercial buildings",
+      "An automatic seismic gas shut-off valve or excess flow valve is recommended at the gas meter in earthquake-prone areas",
       "They are only needed on the interior gas line",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "在加州地震易发区域，建议在燃气表处安装自动地震燃气关闭阀或超流量阀。地震可能损坏燃气管道导致泄漏，自动阀在检测到地震时关闭燃气供应，防止火灾和爆炸。",
     category: "safety",
@@ -2633,12 +2633,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the EPA's RRP (Renovation, Repair, and Painting) Rule?",
     options: [
-      "A federal rule requiring EPA-certified renovators to follow lead-safe work practices in pre-1978 housing",
       "A rule about exterior paint colors",
       "A regulation about bathroom renovations",
       "A guideline for carpet installation",
+      "A federal rule requiring EPA-certified renovators to follow lead-safe work practices in pre-1978 housing",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "EPA的RRP规则要求在1978年之前建造的住宅中进行翻新、修缮和油漆工作时，必须由EPA认证的翻新人员遵循含铅安全工作规范。违规可能导致高额罚款。",
     category: "safety",
@@ -2663,12 +2663,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum stair width for a residential stairway?",
     options: [
-      "36 inches",
       "24 inches",
+      "36 inches",
       "30 inches",
       "42 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "住宅楼梯的最小宽度为36英寸（净宽度，不包括扶手突出部分）。这个宽度确保了安全通行和紧急疏散时的人员流动。",
     category: "safety",
@@ -2678,12 +2678,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the requirement for handrail graspability?",
     options: [
-      "The handrail must have a circular cross-section with a diameter between 1.25 and 2 inches, or a non-circular graspable profile",
       "Any shape or size is acceptable",
       "Flat handrails are preferred",
+      "The handrail must have a circular cross-section with a diameter between 1.25 and 2 inches, or a non-circular graspable profile",
       "Handrails must be at least 4 inches in diameter",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "扶手必须具有可抓握的截面——圆形截面直径在1.25到2英寸之间，或非圆形但可抓握的轮廓。这确保手指能够完全环绕扶手，提供牢固的握持以防跌倒。",
     category: "safety",
@@ -2693,12 +2693,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a 10-year sealed battery smoke alarm?",
     options: [
-      "A smoke alarm with a non-replaceable lithium battery designed to last the entire 10-year lifespan of the alarm",
       "An alarm that needs new batteries every 10 years",
       "An alarm that lasts 10 years without any battery",
       "An alarm with a rechargeable battery",
+      "A smoke alarm with a non-replaceable lithium battery designed to last the entire 10-year lifespan of the alarm",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "10年密封电池烟雾报警器内置不可更换的锂电池，设计使用寿命为整个报警器的10年寿命。到期后整个报警器必须更换。这消除了电池更换的需要，提高了可靠性。",
     category: "safety",
@@ -2723,12 +2723,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is cripple wall bracing in California seismic construction?",
     options: [
-      "Structural plywood sheathing applied to short wood-frame walls between the foundation and the first floor to resist lateral forces during earthquakes",
       "A decorative wall finish technique",
+      "Structural plywood sheathing applied to short wood-frame walls between the foundation and the first floor to resist lateral forces during earthquakes",
       "Insulation placed inside foundation walls",
       "A type of drywall installation",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "矮墙加固（cripple wall bracing）是在基础与一楼之间的短木框架墙上安装结构胶合板覆面板，以抵抗地震期间的侧向力。未加固的矮墙是地震中房屋倒塌的主要原因之一。",
     category: "safety",
@@ -2738,12 +2738,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is foundation bolting in earthquake retrofitting?",
     options: [
-      "Securing the wood sill plate to the concrete foundation with anchor bolts to prevent the house from sliding off the foundation",
       "Adding decorative bolts to the foundation walls",
       "Bolting the roof to the walls",
+      "Securing the wood sill plate to the concrete foundation with anchor bolts to prevent the house from sliding off the foundation",
       "Connecting the chimney to the foundation",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "基础锚固（foundation bolting）是用锚栓将木质底梁板固定到混凝土基础上，防止地震时房屋从基础上滑落。这是加州抗震加固的基本措施，特别对1950年代前建造的老旧房屋至关重要。",
     category: "safety",
@@ -2753,12 +2753,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the maximum riser height for residential stairs?",
     options: [
-      "7-3/4 inches",
       "8-1/2 inches",
       "6 inches",
       "10 inches",
+      "7-3/4 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "住宅楼梯的最大踏步高度为7-3/4英寸。踏步高度的一致性也很重要——最高和最低踏步之间的差异不得超过3/8英寸，以减少绊倒风险。",
     category: "safety",
@@ -2783,12 +2783,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California WUI (Wildland-Urban Interface) building requirement?",
     options: [
-      "Special fire-resistant construction standards for homes in areas where wildland vegetation and developed areas meet",
       "A requirement for all homes to have sprinkler systems",
+      "Special fire-resistant construction standards for homes in areas where wildland vegetation and developed areas meet",
       "Standards that only apply to commercial buildings",
       "Building codes for homes near the ocean",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "WUI（荒野-城市交界面）建筑要求是针对荒野植被与开发区域交界处房屋的特殊防火建筑标准。包括使用防火外墙材料、Class A屋顶、密封通风口和防火植被管理等。",
     category: "safety",
@@ -2798,12 +2798,12 @@ export const questionsPart8: Question[] = [
     question:
       "How can a home inspector detect a gas leak?",
     options: [
-      "By smelling the rotten egg odor of mercaptan, using a combustible gas detector, or applying soap solution to connections",
       "By listening for gas flowing through pipes",
       "By visually inspecting the gas meter dial",
+      "By smelling the rotten egg odor of mercaptan, using a combustible gas detector, or applying soap solution to connections",
       "Gas leaks cannot be detected during a home inspection",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "检查员可以通过闻到硫醇添加剂的臭鸡蛋味、使用可燃气体检测器或在连接处涂抹肥皂溶液检测燃气泄漏。如果检测到泄漏，应立即通知居住者并建议联系燃气公司。",
     category: "safety",
@@ -2813,12 +2813,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is Zone 0 in California's fire defensible space requirements?",
     options: [
-      "An ember-resistant zone extending 0-5 feet from the structure, requiring hardscape and non-combustible materials",
       "The area 100 feet from the structure",
       "Inside the structure only",
       "The entire property line",
+      "An ember-resistant zone extending 0-5 feet from the structure, requiring hardscape and non-combustible materials",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "Zone 0是加州防火间距要求中从结构延伸0-5英尺的余烬抵抗区域，要求使用硬景观和不可燃材料。这是2023年新增的要求，旨在减少余烬点燃建筑物的风险。",
     category: "safety",
@@ -2843,12 +2843,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the requirement for screws in dryer vent duct connections?",
     options: [
-      "Sheet metal screws should NOT be used as they can catch lint and create blockages",
       "At least 4 screws per connection",
+      "Sheet metal screws should NOT be used as they can catch lint and create blockages",
       "Only Phillips head screws are acceptable",
       "Any type of screw is acceptable",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "烘干机排气管连接处不应使用金属螺丝，因为螺丝尖端伸入管道内部会钩住绒毛，导致积聚和堵塞，增加火灾风险。应使用金属胶带（foil tape）密封连接处。",
     category: "safety",
@@ -2858,12 +2858,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper dryer vent termination on the exterior?",
     options: [
-      "A dampered metal vent cover that opens when the dryer is running and closes when it stops",
       "An open pipe with no covering",
       "A screen mesh cover",
+      "A dampered metal vent cover that opens when the dryer is running and closes when it stops",
       "A rubber flap",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "烘干机排气应终止于一个带活动挡板的金属排气罩，烘干机运行时打开，停止时关闭。不应使用筛网覆盖（会收集绒毛堵塞），排气口不应排入室内、阁楼或爬行空间。",
     category: "safety",
@@ -2873,12 +2873,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector verify about combination smoke/CO alarm units?",
     options: [
-      "That they are properly located, less than 10 years old, and have both audible and visual alarms that function",
       "Only that they are plugged in",
       "That they match the wall color",
       "Only that the battery compartment is closed",
+      "That they are properly located, less than 10 years old, and have both audible and visual alarms that function",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "检查员应验证组合烟雾/CO报警器位置正确、使用不超过10年、并且听觉和视觉报警功能正常。还应检查是否有过期标记，因为传感器会随时间劣化。",
     category: "safety",
@@ -2903,12 +2903,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the significance of vermiculite insulation found in an attic?",
     options: [
-      "It may contain asbestos, particularly if it is the Zonolite brand from the Libby, Montana mine",
       "It is always safe and non-toxic",
+      "It may contain asbestos, particularly if it is the Zonolite brand from the Libby, Montana mine",
       "It is the most efficient type of insulation",
       "It was never used in residential construction",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "阁楼中发现的蛭石隔热材料可能含有石棉，特别是来自蒙大拿州利比矿的Zonolite品牌。EPA估计约70%的蛭石隔热材料来自该矿，该矿的蛭石受到石棉污染。应建议专业检测。",
     category: "safety",
@@ -2918,12 +2918,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum headroom required on a residential stairway?",
     options: [
-      "6 feet 8 inches measured vertically from the stair nosing",
       "6 feet even",
       "7 feet",
+      "6 feet 8 inches measured vertically from the stair nosing",
       "8 feet",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "住宅楼梯的最小净空高度为6英尺8英寸，从楼梯踏步前缘（nosing）垂直测量。不足的净空高度是安全隐患，会导致高个子居住者碰头。",
     category: "safety",
@@ -2933,12 +2933,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for pool safety covers?",
     options: [
-      "ASTM F1346 compliant covers that can support the weight of two adults and a child to prevent drowning",
       "Any tarp covering the pool is sufficient",
       "Covers are not an accepted safety measure",
       "Only solar covers are acceptable",
+      "ASTM F1346 compliant covers that can support the weight of two adults and a child to prevent drowning",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "加州要求泳池安全罩符合ASTM F1346标准，能够支撑两个成人和一个儿童的重量以防止溺水。普通的泳池防水布或太阳能罩不满足安全罩的要求。",
     category: "safety",
@@ -2963,12 +2963,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a GFCI outlet near a spa or hot tub?",
     options: [
-      "To protect against electric shock by quickly interrupting power when a ground fault is detected",
       "To provide more power for the spa heater",
+      "To protect against electric shock by quickly interrupting power when a ground fault is detected",
       "To regulate water temperature",
       "To protect the spa pump from overheating",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "GFCI插座通过在检测到接地故障时快速切断电源来防止触电。在水疗池或热水浴缸附近特别重要，因为水和电的组合极其危险。所有室外和水源附近的插座必须有GFCI保护。",
     category: "safety",
@@ -2978,12 +2978,12 @@ export const questionsPart8: Question[] = [
     question:
       "What radon zone classification does most of California fall under?",
     options: [
-      "Zone 3 (low risk), though some mountainous areas may have higher levels",
       "Zone 1 (highest risk)",
       "Zone 2 (moderate risk)",
+      "Zone 3 (low risk), though some mountainous areas may have higher levels",
       "California has no radon risk at all",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "加州大部分地区属于Zone 3（低风险），但一些山区可能有较高的氡气水平。尽管整体风险较低，EPA仍建议所有房屋进行氡气测试，因为局部地质条件可能导致高浓度。",
     category: "safety",
@@ -2993,12 +2993,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the fire separation requirement between a garage and a bedroom above?",
     options: [
-      "5/8-inch Type X fire-rated drywall on the garage ceiling",
       "No fire separation is required",
       "1/4-inch standard drywall",
       "Plywood sheeting",
+      "5/8-inch Type X fire-rated drywall on the garage ceiling",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "车库上方有卧室时，车库天花板需要安装5/8英寸X型防火石膏板。X型石膏板含有玻璃纤维增强材料，可以提供更长时间的防火保护，延缓火灾蔓延。",
     category: "safety",
@@ -3023,12 +3023,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for earthquake bracing of chimneys?",
     options: [
-      "Chimneys must be braced or strapped to the structure to prevent collapse during seismic events",
       "No bracing is required for any chimneys",
+      "Chimneys must be braced or strapped to the structure to prevent collapse during seismic events",
       "Only new chimneys need bracing",
       "Bracing is only needed in Southern California",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "加州要求烟囱必须通过支撑或绑带固定到结构上，以防止地震时倒塌。未加固的砖石烟囱是地震中常见的损坏和伤亡原因，特别是在较高或较旧的烟囱上。",
     category: "safety",
@@ -3038,12 +3038,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector check about the garage-to-house door?",
     options: [
-      "That it is solid wood (at least 1-3/8 inches thick), solid or honeycomb steel, or 20-minute fire rated, and self-closing",
       "That it has a window for visibility",
       "That it matches the interior doors",
+      "That it is solid wood (at least 1-3/8 inches thick), solid or honeycomb steel, or 20-minute fire rated, and self-closing",
       "Only that it has a lock",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "车库通向室内的门必须是实心木门（至少1-3/8英寸厚）、实心或蜂窝钢门，或20分钟防火等级门，并且必须是自动关闭的。这延缓火灾和有毒气体（包括汽车尾气）从车库进入居住空间。",
     category: "safety",
@@ -3053,12 +3053,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the danger of 9x9-inch floor tiles in homes built before 1980?",
     options: [
-      "They likely contain asbestos fibers that can become airborne if disturbed or damaged",
       "They contain lead paint",
       "They are a tripping hazard due to size",
       "They do not meet current insulation standards",
+      "They likely contain asbestos fibers that can become airborne if disturbed or damaged",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "1980年之前安装的9x9英寸地板砖很可能含有石棉纤维。如果这些砖块受到损坏或干扰，石棉纤维可能释放到空气中被吸入，导致严重的健康问题。应建议不要打磨或拆除，而是封装或覆盖。",
     category: "safety",
@@ -3083,12 +3083,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a mold concern that a home inspector should be aware of?",
     options: [
-      "Visible mold growth or conditions conducive to mold such as water intrusion, high humidity, and poor ventilation",
       "Only black mold is a concern",
+      "Visible mold growth or conditions conducive to mold such as water intrusion, high humidity, and poor ventilation",
       "Mold is never a health concern",
       "Mold only grows on wood surfaces",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "检查员应注意可见的霉菌生长或有利于霉菌生长的条件，如水分渗入、高湿度和通风不良。所有类型的霉菌都可能对健康造成影响，检查员应记录发现并建议进一步测试。",
     category: "safety",
@@ -3098,12 +3098,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the maximum variation in riser height permitted on a stairway?",
     options: [
-      "3/8 inch between the tallest and shortest riser",
       "1 inch between the tallest and shortest riser",
       "No variation is allowed",
+      "3/8 inch between the tallest and shortest riser",
       "2 inches between the tallest and shortest riser",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "楼梯踏步高度的最大允许变化为最高和最低踏步之间不超过3/8英寸。不均匀的踏步高度是导致楼梯跌倒事故的主要原因之一，因为人体会根据前几步的节奏调整步伐。",
     category: "safety",
@@ -3113,12 +3113,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California Zone 2 defensible space requirement?",
     options: [
-      "Reduced fuel area extending 30 to 100 feet from the structure with grass cut to 4 inches and tree canopy spacing",
       "No vegetation management required",
       "Concrete paving from 30 to 100 feet",
       "Only ornamental plants within this zone",
+      "Reduced fuel area extending 30 to 100 feet from the structure with grass cut to 4 inches and tree canopy spacing",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "Zone 2（距结构30到100英尺）是减少燃料的区域，要求将草剪至4英寸高度，树冠间保持适当间距。这创造了一个减缓野火蔓延速度的缓冲区。",
     category: "safety",
@@ -3143,12 +3143,12 @@ export const questionsPart8: Question[] = [
     question:
       "At what height above the floor is a guardrail required for an open-sided walking surface?",
     options: [
-      "30 inches or more above the floor or grade below",
       "12 inches or more",
+      "30 inches or more above the floor or grade below",
       "48 inches or more",
       "60 inches or more",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "当开放侧行走面高出下方地板或地面30英寸或更多时，需要安装护栏。这包括阳台、露台、楼梯平台和其他高架平台，以防止人员坠落。",
     category: "safety",
@@ -3158,12 +3158,12 @@ export const questionsPart8: Question[] = [
     question:
       "What safety feature should a home inspector check on a spa or hot tub?",
     options: [
-      "A GFCI-protected electrical disconnect within sight of the spa and proper bonding of all metal components",
       "Only the water temperature",
       "The brand of the spa",
+      "A GFCI-protected electrical disconnect within sight of the spa and proper bonding of all metal components",
       "Only the color of the spa cover",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "检查水疗池或热水浴缸时应检查视线范围内的GFCI保护电气断路器和所有金属部件的适当接地连接。电气安全对水疗设施至关重要，因为水和电的组合具有致命危险。",
     category: "safety",
@@ -3173,12 +3173,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for CO detectors in multi-family dwellings?",
     options: [
-      "CO detectors are required in each dwelling unit that has a fossil fuel burning appliance, fireplace, or attached garage",
       "Only one detector per building is required",
       "CO detectors are not required in apartments",
       "Only the landlord's unit needs a detector",
+      "CO detectors are required in each dwelling unit that has a fossil fuel burning appliance, fireplace, or attached garage",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "加州要求每个拥有化石燃料燃烧设备、壁炉或附属车库的多户住宅单元内安装CO探测器。这包括公寓、联排别墅和公寓楼中的每个独立单元。",
     category: "safety",
@@ -3203,12 +3203,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper diameter for a residential dryer vent duct?",
     options: [
-      "4 inches",
       "2 inches",
+      "4 inches",
       "6 inches",
       "3 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "住宅烘干机排气管的标准直径为4英寸。使用小于4英寸的管道会限制气流，导致绒毛积聚、烘干效率降低和火灾风险增加。",
     category: "safety",
@@ -3218,12 +3218,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the emergency escape and rescue opening requirement for basements?",
     options: [
-      "Basements with habitable space must have at least one emergency escape and rescue opening meeting egress requirements",
       "Basements never need egress windows",
       "Only a door is sufficient for basement egress",
+      "Basements with habitable space must have at least one emergency escape and rescue opening meeting egress requirements",
       "Basements are exempt from escape requirements",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "有可居住空间的地下室必须至少有一个符合逃生要求的紧急逃生和救援开口。这包括满足最小开口面积、高度、宽度和最大窗台高度要求的窗户或门。",
     category: "safety",
@@ -3233,12 +3233,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern with lead paint dust?",
     options: [
-      "Even microscopic amounts of lead dust can cause lead poisoning, especially in young children",
       "Lead dust only affects adults",
       "Lead dust is only harmful if ingested in large quantities",
       "Lead dust is not a health concern",
+      "Even microscopic amounts of lead dust can cause lead poisoning, especially in young children",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "即使是微量的铅尘也能导致铅中毒，特别是对幼儿。铅尘可以通过手口途径或吸入进入人体。儿童的发育中的大脑对铅特别敏感，可导致智力发育迟缓和行为问题。",
     category: "safety",
@@ -3263,12 +3263,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector look for regarding stair nosing?",
     options: [
-      "A uniform nosing projection between 3/4 inch and 1-1/4 inches with a rounded edge to reduce tripping",
       "Sharp edges for better grip",
+      "A uniform nosing projection between 3/4 inch and 1-1/4 inches with a rounded edge to reduce tripping",
       "No nosing projection is needed",
       "Nosing should extend at least 3 inches",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "楼梯踏步前缘（nosing）应统一突出3/4到1-1/4英寸，边缘圆滑以减少绊倒风险。不均匀或过大的突出会增加绊倒危险，缺少圆角可能导致更严重的跌倒伤害。",
     category: "safety",
@@ -3278,12 +3278,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the significance of checking for proper grounding and bonding around a swimming pool?",
     options: [
-      "To prevent electrocution by ensuring all metal components are at the same electrical potential",
       "To improve water filtration",
       "To prevent corrosion of pool equipment",
+      "To prevent electrocution by ensuring all metal components are at the same electrical potential",
       "To reduce chlorine usage",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "泳池周围的接地和等电位连接确保所有金属部件处于相同的电位，防止触电。如果不同金属部件之间存在电位差，人体可能成为电流通路，造成致命的电击。",
     category: "safety",
@@ -3293,12 +3293,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum landing size required at the top and bottom of a stairway?",
     options: [
-      "At least 36 inches measured in the direction of travel",
       "At least 12 inches",
       "At least 24 inches",
       "No landing is required",
+      "At least 36 inches measured in the direction of travel",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "楼梯顶部和底部的平台（landing）在行走方向上至少需要36英寸。平台为上下楼梯的人提供安全的过渡区域，减少失去平衡和跌落的风险。",
     category: "safety",
@@ -3323,12 +3323,12 @@ export const questionsPart8: Question[] = [
     question:
       "What are the California requirements for earthquake preparedness related to home inspection?",
     options: [
-      "Inspectors should note unbraced cripple walls, unbolted foundations, unstrapped water heaters, and unsecured heavy items",
       "Earthquake preparedness is not part of a home inspection",
+      "Inspectors should note unbraced cripple walls, unbolted foundations, unstrapped water heaters, and unsecured heavy items",
       "Only the foundation type matters",
       "Only chimney condition matters",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "加州家庭检查中，检查员应注意未加固的矮墙、未锚固的基础、未绑扎的热水器和未固定的重物。这些是地震中常见的损坏和伤害来源，也是加州特有的检查关注点。",
     category: "safety",
@@ -3338,12 +3338,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper installation location for a CO detector on a wall?",
     options: [
-      "At any height, but manufacturer instructions typically recommend between knee height and 5 feet from the floor",
       "Only on the ceiling",
       "Only within 6 inches of the floor",
+      "At any height, but manufacturer instructions typically recommend between knee height and 5 feet from the floor",
       "Only behind furniture",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "CO探测器可以安装在墙上的任何高度，但制造商通常建议安装在膝盖高度到距地板5英尺之间。一氧化碳与空气密度相近，会在室内均匀分布，因此位置选择比高度更重要。",
     category: "safety",
@@ -3353,12 +3353,12 @@ export const questionsPart8: Question[] = [
     question:
       "What does California law require regarding fire-resistant roofing in high fire hazard severity zones?",
     options: [
-      "Class A fire-rated roofing material is required for new construction and re-roofing in very high fire hazard severity zones",
       "Any roofing material is acceptable",
       "Wood shakes are preferred for their natural appearance",
       "Only metal roofing is permitted",
+      "Class A fire-rated roofing material is required for new construction and re-roofing in very high fire hazard severity zones",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "在极高火灾风险区域，加州要求新建和重新铺设屋顶时使用A级防火等级的屋顶材料。这包括混凝土瓦、粘土瓦、沥青瓦（A级）和金属屋顶。木摇瓦一般不符合此要求。",
     category: "safety",
@@ -3383,12 +3383,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the maximum door width for a pool gate?",
     options: [
-      "There is no maximum width, but the gate must be self-closing and self-latching with latch release at least 54 inches from grade",
       "3 feet",
+      "There is no maximum width, but the gate must be self-closing and self-latching with latch release at least 54 inches from grade",
       "4 feet",
       "6 feet",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "泳池围栏门没有最大宽度限制，但门必须自动关闭和自动锁闭，且锁闭释放装置至少距地面54英寸高。这个高度确保幼儿无法够到并打开门锁。",
     category: "safety",
@@ -3398,12 +3398,12 @@ export const questionsPart8: Question[] = [
     question:
       "What are the main types of residential fire sprinkler systems?",
     options: [
-      "Wet pipe, dry pipe, and standalone residential systems designed to NFPA 13D",
       "Only commercial-grade systems",
       "Garden sprinkler systems adapted for fire protection",
+      "Wet pipe, dry pipe, and standalone residential systems designed to NFPA 13D",
       "Portable fire extinguisher systems",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "住宅消防喷淋系统主要类型包括湿管系统、干管系统和按NFPA 13D标准设计的独立住宅系统。加州2011年起要求新建住宅安装消防喷淋系统。",
     category: "safety",
@@ -3413,12 +3413,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern with asbestos pipe wrap insulation?",
     options: [
-      "If damaged or deteriorated, it can release asbestos fibers into the air causing serious respiratory diseases and cancer",
       "It reduces pipe insulation effectiveness",
       "It only affects water quality",
       "It is only a concern in commercial buildings",
+      "If damaged or deteriorated, it can release asbestos fibers into the air causing serious respiratory diseases and cancer",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "石棉管道包裹隔热材料如果损坏或劣化，会将石棉纤维释放到空气中，导致严重的呼吸系统疾病和癌症（间皮瘤、石棉肺）。完好的石棉材料通常不构成即时危险，但应监控其状态。",
     category: "safety",
@@ -3443,12 +3443,12 @@ export const questionsPart8: Question[] = [
     question:
       "What safety concern does an open stairway between a garage and living space present?",
     options: [
-      "Carbon monoxide and fire can easily travel from the garage to the living space without adequate separation",
       "It reduces property value",
+      "Carbon monoxide and fire can easily travel from the garage to the living space without adequate separation",
       "It makes the garage too cold",
       "There is no safety concern",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "车库与居住空间之间的开放楼梯允许一氧化碳和火灾轻松从车库传播到居住空间。必须有适当的防火分隔，包括防火门和密封的墙壁/天花板组件。",
     category: "safety",
@@ -3458,12 +3458,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for seismic gas shut-off valves on new construction?",
     options: [
-      "Many California jurisdictions require automatic seismic gas shut-off valves on all new gas service connections",
       "They are prohibited in new construction",
       "Only required for commercial buildings",
+      "Many California jurisdictions require automatic seismic gas shut-off valves on all new gas service connections",
       "They are voluntary recommendations only",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "加州许多司法管辖区要求所有新的燃气服务连接安装自动地震燃气关闭阀。这些阀门在检测到显著地震运动时自动关闭燃气供应，防止地震后燃气泄漏引发火灾和爆炸。",
     category: "safety",
@@ -3473,12 +3473,12 @@ export const questionsPart8: Question[] = [
     question:
       "Why is proper ventilation important in preventing mold growth?",
     options: [
-      "Ventilation reduces indoor humidity levels, making the environment less conducive to mold growth",
       "Ventilation kills mold spores",
       "Ventilation only affects air temperature",
       "Mold growth is not affected by ventilation",
+      "Ventilation reduces indoor humidity levels, making the environment less conducive to mold growth",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "适当的通风降低室内湿度水平，使环境不利于霉菌生长。霉菌在相对湿度超过60%的环境中茁壮生长。浴室排气扇、厨房排气扇和良好的空气循环都有助于控制湿度。",
     category: "safety",
@@ -3503,12 +3503,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the fire resistance rating of the door between a garage and the house?",
     options: [
-      "20-minute fire-rated, or solid wood not less than 1-3/8 inches thick, or solid or honeycomb-core steel",
       "No fire rating is required",
+      "20-minute fire-rated, or solid wood not less than 1-3/8 inches thick, or solid or honeycomb-core steel",
       "1-hour fire-rated",
       "2-hour fire-rated",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "车库通往室内的门需要20分钟防火等级，或不少于1-3/8英寸厚的实木门，或实心或蜂窝芯钢门。这些标准确保门能在火灾中提供足够的延缓时间让居住者逃生。",
     category: "safety",
@@ -3518,12 +3518,12 @@ export const questionsPart8: Question[] = [
     question:
       "Where is tempered glass required near a door?",
     options: [
-      "Within 24 inches of either edge of the door, from floor level to 60 inches above the floor",
       "Only in the door itself",
       "Within 48 inches of the door",
+      "Within 24 inches of either edge of the door, from floor level to 60 inches above the floor",
       "Only above the door",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "门两侧24英寸范围内、从地板到距地板60英寸高度之间的玻璃必须是钢化安全玻璃。人们在开关门时容易失去平衡撞击附近的玻璃，钢化玻璃提供了必要的安全保护。",
     category: "safety",
@@ -3533,12 +3533,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the requirement for smoke alarm placement on a ceiling with a peaked or cathedral design?",
     options: [
-      "Within 3 feet of the peak but not within 4 inches of where the wall meets the ceiling",
       "At the very peak of the ceiling",
       "At the lowest point of the ceiling",
       "On the wall only",
+      "Within 3 feet of the peak but not within 4 inches of where the wall meets the ceiling",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "在尖顶或教堂式天花板上，烟雾报警器应安装在距顶峰3英尺以内，但不在墙壁与天花板交汇处4英寸以内（死角区域）。这确保了烟雾能有效到达报警器传感器。",
     category: "safety",
@@ -3563,12 +3563,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for a pool barrier when the house wall serves as one side of the pool enclosure?",
     options: [
-      "All doors and windows that open to the pool area must have self-closing devices, alarms, or other approved safety features",
       "No additional measures are needed",
+      "All doors and windows that open to the pool area must have self-closing devices, alarms, or other approved safety features",
       "Only the back door needs a lock",
       "A separate fence must be built between the house and pool",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "当房屋墙壁作为泳池围栏的一面时，所有通向泳池区域的门窗必须配备自动关闭装置、报警器或其他经批准的安全功能。这防止通过房屋无人看管地进入泳池。",
     category: "safety",
@@ -3578,12 +3578,12 @@ export const questionsPart8: Question[] = [
     question:
       "What are the signs of lead paint on a surface?",
     options: [
-      "Alligatoring, chalking, or peeling paint on surfaces in homes built before 1978",
       "Smooth, glossy paint in good condition",
       "Blue or green discoloration",
+      "Alligatoring, chalking, or peeling paint on surfaces in homes built before 1978",
       "Paint bubbles from moisture only",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "1978年之前建造的房屋表面出现鳄鱼纹开裂（alligatoring）、粉化（chalking）或剥落的油漆可能含铅。这些劣化状态会产生铅尘和铅漆碎片，是铅暴露的高风险指标。",
     category: "safety",
@@ -3593,12 +3593,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for dryer vents to NOT terminate?",
     options: [
-      "Dryer vents shall not terminate in an attic, crawl space, garage, or inside the building envelope",
       "Dryer vents must always terminate inside the attic",
       "Dryer vents should terminate in the garage for warmth",
       "Dryer vents can terminate anywhere convenient",
+      "Dryer vents shall not terminate in an attic, crawl space, garage, or inside the building envelope",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烘干机排气管不得终止于阁楼、爬行空间、车库或建筑围护结构内部。排气管必须将湿气和绒毛排到室外。将排气排入室内空间会导致湿度过高、霉菌生长和火灾风险。",
     category: "safety",
@@ -3623,12 +3623,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the requirement for a handrail return (termination) at the top and bottom of a stairway?",
     options: [
-      "Handrails must return to the wall or post, or have a rounded termination to prevent clothing from catching",
       "Handrails can end anywhere",
+      "Handrails must return to the wall or post, or have a rounded termination to prevent clothing from catching",
       "Handrails must extend 12 feet beyond the stairs",
       "Handrail terminations are purely aesthetic",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "扶手必须返回到墙壁或柱子，或有圆形终端，以防止衣物钩挂。开放式扶手末端可能钩住袖口或其他衣物，导致跌倒事故。",
     category: "safety",
@@ -3638,12 +3638,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a gas leak detector during a home inspection?",
     options: [
-      "To detect the presence of combustible gases at connections and fittings that cannot be smelled at low concentrations",
       "To measure gas pressure",
       "To determine the type of gas being used",
+      "To detect the presence of combustible gases at connections and fittings that cannot be smelled at low concentrations",
       "To check if the gas meter is working",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "燃气泄漏检测器可以检测连接处和配件处低浓度的可燃气体，这些浓度人类嗅觉可能无法察觉。这是检查燃气系统安全性的重要工具，比仅靠嗅觉更可靠和灵敏。",
     category: "safety",
@@ -3653,12 +3653,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector report about missing fire blocking in balloon-frame construction?",
     options: [
-      "It is a significant fire safety concern as fire can rapidly spread through continuous wall cavities from basement to attic",
       "It is not a concern in older homes",
       "Only newer homes need fire blocking",
       "Fire blocking is only needed in commercial buildings",
+      "It is a significant fire safety concern as fire can rapidly spread through continuous wall cavities from basement to attic",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "气球框架结构中缺失防火封堵是严重的消防安全隐患，因为火灾可以通过连续的墙腔从地下室快速蔓延到阁楼。这种旧式建造方法需要在每层楼板处安装防火封堵。",
     category: "safety",
@@ -3683,12 +3683,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the danger of improperly vented gas appliances?",
     options: [
-      "Carbon monoxide can accumulate to lethal levels in the living space",
       "The appliances will use more gas",
+      "Carbon monoxide can accumulate to lethal levels in the living space",
       "The appliances will be too noisy",
       "There is no danger if a window is nearby",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "排气不当的燃气设备会导致一氧化碳在居住空间积聚到致命水平。一氧化碳是无色无味的气体，被称为\"沉默的杀手\"。适当的排气系统将所有燃烧副产物安全排到室外。",
     category: "safety",
@@ -3698,12 +3698,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum number of treads that requires a handrail on a residential stairway?",
     options: [
-      "4 or more risers (3 or more treads) require a handrail",
       "Any single step requires a handrail",
       "10 or more risers",
+      "4 or more risers (3 or more treads) require a handrail",
       "No minimum — handrails are optional",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "4个或更多踏步高度（3个或更多踏面）的住宅楼梯需要安装扶手。扶手为上下楼梯的人提供支撑和平衡辅助，减少跌倒风险。",
     category: "safety",
@@ -3713,12 +3713,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the earthquake preparedness concern with tall, heavy furniture in a bedroom?",
     options: [
-      "Unsecured tall furniture can topple during an earthquake, causing injury or blocking egress routes",
       "Tall furniture improves room acoustics",
       "Furniture placement has no seismic significance",
       "Only metal furniture is a concern",
+      "Unsecured tall furniture can topple during an earthquake, causing injury or blocking egress routes",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "地震时未固定的高大家具可能倾倒，造成伤害或堵塞逃生路线。虽然家具固定不是标准家庭检查的一部分，但检查员可以提醒注意这一安全问题，特别是在卧室中。",
     category: "safety",
@@ -3743,12 +3743,12 @@ export const questionsPart8: Question[] = [
     question:
       "What size window is considered hazardous and requires tempered glass when within 18 inches of the floor?",
     options: [
-      "Any glass panel larger than 9 square feet that has a bottom edge within 18 inches of the floor",
       "Only windows larger than 20 square feet",
+      "Any glass panel larger than 9 square feet that has a bottom edge within 18 inches of the floor",
       "Only skylights",
       "Only glass doors",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "当底边距地板18英寸以内的玻璃面板面积大于9平方英尺时，需要使用钢化安全玻璃。在这个高度，人们容易踢到或撞到玻璃，大面积玻璃破碎时更加危险。",
     category: "safety",
@@ -3758,12 +3758,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for interconnecting smoke alarms in new construction?",
     options: [
-      "All smoke alarms must be interconnected so that when one sounds, all alarms throughout the dwelling sound simultaneously",
       "Only alarms on the same floor need to be interconnected",
       "Interconnection is optional in new construction",
+      "All smoke alarms must be interconnected so that when one sounds, all alarms throughout the dwelling sound simultaneously",
       "Only bedroom alarms need to be interconnected",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "加州新建住宅要求所有烟雾报警器互联，当一个触发时，整个住宅中的所有报警器同时响起。这确保了无论火灾发生在哪里，所有居住者都能收到警报。",
     category: "safety",
@@ -3773,12 +3773,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector check regarding a property in a high fire hazard severity zone?",
     options: [
-      "Defensible space compliance, fire-rated roofing, enclosed eaves, ember-resistant vents, and fire-resistant siding",
       "Only the roof color",
       "Only whether there is a fire hydrant nearby",
       "Only the driveway material",
+      "Defensible space compliance, fire-rated roofing, enclosed eaves, ember-resistant vents, and fire-resistant siding",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "在高火灾危险区域，检查员应检查防火间距合规性、防火等级屋顶、封闭式屋檐、防余烬通风口和防火壁板。这些措施共同减少房屋在野火中受损的风险。",
     category: "safety",
@@ -3803,12 +3803,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a safety cover on a swimming pool?",
     options: [
-      "To support the weight of a person walking across it and prevent access to the water below",
       "To keep the pool water warm",
+      "To support the weight of a person walking across it and prevent access to the water below",
       "To prevent leaves from entering the pool",
       "To reduce water evaporation only",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "泳池安全罩的目的是支撑人走过时的重量并防止接触下方的水。与普通盖板不同，安全罩必须符合ASTM F1346标准，能够支撑至少485磅的重量。",
     category: "safety",
@@ -3818,12 +3818,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector note about a stairway without a guardrail on the open side?",
     options: [
-      "It is a fall hazard that does not meet building code requirements for stairs more than 30 inches above grade",
       "It is an acceptable modern design feature",
       "It is only a concern for commercial buildings",
+      "It is a fall hazard that does not meet building code requirements for stairs more than 30 inches above grade",
       "Guardrails are optional on residential stairs",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "开放侧没有护栏的楼梯是跌落隐患，不符合高出地面30英寸以上楼梯的建筑规范要求。检查员应将此记录为安全缺陷，建议安装符合规范的护栏。",
     category: "safety",
@@ -3833,12 +3833,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the minimum clearance between pool fence horizontal members to prevent climbing?",
     options: [
-      "Horizontal members should be on the pool side (not the approach side), or spaced at least 45 inches apart to prevent climbing footholds",
       "Any spacing is fine",
       "12 inches apart",
       "6 inches apart",
+      "Horizontal members should be on the pool side (not the approach side), or spaced at least 45 inches apart to prevent climbing footholds",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "泳池围栏水平构件应在泳池侧（而非接近侧），或间距至少45英寸，以防止形成攀爬支撑点。面向外的水平构件为儿童提供了攀爬围栏的梯子，增加了溺水风险。",
     category: "safety",
@@ -3863,12 +3863,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector look for when checking a dryer vent system?",
     options: [
-      "Proper material, length, diameter, connections, termination, lint buildup, and that it is not crushed or kinked",
       "Only whether it exits the building",
+      "Proper material, length, diameter, connections, termination, lint buildup, and that it is not crushed or kinked",
       "Only the color of the vent",
       "Only whether it has a screen",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "检查烘干机排气系统时应查看材料类型（应为光滑金属）、长度（不超过25英尺）、直径（4英寸）、连接方式（无螺丝）、终端装置、绒毛积聚情况，以及管道是否被压扁或扭曲。",
     category: "safety",
@@ -3878,12 +3878,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a raised threshold at a garage entry door to the house?",
     options: [
-      "To prevent gasoline and other flammable liquids from flowing into the house in case of a spill",
       "To match the house floor height",
       "To prevent cold air from entering",
+      "To prevent gasoline and other flammable liquids from flowing into the house in case of a spill",
       "It is purely decorative",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "车库入口门处的抬高门槛防止汽油和其他易燃液体在泄漏时流入房屋。通常要求至少一个4英寸的台阶从车库到居住空间，这也是防火分隔的一部分。",
     category: "safety",
@@ -3893,12 +3893,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a dual-sensor smoke alarm?",
     options: [
-      "An alarm that contains both ionization and photoelectric sensors for detection of both flaming and smoldering fires",
       "An alarm with two batteries",
       "An alarm that detects both smoke and heat",
       "An alarm designed for two-story homes only",
+      "An alarm that contains both ionization and photoelectric sensors for detection of both flaming and smoldering fires",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "双传感器烟雾报警器同时包含电离和光电两种传感器，可以检测明火和阴燃两种类型的火灾。这提供了最全面的早期火灾检测保护。",
     category: "safety",
@@ -3923,12 +3923,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is a safety concern with a stairway that has inconsistent tread depth?",
     options: [
-      "It disrupts the user's walking rhythm and significantly increases the risk of tripping and falling",
       "It makes the stairs look unattractive",
+      "It disrupts the user's walking rhythm and significantly increases the risk of tripping and falling",
       "It reduces the structural integrity of the stairs",
       "It is only a concern for commercial buildings",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "踏板深度不一致会扰乱使用者的行走节奏，显著增加绊倒和跌落的风险。人的大脑会根据前几步建立步幅预期，突然的变化可能导致失去平衡。",
     category: "safety",
@@ -3938,12 +3938,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector report about a missing garage-to-house fire door?",
     options: [
-      "It is a significant fire safety deficiency that should be corrected with an appropriately rated door",
       "Any door is acceptable between the garage and house",
       "A curtain is an acceptable substitute",
+      "It is a significant fire safety deficiency that should be corrected with an appropriately rated door",
       "No separation is needed in modern homes",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "车库通往室内缺少防火门是重大消防安全缺陷，应安装适当等级的防火门。车库中存储的车辆、燃料和化学品使其成为高火灾风险区域，防火门延缓火灾蔓延至居住空间。",
     category: "safety",
@@ -3953,12 +3953,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the significance of a smoke alarm that is more than 10 years old?",
     options: [
-      "The sensors degrade over time and the alarm may not function properly, requiring replacement",
       "Older alarms are more reliable",
       "The alarm will be louder after 10 years",
       "Age does not affect smoke alarm performance",
+      "The sensors degrade over time and the alarm may not function properly, requiring replacement",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "超过10年的烟雾报警器传感器会随时间劣化，可能无法正常工作。制造商和NFPA建议每10年更换烟雾报警器，无论它是否仍能通过测试按钮测试。",
     category: "safety",
@@ -3983,12 +3983,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the proper placement of a carbon monoxide detector in relation to a fuel-burning appliance?",
     options: [
-      "Outside each separate sleeping area within 15 feet of sleeping rooms, not directly next to the appliance",
       "Attached directly to the furnace",
+      "Outside each separate sleeping area within 15 feet of sleeping rooms, not directly next to the appliance",
       "Inside the furnace closet",
       "Only in the attic above the furnace",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "CO探测器应安装在每个独立睡眠区域外15英尺以内的位置，而不是直接安装在设备旁边。这是因为探测器的主要目的是保护睡眠中的居住者，且直接放在设备旁可能导致频繁误报。",
     category: "safety",
@@ -3998,12 +3998,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern with popcorn ceilings that have been painted over in a pre-1978 home?",
     options: [
-      "Paint may encapsulate asbestos fibers temporarily, but scraping or sanding will still release them",
       "Paint permanently eliminates asbestos risk",
       "Painted popcorn ceilings never contained asbestos",
+      "Paint may encapsulate asbestos fibers temporarily, but scraping or sanding will still release them",
       "Only unpainted popcorn ceilings are a concern",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "涂漆可能暂时封装石棉纤维，但刮削或打磨仍会释放石棉。在1978年之前的房屋中，即使爆米花天花板已被涂漆，也应在翻修前进行石棉测试。",
     category: "safety",
@@ -4013,12 +4013,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the maximum height of the bottom of a pool fence gate latch from the ground?",
     options: [
-      "54 inches when the latch release is on the pool side of the gate",
       "36 inches",
       "48 inches",
       "60 inches",
+      "54 inches when the latch release is on the pool side of the gate",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "当门锁释放装置位于门的泳池侧时，从地面到门锁底部的最大高度不超过54英寸。这个高度确保成人可以够到但幼儿无法够到的平衡点。",
     category: "safety",
@@ -4043,12 +4043,12 @@ export const questionsPart8: Question[] = [
     question:
       "What does California law require regarding fire extinguishers in residential properties?",
     options: [
-      "Fire extinguishers are not required by California residential building codes but are strongly recommended",
       "Every room must have a fire extinguisher",
+      "Fire extinguishers are not required by California residential building codes but are strongly recommended",
       "One extinguisher per 500 square feet is required",
       "Only commercial properties need fire extinguishers",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "加州住宅建筑规范不要求安装灭火器，但强烈建议每户至少配备一个。建议在厨房和车库各备一个ABC型灭火器。检查员可以在报告中建议但不能作为缺陷列出。",
     category: "safety",
@@ -4058,12 +4058,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern with a spa or hot tub that has a damaged safety suction cover?",
     options: [
-      "It can cause entrapment where a person's body, hair, or limbs get trapped by suction, potentially leading to drowning",
       "It only affects water circulation efficiency",
       "It will increase energy costs",
+      "It can cause entrapment where a person's body, hair, or limbs get trapped by suction, potentially leading to drowning",
       "It is purely cosmetic",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "损坏的安全吸水口盖可能导致吸附事故，人的身体、头发或四肢被吸力困住，可能导致溺水。Virginia Graeme Baker法案要求使用防夹吸水口盖以防止此类致命事故。",
     category: "safety",
@@ -4073,12 +4073,12 @@ export const questionsPart8: Question[] = [
     question:
       "When is a handrail required on both sides of a residential stairway?",
     options: [
-      "When the stairway is 44 inches or wider",
       "Always, regardless of width",
       "Only on stairs with 10 or more risers",
       "Handrails on both sides are never required in residential buildings",
+      "When the stairway is 44 inches or wider",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "当住宅楼梯宽度达到44英寸或更宽时，需要在两侧都安装扶手。较宽的楼梯中间没有扶手可够到时，双侧扶手确保使用者始终有可抓握的支撑。",
     category: "safety",
@@ -4103,12 +4103,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California code requirement for tempered glass near a bathtub?",
     options: [
-      "Glass within 60 inches measured horizontally from the water's edge of a bathtub must be tempered safety glass",
       "No special glass is required near bathtubs",
+      "Glass within 60 inches measured horizontally from the water's edge of a bathtub must be tempered safety glass",
       "Only glass directly above the bathtub",
       "Glass within 12 inches of the bathtub",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "从浴缸水边缘水平测量60英寸以内的玻璃必须是钢化安全玻璃。浴缸区域湿滑，人可能滑倒撞到玻璃，钢化玻璃可以防止严重的割伤伤害。",
     category: "safety",
@@ -4118,12 +4118,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a self-closing hinge on a garage-to-house door?",
     options: [
-      "To ensure the door automatically closes to maintain the fire separation and prevent CO entry from vehicles",
       "To reduce noise from the garage",
       "To save energy",
+      "To ensure the door automatically closes to maintain the fire separation and prevent CO entry from vehicles",
       "It is purely for convenience",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "车库通往室内门上的自动关闭铰链确保门自动关闭，维持防火分隔并防止车辆排出的一氧化碳进入居住空间。不能依赖居住者记住关门，自动关闭提供了持续的保护。",
     category: "safety",
@@ -4133,12 +4133,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the concern with lead plumbing pipes and solder in older homes?",
     options: [
-      "Lead can leach into drinking water, especially with hot water or when water sits in pipes for extended periods",
       "Lead pipes are stronger and better than copper",
       "Lead solder only affects cold water",
       "Lead pipes do not affect water quality",
+      "Lead can leach into drinking water, especially with hot water or when water sits in pipes for extended periods",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "老旧房屋中的铅管和铅焊料可能将铅溶入饮用水中，特别是在热水或水在管道中长时间停留的情况下。1986年之前的房屋可能使用铅焊料连接铜管。铅在饮用水中对健康有害。",
     category: "safety",
@@ -4163,12 +4163,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California seismic retrofit requirement for homes with unbraced cripple walls?",
     options: [
-      "Bracing with structural plywood is strongly recommended to prevent collapse during earthquakes, and may be required for sale in some jurisdictions",
       "No retrofit is ever required",
+      "Bracing with structural plywood is strongly recommended to prevent collapse during earthquakes, and may be required for sale in some jurisdictions",
       "Only homes over 50 years old need retrofitting",
       "Cripple walls are always structurally adequate",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "加州强烈建议对未加固的矮墙使用结构胶合板进行加固，以防止地震中倒塌。洛杉矶等一些司法管辖区已经立法要求某些类型的建筑物进行此类抗震加固。",
     category: "safety",
@@ -4178,12 +4178,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the danger of flexible gas connectors made before 1973?",
     options: [
-      "Older uncoated brass connectors are prone to cracking and leaking, creating fire and explosion hazards",
       "They are more durable than modern connectors",
       "They are easier to install",
+      "Older uncoated brass connectors are prone to cracking and leaking, creating fire and explosion hazards",
       "There is no concern with older connectors",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "1973年之前制造的未涂层黄铜燃气连接器容易开裂和泄漏，造成火灾和爆炸危险。这些连接器已被召回，应立即更换为现代涂层不锈钢连接器。",
     category: "safety",
@@ -4193,12 +4193,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a dedicated circuit for a smoke alarm system?",
     options: [
-      "To ensure the alarms remain powered even if other circuits are turned off, with no switch control over the alarm circuit",
       "To make the alarms louder",
       "To reduce electricity costs",
       "To allow the alarms to be easily turned off",
+      "To ensure the alarms remain powered even if other circuits are turned off, with no switch control over the alarm circuit",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "烟雾报警器专用电路确保即使其他电路被关闭，报警器仍然保持供电。报警器电路不应有开关控制，防止有人故意或无意地断开报警器电源。",
     category: "safety",
@@ -4223,12 +4223,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for residential buildings in very high fire hazard severity zones regarding exterior walls?",
     options: [
-      "Exterior walls must be constructed of noncombustible or ignition-resistant materials or assemblies",
       "Any exterior wall material is acceptable",
+      "Exterior walls must be constructed of noncombustible or ignition-resistant materials or assemblies",
       "Only brick walls are permitted",
       "Stucco is prohibited",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "在极高火灾危险区域，加州要求外墙使用不可燃或抗点燃材料或组件。这包括灰泥、纤维水泥壁板、砖石或其他经过测试的抗点燃材料。木壁板通常不符合要求。",
     category: "safety",
@@ -4238,12 +4238,12 @@ export const questionsPart8: Question[] = [
     question:
       "What type of dryer vent transition duct is most commonly used and least recommended?",
     options: [
-      "White vinyl (plastic) flexible duct, which is a fire hazard and not code compliant",
       "Rigid aluminum duct",
       "Smooth galvanized steel duct",
+      "White vinyl (plastic) flexible duct, which is a fire hazard and not code compliant",
       "Semi-rigid aluminum duct",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "白色乙烯基（塑料）软管是最常见但最不推荐的烘干机排气过渡管道，它是火灾隐患且不符合规范。它容易被烘干机产生的热量点燃，且褶皱中积聚绒毛。应使用金属管道替代。",
     category: "safety",
@@ -4253,12 +4253,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the recommended inspection interval for residential smoke alarms?",
     options: [
-      "Test monthly by pressing the test button, and replace the entire unit every 10 years",
       "Test once a year",
       "Test every 5 years",
       "No testing is needed if the alarm is hardwired",
+      "Test monthly by pressing the test button, and replace the entire unit every 10 years",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "建议每月按测试按钮测试烟雾报警器，并每10年更换整个装置。传感器随时间劣化，即使通过了测试按钮测试也可能无法正常检测真实的烟雾。",
     category: "safety",
@@ -4283,12 +4283,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the requirement for a pool fence gate's self-latching mechanism?",
     options: [
-      "The latch must automatically engage when the gate closes without any action from the user",
       "A manual latch that requires lifting is acceptable",
+      "The latch must automatically engage when the gate closes without any action from the user",
       "A chain and padlock is sufficient",
       "No latching mechanism is required if the gate is self-closing",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "泳池围栏门的自动锁闭机构必须在门关闭时自动啮合，无需用户操作。这确保了门在每次使用后始终处于锁闭状态，防止儿童推开门进入泳池区域。",
     category: "safety",
@@ -4298,12 +4298,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the safety concern with knob-and-tube wiring found in older homes?",
     options: [
-      "It lacks a ground conductor, may have deteriorated insulation, and can be a fire hazard if covered with insulation",
       "It is safer than modern wiring",
       "It provides better grounding than modern systems",
+      "It lacks a ground conductor, may have deteriorated insulation, and can be a fire hazard if covered with insulation",
       "It is only a concern in commercial buildings",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "旧式拉线布管（knob-and-tube）布线缺少接地导体，绝缘层可能已劣化，如果被隔热材料覆盖可能导致过热和火灾。这种布线方式不适合现代用电负荷，建议升级。",
     category: "safety",
@@ -4313,12 +4313,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the purpose of a residential fire sprinkler system?",
     options: [
-      "To control or extinguish a fire in its early stages, giving occupants more time to escape",
       "To completely prevent all fires from starting",
       "To replace smoke alarms",
       "To reduce homeowner's insurance only",
+      "To control or extinguish a fire in its early stages, giving occupants more time to escape",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "住宅消防喷淋系统的目的是在火灾初期控制或扑灭火灾，给予居住者更多逃生时间。它不能取代烟雾报警器，两者配合使用提供最佳的火灾保护。",
     category: "safety",
@@ -4343,12 +4343,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the significance of checking stairway lighting during a home inspection?",
     options: [
-      "Inadequate lighting is a leading contributor to stair falls, which are among the most common household injuries",
       "Lighting is purely aesthetic",
+      "Inadequate lighting is a leading contributor to stair falls, which are among the most common household injuries",
       "Only exterior stair lighting matters",
       "Stair lighting is not part of a standard inspection",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "照明不足是导致楼梯跌倒的主要因素之一，而楼梯跌倒是最常见的家庭伤害之一。检查员应确认楼梯有足够的照明，每个楼层都有开关，且灯泡正常工作。",
     category: "safety",
@@ -4358,12 +4358,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the requirement for tempered glass near a hot tub or spa?",
     options: [
-      "Glass within 60 inches of the water's edge and less than 60 inches from the floor must be tempered",
       "No tempered glass is required near hot tubs",
       "Only glass within 12 inches of the water",
+      "Glass within 60 inches of the water's edge and less than 60 inches from the floor must be tempered",
       "Tempered glass is only needed for indoor spas",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "距热水浴缸或水疗池水边缘60英寸以内且距地板60英寸以下的玻璃必须是钢化安全玻璃。水疗区域潮湿光滑，人可能滑倒撞击玻璃，钢化玻璃提供必要的安全保护。",
     category: "safety",
@@ -4373,12 +4373,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California requirement for smoke alarms in remodeled homes?",
     options: [
-      "When a building permit is issued for remodeling, smoke alarms must be brought up to current code requirements for the entire dwelling",
       "Only new rooms need alarms",
       "No upgrades are required during remodeling",
       "Only the remodeled area needs new alarms",
+      "When a building permit is issued for remodeling, smoke alarms must be brought up to current code requirements for the entire dwelling",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "当发出改建许可证时，加州要求整个住宅的烟雾报警器必须符合当前规范要求。这意味着即使只改建一个房间，整个房屋都可能需要升级到硬连线互联报警器。",
     category: "safety",
@@ -4403,12 +4403,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector note about a missing or painted-over smoke alarm?",
     options: [
-      "Both are safety deficiencies — missing alarms need replacement and painted alarms may not function due to paint blocking the sensor",
       "Painted alarms are acceptable",
+      "Both are safety deficiencies — missing alarms need replacement and painted alarms may not function due to paint blocking the sensor",
       "Missing alarms are only a concern in new construction",
       "Neither is a reportable concern",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "缺失和被涂漆覆盖的烟雾报警器都是安全缺陷——缺失的需要更换，涂漆的可能因油漆堵塞传感器而无法正常工作。检查员应将两者都记录在报告中并建议纠正。",
     category: "safety",
@@ -4418,12 +4418,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the requirement for a residential stairway that has a door at the top?",
     options: [
-      "The door must not swing over the stairs — there must be a landing at least as deep as the door is wide",
       "The door may swing directly over the stairs",
       "No landing is needed if the door opens inward",
+      "The door must not swing over the stairs — there must be a landing at least as deep as the door is wide",
       "Doors at the top of stairs are always prohibited",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "楼梯顶部的门不得向楼梯方向开启——必须有至少与门宽相同深度的平台。这防止了门打开时将人推下楼梯的危险情况。这是一个重要的安全要求。",
     category: "safety",
@@ -4433,12 +4433,12 @@ export const questionsPart8: Question[] = [
     question:
       "What should an inspector look for at the base of a masonry chimney related to seismic safety?",
     options: [
-      "Proper anchoring straps or bracing connecting the chimney to the house framing to resist lateral earthquake forces",
       "Only the mortar condition",
       "Only the foundation type",
       "The chimney brand name",
+      "Proper anchoring straps or bracing connecting the chimney to the house framing to resist lateral earthquake forces",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "检查员应查看砖石烟囱底部是否有适当的锚固带或支撑将烟囱连接到房屋框架，以抵抗地震的侧向力。未加固的砖石烟囱是地震中最容易坍塌的结构之一。",
     category: "safety",
@@ -4463,12 +4463,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the California regulation regarding CO alarms in rental properties?",
     options: [
-      "Landlords must install and maintain CO alarms in compliance with state law; tenants must notify landlords of non-functioning alarms",
       "Tenants are solely responsible for CO alarms",
+      "Landlords must install and maintain CO alarms in compliance with state law; tenants must notify landlords of non-functioning alarms",
       "CO alarms are not required in rental properties",
       "Only commercial rental properties need CO alarms",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
       "加州法律要求房东在出租物业中安装和维护CO报警器。租户有责任通知房东报警器不工作的情况。这种共同责任机制确保了出租住宅中CO探测的持续保护。",
     category: "safety",
@@ -4478,12 +4478,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the recommended practice if an inspector suspects the presence of asbestos in a home?",
     options: [
-      "Note the suspected material in the report and recommend laboratory testing by a certified asbestos testing firm before any disturbance",
       "Collect samples for testing during the inspection",
       "Remove the suspected material immediately",
+      "Note the suspected material in the report and recommend laboratory testing by a certified asbestos testing firm before any disturbance",
       "Ignore it if the material appears to be in good condition",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
       "如果检查员怀疑存在石棉材料，应在报告中注明可疑材料，并建议在进行任何干扰之前由认证石棉测试公司进行实验室测试。检查员不应收集样本或干扰可疑材料。",
     category: "safety",
@@ -4493,12 +4493,12 @@ export const questionsPart8: Question[] = [
     question:
       "What is the overall purpose of California's comprehensive safety requirements for residential properties?",
     options: [
-      "To protect occupants from fire, natural disasters, toxic hazards, and injury through prevention, detection, and safe egress",
       "To increase the cost of home construction",
       "To create work for home inspectors only",
       "To reduce property values in high-risk areas",
+      "To protect occupants from fire, natural disasters, toxic hazards, and injury through prevention, detection, and safe egress",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     explanation:
       "加州全面的住宅安全要求的总体目的是通过预防、检测和安全逃生来保护居住者免受火灾、自然灾害、有毒危害和伤害。这些要求反映了加州独特的风险环境，包括地震、野火和老旧住宅库存。",
     category: "safety",
