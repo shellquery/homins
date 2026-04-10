@@ -2,7 +2,7 @@ import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
   appId: "com.hiexam.inspector",
-  appName: "HI Exam Prep",
+  appName: "Homins",
   webDir: "out",
   server: {
     iosScheme: "capacitor",
