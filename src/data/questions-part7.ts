@@ -21,12 +21,12 @@ export const questionsPart7: Question[] = [
     question:
       "According to California Title 24, which factor primarily determines the insulation requirements for a building?",
     options: [
-      "The building's square footage",
       "The building's climate zone",
+      "The building's square footage",
       "The building's age",
       "The building's height",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "加州Title 24根据建筑所在的气候区来确定保温要求。加州有16个气候区，每个区域有不同的保温R值要求，因为不同地区的温度和湿度条件差异很大。",
     category: "insulation",
@@ -34,8 +34,8 @@ export const questionsPart7: Question[] = [
   {
     id: 1403,
     question: "How many climate zones does California have under Title 24?",
-    options: ["8", "12", "16", "20"],
-    correctAnswer: 2,
+    options: ["16", "8", "12", "20"],
+    correctAnswer: 0,
     explanation:
       "加州Title 24将全州划分为16个气候区。每个气候区有不同的能效要求，包括保温、窗户性能和暖通空调系统的规格。",
     category: "insulation",
@@ -44,8 +44,8 @@ export const questionsPart7: Question[] = [
     id: 1404,
     question:
       "What is the typical minimum ceiling insulation R-value required in California's mild coastal climate zones (e.g., Zone 3)?",
-    options: ["R-19", "R-30", "R-38", "R-49"],
-    correctAnswer: 1,
+    options: ["R-30", "R-19", "R-38", "R-49"],
+    correctAnswer: 0,
     explanation:
       "在加州温和的沿海气候区（如Zone 3），天花板保温的最低R值通常为R-30。内陆和山区气候区可能要求更高的R值。",
     category: "insulation",
@@ -54,8 +54,8 @@ export const questionsPart7: Question[] = [
     id: 1405,
     question:
       "In California's colder mountain climate zones (e.g., Zone 16), what ceiling insulation R-value is typically required?",
-    options: ["R-30", "R-38", "R-49", "R-60"],
-    correctAnswer: 2,
+    options: ["R-49", "R-30", "R-38", "R-60"],
+    correctAnswer: 0,
     explanation:
       "在加州较冷的山区气候区（如Zone 16），天花板保温通常要求R-49。较冷的地区需要更高的R值以减少热量损失。",
     category: "insulation",
@@ -64,8 +64,8 @@ export const questionsPart7: Question[] = [
     id: 1406,
     question:
       "What is the typical minimum wall insulation R-value for wood-frame walls in most California climate zones?",
-    options: ["R-8", "R-13", "R-15", "R-21"],
-    correctAnswer: 2,
+    options: ["R-15", "R-8", "R-13", "R-21"],
+    correctAnswer: 0,
     explanation:
       "在加州大多数气候区，木框架墙体保温的最低R值通常为R-15。某些气候区可能要求R-13或R-21，具体取决于气候区和合规方法。",
     category: "insulation",
@@ -74,8 +74,8 @@ export const questionsPart7: Question[] = [
     id: 1407,
     question:
       "What is the minimum floor insulation R-value typically required over unconditioned crawl spaces in California?",
-    options: ["R-13", "R-19", "R-25", "R-30"],
-    correctAnswer: 1,
+    options: ["R-13", "R-25", "R-30", "R-19"],
+    correctAnswer: 3,
     explanation:
       "在加州，未调节爬行空间上方的地板保温通常要求最低R-19。这有助于减少通过地板的热量损失，提高居住舒适度。",
     category: "insulation",
@@ -98,8 +98,8 @@ export const questionsPart7: Question[] = [
   {
     id: 1409,
     question: "What is the approximate R-value per inch of standard fiberglass batt insulation?",
-    options: ["R-2.2", "R-3.2", "R-4.5", "R-6.0"],
-    correctAnswer: 1,
+    options: ["R-2.2", "R-4.5", "R-6.0", "R-3.2"],
+    correctAnswer: 3,
     explanation:
       "标准玻璃纤维棉卷的R值约为每英寸R-3.2。这意味着3.5英寸厚的棉卷大约提供R-11，5.5英寸厚的棉卷大约提供R-19。",
     category: "insulation",
@@ -110,11 +110,11 @@ export const questionsPart7: Question[] = [
       "What is a common problem found when inspecting fiberglass batt insulation in wall cavities?",
     options: [
       "The batts have expanded beyond the cavity",
-      "The batts are compressed or have gaps around obstacles",
       "The batts have chemically degraded over time",
       "The batts have bonded permanently to the drywall",
+      "The batts are compressed or have gaps around obstacles",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "玻璃纤维棉卷常见的问题是被压缩或在障碍物（如电线、管道）周围留有间隙。压缩会降低R值，而间隙则导致热量通过对流绕过保温层。",
     category: "insulation",
@@ -123,12 +123,12 @@ export const questionsPart7: Question[] = [
     id: 1411,
     question: "What is blown-in fiberglass insulation primarily used for?",
     options: [
+      "Filling enclosed cavities and attic floors",
       "Insulating exterior wall surfaces",
       "Waterproofing foundation walls",
-      "Filling enclosed cavities and attic floors",
       "Providing structural reinforcement to walls",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "吹入式玻璃纤维主要用于填充封闭的空腔和阁楼地板。它可以均匀覆盖不规则形状的区域，减少间隙和空隙，比棉卷更适合改造项目。",
     category: "insulation",
@@ -136,8 +136,8 @@ export const questionsPart7: Question[] = [
   {
     id: 1412,
     question: "What is the R-value per inch of blown-in cellulose insulation?",
-    options: ["R-2.0", "R-3.2 to R-3.8", "R-5.0", "R-6.5"],
-    correctAnswer: 1,
+    options: ["R-2.0", "R-5.0", "R-6.5", "R-3.2 to R-3.8"],
+    correctAnswer: 3,
     explanation:
       "吹入式纤维素保温的R值约为每英寸R-3.2到R-3.8。纤维素由回收纸制成，经过硼酸盐处理以提供防火和防虫性能。",
     category: "insulation",
@@ -174,12 +174,12 @@ export const questionsPart7: Question[] = [
     id: 1415,
     question: "What chemical treatment is commonly applied to cellulose insulation for fire resistance?",
     options: [
+      "Borate compounds (boric acid/borax)",
       "Formaldehyde",
       "Chlorine gas",
-      "Borate compounds (boric acid/borax)",
       "Asbestos fibers",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "纤维素保温材料通常用硼酸盐化合物（硼酸/硼砂）处理，以提供阻燃和防虫性能。硼酸盐处理是一种低毒性的方法，既能防火又能防止昆虫和霉菌。",
     category: "insulation",
@@ -201,8 +201,8 @@ export const questionsPart7: Question[] = [
   {
     id: 1417,
     question: "What is the approximate R-value per inch of closed-cell spray foam insulation?",
-    options: ["R-3.5", "R-4.5", "R-6.0 to R-7.0", "R-10.0"],
-    correctAnswer: 2,
+    options: ["R-6.0 to R-7.0", "R-3.5", "R-4.5", "R-10.0"],
+    correctAnswer: 0,
     explanation:
       "闭孔喷涂泡沫的R值约为每英寸R-6.0到R-7.0，是常见保温材料中R值最高的之一。闭孔泡沫还能增加结构强度和防水性能。",
     category: "insulation",
@@ -222,10 +222,10 @@ export const questionsPart7: Question[] = [
     options: [
       "Open-cell spray foam at any thickness",
       "Neither type acts as a vapor barrier",
-      "Closed-cell spray foam at 1.5 inches or more",
       "Both types at any thickness",
+      "Closed-cell spray foam at 1.5 inches or more",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "闭孔喷涂泡沫在厚度达到1.5英寸或以上时可以作为蒸汽屏障（Class II vapor retarder）。开孔泡沫允许水蒸气通过，不能作为蒸汽屏障。",
     category: "insulation",
@@ -257,8 +257,8 @@ export const questionsPart7: Question[] = [
     id: 1422,
     question:
       "Which rigid foam board insulation has the highest R-value per inch but may lose some R-value over time?",
-    options: ["EPS", "XPS", "Polyisocyanurate (polyiso)", "Mineral wool board"],
-    correctAnswer: 2,
+    options: ["EPS", "XPS", "Mineral wool board", "Polyisocyanurate (polyiso)"],
+    correctAnswer: 3,
     explanation:
       "聚异氰脲酸酯（polyiso）初始R值最高，约为每英寸R-6.0到R-6.5。但polyiso在低温下R值会降低（热漂移），且随时间推移可能会有少量R值损失。",
     category: "insulation",
@@ -270,10 +270,10 @@ export const questionsPart7: Question[] = [
     options: [
       "It becomes brittle and cracks",
       "It absorbs moisture and loses all insulating ability",
-      "Its R-value decreases significantly in cold conditions",
       "It releases toxic gases below freezing",
+      "Its R-value decreases significantly in cold conditions",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "Polyiso板在非常低的温度下R值会显著下降。在约50°F以下，其有效R值可能降至每英寸R-4.5或更低。因此在寒冷气候区，XPS或EPS可能是更可靠的选择。",
     category: "insulation",
@@ -295,8 +295,8 @@ export const questionsPart7: Question[] = [
   {
     id: 1425,
     question: "What is the approximate R-value per inch of mineral wool batt insulation?",
-    options: ["R-2.5", "R-3.2", "R-4.3", "R-6.0"],
-    correctAnswer: 2,
+    options: ["R-2.5", "R-3.2", "R-6.0", "R-4.3"],
+    correctAnswer: 3,
     explanation:
       "矿棉棉卷的R值约为每英寸R-4.3，比标准玻璃纤维棉卷（R-3.2每英寸）略高。矿棉还具有更好的隔音性能和防火性能。",
     category: "insulation",
@@ -321,10 +321,10 @@ export const questionsPart7: Question[] = [
     options: [
       "By absorbing heat and slowly releasing it at night",
       "By creating an airtight seal that prevents convection",
-      "By reflecting radiant heat energy back toward its source",
       "By conducting heat into the ground through metal straps",
+      "By reflecting radiant heat energy back toward its source",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "辐射屏障通过反射辐射热能回到其来源方向来减少热量传递。反射箔面的发射率非常低（通常为0.03-0.05），能反射约95-97%的辐射热。",
     category: "insulation",
@@ -377,10 +377,10 @@ export const questionsPart7: Question[] = [
     options: [
       "On the exterior side of the wall insulation",
       "On both sides of the wall insulation",
-      "On the warm-in-winter side (interior) or not required at all",
       "In the middle of the wall cavity",
+      "On the warm-in-winter side (interior) or not required at all",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "在加州温和的气候中，蒸汽阻隔层通常安装在冬季温暖的一侧（室内侧），或者在许多气候区根本不需要。加州大部分地区（除山区外）属于混合干燥气候，蒸汽驱动力较低。",
     category: "insulation",
@@ -433,10 +433,10 @@ export const questionsPart7: Question[] = [
     options: [
       "The mailing address and legal description of the property",
       "The exterior paint and siding of the building",
-      "The physical barrier between the conditioned interior and unconditioned exterior",
       "The HVAC ductwork distribution system",
+      "The physical barrier between the conditioned interior and unconditioned exterior",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "建筑围护结构是指调节室内空间与非调节室外之间的物理屏障。它包括墙壁、屋顶、地板、门窗等，控制热量、空气、水分和水的流动。",
     category: "insulation",
@@ -490,10 +490,10 @@ export const questionsPart7: Question[] = [
     options: [
       "1 square foot of vent area per 100 square feet of crawl space floor",
       "1 square foot of vent area per 300 square feet of crawl space floor",
-      "1 square foot of vent area per 150 square feet of crawl space floor",
       "No ventilation is required for California crawl spaces",
+      "1 square foot of vent area per 150 square feet of crawl space floor",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "加州对自然通风的爬行空间通常要求每150平方英尺地面面积1平方英尺的通风口面积。通风口应分布在爬行空间的各侧，以确保交叉通风。",
     category: "insulation",
@@ -546,8 +546,8 @@ export const questionsPart7: Question[] = [
     id: 1443,
     question:
       "What is the ideal ratio of ridge ventilation to soffit ventilation in a balanced attic ventilation system?",
-    options: ["All ridge, no soffit", "75% ridge, 25% soffit", "50% ridge, 50% soffit", "25% ridge, 75% soffit"],
-    correctAnswer: 2,
+    options: ["All ridge, no soffit", "75% ridge, 25% soffit", "25% ridge, 75% soffit", "50% ridge, 50% soffit"],
+    correctAnswer: 3,
     explanation:
       "理想的平衡阁楼通风系统中，脊部通风和屋檐通风的比例应大致为50/50（等量进出）。实际上，一些专家建议屋檐进气口稍多于脊部排气口，以确保正压通风。",
     category: "insulation",

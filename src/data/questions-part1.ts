@@ -25,11 +25,11 @@ export const questionsPart1: Question[] = [
       "Which type of foundation is most commonly used in areas with a high water table?",
     options: [
       "Full basement",
-      "Slab-on-grade",
       "Pier and beam",
       "Crawl space",
+      "Slab-on-grade",
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     explanation:
       "在地下水位较高的地区，平板基础（Slab-on-grade）是最常用的，因为它不需要在地下挖掘深度较大的空间，可以减少地下水渗入的问题。",
     category: "structural",
@@ -53,8 +53,8 @@ export const questionsPart1: Question[] = [
     id: 4,
     question:
       "What is the minimum width of a residential footing for a one-story wood-frame house on normal soil?",
-    options: ["8 inches", "12 inches", "16 inches", "24 inches"],
-    correctAnswer: 1,
+    options: ["8 inches", "16 inches", "24 inches", "12 inches"],
+    correctAnswer: 3,
     explanation:
       "根据国际建筑规范（IRC），单层木框架住宅在正常土壤条件下的最小基脚宽度通常为12英寸。具体要求可能因当地规范而异。",
     category: "structural",
@@ -108,12 +108,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the standard spacing for wall studs in residential construction?",
     options: [
+      "16 inches on center",
       "12 inches on center",
       "24 inches on center",
       "32 inches on center",
-      "16 inches on center",
     ],
-    correctAnswer: 3,
+    correctAnswer: 0,
     explanation:
       "住宅建筑中墙骨的标准间距为16英寸中心距（16 inches on center）。在某些非承重墙中可以使用24英寸间距，但16英寸是最常见的标准间距。",
     category: "structural",

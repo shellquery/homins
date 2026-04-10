@@ -31,12 +31,12 @@ export const questionsPart3: Question[] = [
     question:
       "Which type of window film is most effective at reducing solar heat gain in a hot California climate?",
     options: [
+      "Low-emissivity (Low-E) reflective film",
       "Clear safety film",
       "Decorative frosted film",
-      "Low-emissivity (Low-E) reflective film",
       "Anti-glare matte film",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "低辐射（Low-E）反射膜在减少太阳热增益方面最为有效。它能反射红外辐射，同时允许可见光通过，适合加州炎热气候下的窗户隔热。",
     category: "insulation",
@@ -45,8 +45,8 @@ export const questionsPart3: Question[] = [
     id: 344,
     question:
       "California has how many climate zones used to determine insulation requirements under Title 24?",
-    options: ["8", "12", "16", "20"],
-    correctAnswer: 2,
+    options: ["16", "8", "12", "20"],
+    correctAnswer: 0,
     explanation:
       "加州Title 24能源法规将全州划分为16个气候区，每个气候区有不同的保温和节能要求。检查员应了解所检查房屋所在的气候区及其相应要求。",
     category: "insulation",
@@ -71,12 +71,12 @@ export const questionsPart3: Question[] = [
     question:
       "A whole-house fan should NOT be operated when which condition exists?",
     options: [
-      "The outdoor temperature is below 85°F",
       "Windows are closed throughout the house",
+      "The outdoor temperature is below 85°F",
       "The indoor humidity is above 50%",
       "The house has a tile roof",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "全屋风扇在所有窗户关闭时不应运行，因为这会在房屋内产生过大的负压，可能损坏管道系统、导致燃气设备废气倒流，并对天花板造成结构压力。使用时必须打开窗户。",
     category: "insulation",
@@ -88,10 +88,10 @@ export const questionsPart3: Question[] = [
     options: [
       "Laid flat on the attic floor over insulation",
       "Wrapped around HVAC ductwork",
-      "Stapled to the underside of roof rafters with the foil facing down",
       "Installed vertically between wall studs",
+      "Stapled to the underside of roof rafters with the foil facing down",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "将辐射屏障钉在椽条底部、铝箔面朝下是最有效的安装方式。这种安装方式使屏障能够反射从屋顶传入的辐射热，且不易积灰影响性能。",
     category: "insulation",
