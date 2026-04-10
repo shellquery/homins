@@ -13,6 +13,11 @@ const config: CapacitorConfig = {
     preferredContentMode: "mobile",
     allowsLinkPreview: false,
   },
+  android: {
+    allowMixedContent: false,
+    captureInput: true,
+    webContentsDebuggingEnabled: false,
+  },
 };
 
 export default config;
