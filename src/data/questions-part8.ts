@@ -380,16 +380,16 @@ export const questionsPart8: Question[] = [
   {
     id: 1726,
     question:
-      "What is a fireplace insert?",
+      "What is the main structural difference between a prefabricated (factory-built) fireplace and a traditional masonry fireplace?",
     options: [
-      "A decorative screen placed in front of the fireplace",
-      "A closed combustion unit installed into an existing masonry fireplace to improve efficiency",
-      "A type of chimney liner",
-      "An external air intake for the firebox",
+      "Prefabricated fireplaces can only burn gas, not wood",
+      "Masonry fireplaces are lighter and easier to retrofit",
+      "Prefabricated fireplaces use a metal firebox with a specialized metal flue; masonry fireplaces use brick/mortar construction",
+      "There is no structural difference — only cosmetic differences exist",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
-      "壁炉嵌入式装置（fireplace insert）是安装在现有砖石壁炉中的封闭式燃烧装置，大幅提高加热效率。它们通常配有风扇，可以将更多热量输送到房间，同时减少热量损失。",
+      "预制壁炉（工厂制造）使用金属炉膛和专用金属烟道系统，重量轻、安装快捷，必须使用配套专用烟道部件。传统砖石壁炉由砖块和砂浆建造，结构重，需要专用基础支撑，但经久耐用。两者不可互换使用对方的配件。",
     category: "fireplace",
   },
   {
@@ -1085,16 +1085,16 @@ export const questionsPart8: Question[] = [
   {
     id: 1773,
     question:
-      "What is the purpose of a cleanout door at the base of a chimney?",
+      "What is the function of the smoke shelf located above the fireplace throat (damper)?",
     options: [
-      "To allow removal of accumulated ash and debris from the ash pit",
-      "To provide ventilation for the chimney",
-      "To serve as an emergency exit",
-      "To connect the chimney to the HVAC system",
+      "It provides structural support for the chimney above the firebox",
+      "It catches falling debris and deflects downdrafts, preventing smoke from entering the room",
+      "It regulates the air supply to the fire below",
+      "It provides a ledge for decorative items inside the firebox",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
-      "烟囱底部的清洁口门（cleanout door）用于清除灰坑中积累的灰烬和碎屑。它应该密封良好，防止空气泄漏影响壁炉排烟性能，并应可正常打开操作。",
+      "烟架（smoke shelf）位于壁炉咽喉（throat/风门）上方，有两个主要功能：（1）捕获从烟道落下的碎屑和水；（2）将向下的气流（反向气流）偏转向上，防止烟雾被吹入室内。烟架应保持清洁以维持其防止倒流的功能。",
     category: "fireplace",
   },
   {
@@ -2481,16 +2481,16 @@ export const questionsPart8: Question[] = [
   {
     id: 1866,
     question:
-      "Where is tempered (safety) glass required in a residential building?",
+      "According to California code, where are GFCI (Ground Fault Circuit Interrupter) receptacles required in a residential building?",
     options: [
-      "Only in windows larger than 10 square feet",
-      "Within 24 inches of doors, within 18 inches of the floor, in bathrooms, near stairways, and in pool areas",
-      "Only in the kitchen",
-      "Only on the ground floor",
+      "Only in bathrooms and garages",
+      "In all locations within 6 feet of any water source",
+      "In bathrooms, garages, outdoors, kitchens (within 6 feet of sink), crawl spaces, unfinished basements, and boat houses",
+      "GFCI is not required in California — AFCI replaces it everywhere",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
-      "安全玻璃（钢化玻璃）要求安装在门24英寸范围内、距地板18英寸以内、浴室、楼梯附近和泳池区域。这些是容易发生人体撞击玻璃的区域，安全玻璃碎裂时形成小块而非锋利碎片。",
+      "加州建筑规范要求在以下位置安装GFCI（接地故障断路器）插座：浴室、车库、室外、厨房（距水槽6英尺以内）、爬行空间、未完工的地下室及船库。GFCI能在检测到漏电时（如通过人体）迅速断电，有效防止电击事故。",
     category: "safety",
   },
   {
@@ -3066,16 +3066,16 @@ export const questionsPart8: Question[] = [
   {
     id: 1905,
     question:
-      "What is the California requirement for smoke alarms in homes being sold?",
+      "Where are carbon monoxide (CO) detectors required to be installed in California residences?",
     options: [
-      "The seller must provide a written statement confirming smoke alarms are properly installed and operable",
-      "No disclosure is required",
-      "Only a verbal confirmation is needed",
-      "The buyer is responsible for all smoke alarms",
+      "Only in homes with gas appliances",
+      "On every level of the home and within 10 feet of each sleeping room door",
+      "Only adjacent to the water heater and furnace",
+      "CO detectors are optional — only smoke alarms are required",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
-      "加州法律要求卖方在出售房屋时提供书面声明，确认烟雾报警器已正确安装且可操作。这确保了新房主搬入时有基本的火灾检测保护。",
+      "根据加州一氧化碳中毒预防法案，CO探测器必须安装在房屋每一层以及每间卧室门口10英尺范围内。所有有化石燃料燃烧设备（炉子、热水器、附属车库）的住宅均须安装。2011年起加州法律要求所有住宅必须安装CO探测器。",
     category: "safety",
   },
   {

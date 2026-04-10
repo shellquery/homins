@@ -443,16 +443,17 @@ export const questionsPart7: Question[] = [
   },
   {
     id: 1436,
-    question: "What is thermal bridging?",
+    question:
+      "What is the relationship between R-value and U-factor in building science?",
     options: [
-      "A technique for connecting two different insulation types",
-      "A bridge structure designed to withstand extreme temperatures",
-      "The process of heating a home using solar thermal panels",
-      "Heat transfer through building components that have higher conductivity than surrounding insulation",
+      "They measure the same property in different unit systems",
+      "R-value measures air leakage; U-factor measures thermal resistance",
+      "R-value is the reciprocal of U-factor — higher R-value means lower U-factor and better insulation",
+      "U-factor applies to walls only; R-value applies to roofs only",
     ],
-    correctAnswer: 3,
+    correctAnswer: 2,
     explanation:
-      "热桥是指热量通过比周围保温材料导热性更高的建筑构件传递。例如，木结构墙体中的木骨架就是热桥，因为木材的R值（约R-1每英寸）远低于保温材料。",
+      "R值（热阻）和U值（传热系数）互为倒数关系：R=1/U。R值越高，保温性能越好；U值越低，保温性能越好。R值常用于保温材料评级，U值常用于窗户和门的热工性能评级。",
     category: "insulation",
   },
   {
@@ -500,16 +501,17 @@ export const questionsPart7: Question[] = [
   },
   {
     id: 1440,
-    question: "What is a conditioned crawl space?",
+    question:
+      "What is a Class II vapor retarder and where is it commonly required?",
     options: [
-      "A crawl space that has been cleaned and organized",
-      "A crawl space with a dehumidifier running continuously",
-      "A crawl space accessible only through a conditioned room",
-      "A sealed crawl space that is insulated, air-sealed, and treated as part of the conditioned building envelope",
+      "A zero-permeability material used in all exterior walls",
+      "A fire-resistant membrane for mechanical rooms",
+      "A low-permeability material (0.1–1.0 perms), such as kraft-faced batts, used to slow moisture migration",
+      "A vapor barrier required only in tropical climates",
     ],
-    correctAnswer: 3,
+    correctAnswer: 2,
     explanation:
-      "调节爬行空间是密封、保温、气密的爬行空间，被视为建筑围护结构的一部分。墙壁保温而非地板保温，地面铺设防潮层，通风口关闭。这种方法在许多气候区比通风爬行空间效果更好。",
+      "II类蒸气阻隔层是指渗透率在0.1-1.0 perm之间的材料（如纸面玻璃纤维棉卷），能减缓水蒸气迁移但不完全阻止，常用于寒冷气候地区的墙壁内侧，防止冷凝水在墙腔内积聚。不同气候区对蒸气阻隔层类别的要求不同。",
     category: "insulation",
   },
   {
@@ -554,16 +556,17 @@ export const questionsPart7: Question[] = [
   },
   {
     id: 1444,
-    question: "What is the purpose of baffles (rafter vents) in an attic?",
+    question:
+      "What is the key difference between open-cell and closed-cell spray polyurethane foam (SPF) insulation?",
     options: [
-      "To support the weight of the roof sheathing",
-      "To block wind from entering the attic through soffit vents",
-      "To redirect rainwater away from the attic floor",
-      "To maintain a clear air channel between the insulation and roof sheathing at the eaves",
+      "Only closed-cell foam is fire-resistant; open-cell is flammable",
+      "Open-cell foam has a higher R-value per inch than closed-cell",
+      "Closed-cell foam has a higher R-value (~R-6–7/inch) and acts as a vapor barrier; open-cell has a lower R-value (~R-3.5–4/inch) and is vapor-open",
+      "They are identical except for color",
     ],
-    correctAnswer: 3,
+    correctAnswer: 2,
     explanation:
-      "挡板（椽条通风道）的目的是在屋檐处保持保温材料和屋顶底板之间的清晰空气通道。这确保了空气可以从屋檐通风口流向脊部通风口，同时防止保温材料堵塞通风路径。",
+      "开孔与闭孔喷涂聚氨酯泡沫（SPF）的主要区别：闭孔SPF的R值约为每英寸R-6至R-7，密度高，可作为蒸气阻隔层；开孔SPF的R值约为每英寸R-3.5至R-4，透气性好但不具备蒸气阻隔功能。两者均需在面层遮盖以满足防火要求。",
     category: "insulation",
   },
   {
@@ -3475,16 +3478,17 @@ export const questionsPart7: Question[] = [
   },
   {
     id: 1653,
-    question: "What is the purpose of a vapor barrier under a concrete slab floor?",
+    question:
+      "What is the purpose of control joints (saw cuts) in a concrete slab floor?",
     options: [
-      "To prevent ground moisture from migrating up through the slab and into the living space",
-      "To strengthen the concrete",
-      "To prevent the concrete from sticking to the ground",
-      "To insulate the slab from cold ground temperatures",
+      "To allow plumbing pipes to pass through the slab",
+      "To provide drainage channels for moisture under the slab",
+      "To predetermine where the slab will crack, controlling crack location and preventing random cracking",
+      "To connect adjacent slabs together for structural continuity",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
-      "混凝土板下的蒸汽屏障（通常为10密耳聚乙烯薄膜）防止地面水分通过板向上迁移进入居住空间。缺少蒸汽屏障可能导致地板材料损坏、霉菌生长和室内湿度过高。",
+      "混凝土板中的控制缝（锯缝）的目的是预先确定混凝土收缩开裂的位置，将裂缝引导至预设路径，而非随机开裂。控制缝通常按板厚的1/4深度切割，间距约为板厚（英尺）的2-3倍，有效防止不美观的随机裂缝出现。",
     category: "interior",
   },
   {

@@ -2167,16 +2167,16 @@ export const questionsPart6: Question[] = [
   {
     id: 1245,
     question:
-      "What material is most commonly used for residential gutter systems?",
+      "What is the primary cause of ice dam formation on residential roofs in cold climates?",
     options: [
-      "Aluminum",
-      "Cast iron",
-      "Concrete",
-      "Lead",
+      "Excessive attic ventilation causing roof surface to overcool",
+      "Heat escaping through the roof melting snow, which refreezes at the cold eaves",
+      "Wind-driven rain freezing against fascia boards",
+      "Using metal gutters in cold climates",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation:
-      "铝是住宅排水沟系统最常用的材料。它轻质、不锈蚀、价格合理，且可在现场加工成无缝排水沟。也有铜和锌排水沟但成本更高。",
+      "冰坝的形成是因为阁楼内的热量（通常来自保温不足）加热屋顶表面，融化积雪，融水流向较冷的屋檐处重新冻结，形成冰坝。冰坝可导致融水倒流进入屋顶，造成内部水损。正确的阁楼保温和通风是预防冰坝的关键。",
     category: "roofing",
   },
   {

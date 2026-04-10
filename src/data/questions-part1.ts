@@ -39,12 +39,12 @@ export const questionsPart1: Question[] = [
     question:
       "A horizontal crack in a concrete block foundation wall most likely indicates:",
     options: [
+      "Lateral pressure from soil",
       "Normal concrete shrinkage",
       "Settling of the footing",
-      "Lateral pressure from soil",
       "Freeze-thaw damage only",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "混凝土砌块基础墙上的水平裂缝通常是由土壤侧向压力造成的。这种裂缝是严重的结构问题，表示墙体正在向内弯曲，需要专业工程师评估。",
     category: "structural",
@@ -78,12 +78,12 @@ export const questionsPart1: Question[] = [
     id: 6,
     question: "What type of framing is most common in modern residential construction?",
     options: [
-      "Balloon framing",
       "Platform framing",
+      "Balloon framing",
       "Post and beam framing",
       "Timber framing",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation:
       "平台框架（Platform framing）是现代住宅建筑中最常见的框架类型。每层楼板作为下一层墙体的平台，施工简单且安全，也有较好的防火性能。",
     category: "structural",
@@ -93,12 +93,12 @@ export const questionsPart1: Question[] = [
     question:
       "In balloon framing, what is the primary fire safety concern?",
     options: [
+      "Wall studs run continuously from foundation to roof, creating a chimney effect",
       "The roof is not properly supported",
       "Floor joists are not properly attached",
-      "Wall studs run continuously from foundation to roof, creating a chimney effect",
       "The foundation is too shallow",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "气球框架中，墙骨从基础一直延伸到屋顶，形成连续的空腔。这些空腔会产生烟囱效应，使火焰在墙体内部迅速蔓延。因此需要安装防火挡板（fire stops）。",
     category: "structural",
@@ -153,12 +153,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the typical minimum size for a header spanning a 3-foot opening in a load-bearing wall?",
     options: [
+      "Double 2x6",
       "Single 2x4",
       "Double 2x4",
-      "Double 2x6",
       "Double 2x10",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "对于承重墙中3英尺的开口，通常需要双层2x6的过梁。过梁尺寸取决于开口宽度和上方的荷载。更宽的开口需要更大的过梁。",
     category: "structural",
@@ -212,12 +212,12 @@ export const questionsPart1: Question[] = [
     question:
       "What is the purpose of bridging or blocking between floor joists?",
     options: [
+      "To prevent joists from twisting and to distribute loads",
       "To provide a nailing surface for the ceiling below",
       "To increase the span capacity of the joists",
-      "To prevent joists from twisting and to distribute loads",
       "To serve as fire blocking",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "搁栅之间的桥接或实心挡块的主要目的是防止搁栅扭转并将集中荷载分散到相邻搁栅上，提高楼板系统的整体刚度和稳定性。",
     category: "structural",
@@ -266,12 +266,12 @@ export const questionsPart1: Question[] = [
     id: 19,
     question: "A cripple stud is:",
     options: [
+      "A shortened stud above or below an opening",
       "A stud that has been damaged during construction",
       "A stud at an exterior corner",
-      "A shortened stud above or below an opening",
       "A stud that is doubled for extra strength",
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation:
       "矮柱（Cripple stud）是指门窗开口上方或窗户开口下方的短立柱。它们将荷载从顶板传递到过梁，或从窗台板传递到底板。",
     category: "structural",
@@ -323,10 +323,10 @@ export const questionsPart1: Question[] = [
     options: [
       "Cracks running through the full depth of the concrete",
       "Discoloration from chemical exposure",
-      "Flaking, chipping, or peeling of the concrete surface",
       "Settlement of the concrete slab",
+      "Flaking, chipping, or peeling of the concrete surface",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "混凝土剥落（Spalling）是指混凝土表面出现剥落、碎裂或起皮的现象，通常由冻融循环、钢筋锈蚀膨胀或混凝土质量差引起。严重的剥落可能暴露内部钢筋。",
     category: "structural",
@@ -383,10 +383,10 @@ export const questionsPart1: Question[] = [
     options: [
       "Untreated pine",
       "Cedar only",
-      "Pressure-treated lumber",
       "Engineered laminated beam",
+      "Pressure-treated lumber",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "与混凝土接触的底梁板必须使用经过防腐加压处理的木材，因为混凝土会吸收和传导水分，可能导致未处理木材腐烂。这是建筑规范的要求。",
     category: "structural",
@@ -443,10 +443,10 @@ export const questionsPart1: Question[] = [
     options: [
       "Reduced electrical efficiency",
       "Foundation settlement",
-      "Moisture buildup leading to wood rot and mold",
       "Increased water pressure",
+      "Moisture buildup leading to wood rot and mold",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "阁楼通风不良会导致水分积聚，进而引起木材腐烂、霉菌生长和屋顶衬板损坏。冬季还可能形成冰坝。充足的通风对保护屋顶结构至关重要。",
     category: "structural",
@@ -503,10 +503,10 @@ export const questionsPart1: Question[] = [
     options: [
       "Normal construction practice",
       "The home was built before 1950",
-      "A previous structural repair or attempt to level the floor",
       "The basement was recently waterproofed",
+      "A previous structural repair or attempt to level the floor",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     explanation:
       "可调节钢柱（Jack post）通常表明之前进行过结构修补或试图调平楼板。虽然它们可以作为临时支撑，但不应作为永久结构构件使用，除非经过工程师批准。",
     category: "structural",

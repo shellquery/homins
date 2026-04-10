@@ -2848,30 +2848,32 @@ export const questionsPart4: Question[] = [
   },
   {
     id: 704,
-    question: "A double-tapped breaker means:",
+    question:
+      "Where are AFCI (Arc Fault Circuit Interrupter) breakers required in California residential construction?",
     options: [
-      "The breaker has been tested twice",
-      "The breaker controls two separate rooms",
-      "The breaker is double-insulated",
-      "Two wires are connected to a single breaker terminal that is only rated for one wire",
+      "Only in kitchens and bathrooms",
+      "In all 15/20-amp branch circuits serving sleeping rooms",
+      "In all circuits throughout the entire home",
+      "Only in circuits serving major appliances",
     ],
-    correctAnswer: 3,
+    correctAnswer: 1,
     explanation:
-      "双线并接断路器意味着两根线连接到只额定一根线的单个断路器端子。这是不安全的，因为可能导致松动连接和过热。除非断路器额定可接两根线，否则需要修正。",
+      "电弧故障断路器（AFCI）在加州住宅建筑中要求安装在服务于卧室的所有15安培和20安培支路上。AFCI能检测电弧故障（如电线磨损、松动连接产生的电弧），有效防止此类隐患引发的火灾。",
     category: "electrical",
   },
   {
     id: 705,
-    question: "Federal Pacific Electric (FPE) Stab-Lok panels are considered a safety concern because:",
+    question:
+      "What is a primary safety concern with aluminum branch circuit wiring installed in homes during the 1960s–1970s?",
     options: [
-      "Testing has shown their breakers may fail to trip under overcurrent conditions, creating a fire hazard",
-      "They are too large for modern homes",
-      "They use aluminum bus bars that corrode",
-      "They are no longer manufactured, so replacement parts are expensive",
+      "Aluminum conducts electricity too slowly for modern loads",
+      "Aluminum is incompatible with all metal junction boxes",
+      "Aluminum oxidizes and is prone to loose connections, creating overheating and fire hazards",
+      "Aluminum wiring cannot handle 120-volt circuits",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
-      "Federal Pacific Electric（FPE）Stab-Lok配电盘被认为是安全隐患，因为测试表明其断路器在过电流条件下可能无法跳闸，形成火灾危险。许多检查员和电气专家建议更换此类配电盘。",
+      "20世纪60-70年代安装的铝制分支电路存在安全隐患：铝会氧化并在连接点松动，导致电阻增大、过热，从而引发火灾。解决方案包括使用COPALUM铜铝连接器或在每个连接点安装铜质接头。",
     category: "electrical",
   },
   {

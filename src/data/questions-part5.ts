@@ -1306,16 +1306,17 @@ export const questionsPart5: Question[] = [
   },
   {
     id: 894,
-    question: "What is the minimum height a plumbing vent must extend above the roof surface?",
+    question:
+      "What is an Air Admittance Valve (AAV) and when is it typically used in plumbing?",
     options: [
-      "1 inch",
-      "6 inches",
-      "24 inches",
-      "48 inches",
+      "A pressure-relief valve installed on water heaters",
+      "A one-way valve that allows air into drain lines to replace a conventional roof vent in certain locations",
+      "A backflow preventer on outdoor hose bibs",
+      "An automatic shutoff valve for the main water supply",
     ],
     correctAnswer: 1,
     explanation:
-      "管道通风管必须延伸到屋顶表面以上至少6英寸。但如果屋顶用于其他目的（如屋顶露台），则必须延伸至少7英尺以上。",
+      "进气阀（AAV）是一种单向机械阀，在排水系统产生负压时自动打开，允许空气进入管道系统，在某些难以安装常规通气管的位置可代替屋顶通气管。AAV必须安装在可检查的位置，并需符合当地建筑规范。",
     category: "plumbing",
   },
   {
@@ -2750,16 +2751,17 @@ export const questionsPart5: Question[] = [
   },
   {
     id: 997,
-    question: "What is the typical lifespan of a residential central air conditioning system?",
+    question:
+      "What is the primary advantage of a heat pump over a gas furnace for heating in mild climates?",
     options: [
-      "15-20 years",
-      "3-5 years",
-      "40-50 years",
-      "1-2 years",
+      "Heat pumps reach higher temperatures than gas furnaces",
+      "Heat pumps operate without any electricity",
+      "Heat pumps move existing heat rather than generating it, making them 2–3× more efficient",
+      "Heat pumps have significantly lower upfront installation costs",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation:
-      "住宅中央空调系统的典型使用寿命为15-20年。实际寿命取决于维护质量、使用频率和安装质量。检查员应注意系统的年龄和当前状况。",
+      "热泵的主要优势在于它通过移动已存在的热量而非燃烧燃料来供热，在温和气候中效率可达燃气炉的2-3倍。热泵的COP（性能系数）通常为2-4，意味着每消耗1度电能可产生2-4度热量。",
     category: "hvac",
   },
   {
@@ -3044,16 +3046,17 @@ export const questionsPart5: Question[] = [
   },
   {
     id: 1018,
-    question: "What is the purpose of a secondary (auxiliary) condensate drain pan under an attic-mounted air handler?",
+    question:
+      "What are common visual indicators of refrigerant leaks in an HVAC system that a home inspector might observe?",
     options: [
-      "To collect rainwater from the roof",
-      "To catch condensate if the primary drain fails, preventing water damage to the ceiling and home below",
-      "To humidify the attic space",
-      "To store refrigerant during maintenance",
+      "Frost on the compressor only",
+      "Yellow staining on ductwork",
+      "Oily residue around fittings and frost or ice on refrigerant lines",
+      "Rust on the outdoor condenser housing",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation:
-      "阁楼安装的空气处理器下方二级（辅助）冷凝水集水盘的目的是在主排水管故障时接住冷凝水，防止水损坏下方的天花板和房屋。",
+      "制冷剂泄漏的常见视觉迹象包括：管道接头处的油性残留物（压缩机油随制冷剂泄漏）以及制冷剂管道上的结霜或结冰现象（制冷剂不足导致蒸发温度异常降低）。检查员应记录这些迹象并建议专业HVAC技师进行检漏和维修。",
     category: "hvac",
   },
   {
