@@ -1,0 +1,83 @@
+name: Build & Publish Android
+
+on:
+  push:
+    tags:
+      - 'v*'          # 打 tag 时触发，例如 v1.1.0
+  workflow_dispatch:  # 也可手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. 检出代码 ─────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── 2. 设置 Node.js ─────────────────────────────────────────
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # ── 3. 安装依赖 ─────────────────────────────────────────────
+      - name: Install dependencies
+        run: npm ci
+
+      # ── 4. 构建 Next.js 静态导出 ────────────────────────────────
+      - name: Build Next.js
+        run: npm run build
+
+      # ── 5. 同步到 Capacitor Android ──────────────────────────────
+      - name: Capacitor sync
+        run: npx cap sync android
+
+      # ── 6. 设置 Java 17 ─────────────────────────────────────────
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      # ── 7. 从 Secret 还原签名 Keystore ───────────────────────────
+      - name: Decode keystore
+        run: |
+          echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode \
+            > android/hiexam-release.keystore
+
+      # ── 8. 写入 keystore.properties ──────────────────────────────
+      - name: Write keystore.properties
+        run: |
+          cat > android/keystore.properties <<EOF
+          storeFile=../hiexam-release.keystore
+          storePassword=${{ secrets.ANDROID_STORE_PASSWORD }}
+          keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}
+          keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}
+          EOF
+
+      # ── 9. 构建 Release AAB ──────────────────────────────────────
+      - name: Build release AAB
+        working-directory: android
+        run: ./gradlew bundleRelease --no-daemon
+
+      # ── 10. 上传 AAB 为 Artifact（可随时下载）────────────────────
+      - name: Upload AAB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          retention-days: 30
+
+      # ── 11. 上传到 Google Play（需配置 SERVICE_ACCOUNT_JSON）──────
+      - name: Upload to Google Play
+        if: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON != '' }}
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+          packageName: com.hiexam.inspector
+          releaseFiles: android/app/build/outputs/bundle/release/app-release.aab
+          track: internal          # 先发内部测试，稳定后改为 production
+          status: completed
+          whatsNewDirectory: android/whatsnew
